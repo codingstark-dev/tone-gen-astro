@@ -1,0 +1,51 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ToneGenSection from "../components/ToneGen";
+import { Trans, LanguageSelector } from "astro-i18next/components";
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("en");
+---
+
+<Layout title="Welcome to Astro.">
+  <main class="prose mx-auto">
+    <h1 class="text-center">{t("title")}</h1>
+
+    <ToneGenSection client:visible />
+
+    <article class="p-2">
+      <div role="alert" class="alert alert-error my-10">
+        <span
+          >{
+            "CAUTION: To safeguard your hearing, avoid listening to extremely low frequencies (below 20 Hz) or extremely high frequencies (above 10,000 Hz) at elevated volumes."
+          }</span
+        >
+      </div>
+      <h2>How to Generate Tone</h2>
+      <p>
+        Tuning instruments, science experiments (<i
+          >what’s the resonant frequency of this wineglass?</i
+        >), testing audio equipment (<i>how low does my subwoofer go?</i>),
+        testing your hearing (<i
+          >what’s the highest frequency you can hear? are there frequencies you
+          can hear in only one ear?</i
+        >).
+      </p>
+      <p>
+        <b>Tinnitus frequency matching.</b>
+         If you have pure-tone <a
+          href="https://blog.szynalski.com/2010/12/24/tinnitus-tips/"
+          >tinnitus</a
+        >, this online frequency generator can help you determine its frequency.
+        Knowing your tinnitus frequency can enable you to better target masking
+        sounds and
+        <a href="https://plasticity.szynalski.com/">
+          frequency discrimination training</a
+        >. When you find a frequency that seems to match your tinnitus, make
+        sure you check frequencies one octave higher (frequency × 2) and one
+        octave lower (frequency × ½), as it is easy to confuse tones that are
+        one octave apart.
+      </p>
+    </article>
+  </main>
+</Layout>
