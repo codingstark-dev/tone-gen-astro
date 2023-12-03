@@ -9,10 +9,7 @@ interface ToneGenProps {
     description?: string;
 }
 export default function ToneGenSection({
-    h1 = "Online Tone Generator",
-    p = "A simple tone generator",
-    title = "ToneGen",
-    description = "A simple tone generator",
+
 }: ToneGenProps) {
     const [frequency, setFrequency] = useState(440);
     const [volume, setVolume] = useState(-3.1);
@@ -517,7 +514,7 @@ export default function ToneGenSection({
                     <div>Sawtooth</div>{" "}
                 </button>
             </div>
-          
+
 
         </div>
     );

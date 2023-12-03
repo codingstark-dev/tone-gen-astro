@@ -1,10 +1,20 @@
+---
+import { LanguageSelector } from "astro-i18next/components";
+---
+
 <footer class="shadow-xl">
   <hr />
   <div class="mx-auto max-w-5xl px-4 py-6 sm:px-6 lg:px-8">
     <div class="flex justify-center">
       <h4 class="text-2xl font-bold">Tone Generator</h4>
     </div>
-
+    <div class="flex justify-center pt-3">
+      <LanguageSelector
+        showFlag={true}
+        lang="en"
+        class="input h-8 border border-gray-200 text-sm "
+      />
+    </div>
     <ul class="mt-5 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
       <li>
         <a class="transition hover:text-gray-700/75" href="/disclaimer">

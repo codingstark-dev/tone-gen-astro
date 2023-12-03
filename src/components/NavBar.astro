@@ -1,6 +1,5 @@
 ---
 import { ThemeSwitch } from "astro-color-scheme";
-import { Trans, LanguageSelector } from "astro-i18next/components";
 ---
 
 <script>
@@ -15,7 +14,7 @@ import { Trans, LanguageSelector } from "astro-i18next/components";
   }
 </script>
 
-<nav class="bg-base-100 shadow-lg px-2 sm:px-8">
+<nav class="bg-base-100 shadow-lg ">
   <div class="max-w-4xl mx-auto navbar">
     <div class="flex-1">
       {/* <img src={logo} alt="OM" class="btn btn-ghost p-0" /> */}
@@ -41,11 +40,7 @@ import { Trans, LanguageSelector } from "astro-i18next/components";
           >
         </button>
       </a>
-      <LanguageSelector
-        showFlag={true}
-        lang="en"
-        class="input h-8 border border-gray-200 text-sm w-20"
-      />
+    
 
       <ThemeSwitch strategy="checkbox">
         <button class="btn btn-circle btn-ghost">
