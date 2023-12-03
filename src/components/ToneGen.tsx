@@ -109,13 +109,13 @@ export default function ToneGenSection({
                 step={1}
                 value={frequency}
                 onChange={(event) =>
-                    setFrequency(event.target.value as unknown as number)
+                    setFrequency(parseInt(event.target.value))
                 }
             />
 
             <div className="my-6"></div>
 
-            <div className="flex flex-wrap items-center my-4">
+            <div className="flex flex-wrap items-center justify-center my-4">
 
                 <div className="flex items-center space-x-2 w-56">
                     <svg
@@ -160,11 +160,14 @@ export default function ToneGenSection({
                         </form>
                         <br />
                         <input
-                            className="range range-sm"
+                            className="range range-sm bg-transparent! range1 "
                             type="range"
                             min="-1"
                             max="1"
                             step="0.1"
+                            style={{
+                                "boxShadow": "none"
+                            }}
                             value={panning}
                             onChange={(event) =>
                                 setPanning(event.target.value as unknown as number)
@@ -306,9 +309,9 @@ export default function ToneGenSection({
                     <div>
                         <input
                             type="number"
-                            className="input input-ghost p-0 m-0 w-12"
+                            className="input input-ghost p-0 m-0 w-14 text-center"
                             value={frequency}
-                            // style={{ width: `${frequency.toString().length}ch` }}
+                            // style={{ width: `${frequency.toString().length + 3}ch` }}
                             onChange={(event) => {
                                 if (event.target.valueAsNumber > 20154) {
                                     setFrequency(20154);
@@ -371,13 +374,13 @@ export default function ToneGenSection({
                                 }
                             }
                         }
-                    >×2</button>
+                    >x2</button>
                 </div>
                 <div className="mx-2"></div>
-                <div className="flex items-center space-x-2 ">
+                <div className="flex items-center">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="w-16"
+                        className="w-6"
                         width="1.8em"
                         height="1.8em"
                         viewBox="0 0 20 20"
@@ -399,53 +402,53 @@ export default function ToneGenSection({
                             (note) => Number(note.split("~")[1]) == frequency
                         )[0] || "Select a note"}
                     </button>
-                    <div className=" w-full lg:max-w-3xl mx-auto   ">
-                        <dialog
-                            id="my_modal_1"
-                            className="modal m-0 w-full lg:max-w-3xl mx-auto  "
-                        >
-                            <div className="modal-box p-2 ">
-                                <form method="dialog">
-                                    <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
-                                        ✕
-                                    </button>
-                                </form>
-                                <br />
-                                <div className="grid lg:grid-cols-12 grid-cols-6  gap-1 pt-2 ">
-                                    {notes.map((note, index) => {
-                                        return (
-                                            <button
-                                                className={
-                                                    frequency == Number(note.split("~")[1])
-                                                        ? "bg-gray-300 dark:text-white dark:bg-gray-700 dark:border-cyan-200  rounded-lg text-center justify-center border"
-                                                        : "bg-gray-300 dark:text-white dark:bg-gray-700 rounded-lg text-center justify-center "
-                                                }
-                                                key={index}
-                                                onClick={() =>
-                                                    setFrequency(parseInt(note.toString().split("~")[1]))
-                                                }
-                                            >
-                                                <div className="font-bold text-sm">
-                                                    {note.split("~")[0]}
-                                                </div>
-                                                <div className="text-xs">~{note.split("~")[1]}</div>
-                                            </button>
-                                        );
-                                    })}
-                                </div>
-                                {/* <div className="modal-action">
-                        <form method="dialog">
-                            <button className="btn">Close</button>
-                        </form>
-                    </div> */}
-                            </div>
-                        </dialog>
-                    </div>
+
 
                 </div>
 
             </div>
-
+            <div className=" w-full lg:max-w-3xl mx-auto   ">
+                <dialog
+                    id="my_modal_1"
+                    className="modal m-0 w-full lg:max-w-3xl mx-auto  "
+                >
+                    <div className="modal-box p-2 ">
+                        <form method="dialog">
+                            <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+                                ✕
+                            </button>
+                        </form>
+                        <br />
+                        <div className="grid lg:grid-cols-12 grid-cols-6  gap-1 pt-2 ">
+                            {notes.map((note, index) => {
+                                return (
+                                    <button
+                                        className={
+                                            frequency == Number(note.split("~")[1])
+                                                ? "bg-gray-300 dark:text-white dark:bg-gray-700 dark:border-cyan-200  rounded-lg text-center justify-center border"
+                                                : "bg-gray-300 dark:text-white dark:bg-gray-700 rounded-lg text-center justify-center "
+                                        }
+                                        key={index}
+                                        onClick={() =>
+                                            setFrequency(parseInt(note.toString().split("~")[1]))
+                                        }
+                                    >
+                                        <div className="font-bold text-sm">
+                                            {note.split("~")[0]}
+                                        </div>
+                                        <div className="text-xs">~{note.split("~")[1]}</div>
+                                    </button>
+                                );
+                            })}
+                        </div>
+                        {/* <div className="modal-action">
+                        <form method="dialog">
+                            <button className="btn">Close</button>
+                        </form>
+                    </div> */}
+                    </div>
+                </dialog>
+            </div>
 
             <div className="grid grid-cols-2 gap-3">
                 {" "}

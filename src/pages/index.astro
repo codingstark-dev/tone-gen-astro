@@ -1,7 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ToneGenSection from "../components/ToneGen";
-import { Trans, LanguageSelector } from "astro-i18next/components";
 import { t, changeLanguage } from "i18next";
 
 changeLanguage("en");
@@ -99,3 +98,25 @@ changeLanguage("en");
     </article>
   </main>
 </Layout>
+<style is:global>
+.range1.range::-moz-range-thumb {
+  box-shadow: none !important;
+  background-color: darkgray !important;
+}  
+.range1.range::-webkit-slider-thumb {
+    box-shadow: none !important;
+  background-color: darkgray !important;
+
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
