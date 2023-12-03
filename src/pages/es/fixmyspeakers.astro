@@ -38,14 +38,13 @@ changeLanguage("es");
           }) as []
         ).map((answer: any, question) => (
           <div class="p-2">
-            <div class="collapse bg-base-200 ">
-              <input type="checkbox" />
-              <div class="collapse-title text-xl font-medium">
-                {answer.question}
-              </div>
-              <div class="collapse-content">{answer.answer}</div>
+          <div class="collapse bg-base-200 collapse-arrow">
+            <input type="checkbox" />
+            <div class="collapse-title text-xl font-medium">
+              {answer.question}
             </div>
-          </div>
+            <div class="collapse-content">{answer.answer}</div>
+          </div></div>
         ))
       }
     </article>

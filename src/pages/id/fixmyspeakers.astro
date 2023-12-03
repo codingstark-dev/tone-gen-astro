@@ -37,13 +37,14 @@ changeLanguage("id");
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (
-          <div class="collapse bg-base-200 m-2">
+          <div class="p-2">
+          <div class="collapse bg-base-200 collapse-arrow">
             <input type="checkbox" />
             <div class="collapse-title text-xl font-medium">
               {answer.question}
             </div>
             <div class="collapse-content">{answer.answer}</div>
-          </div>
+          </div></div>
         ))
       }
     </article>

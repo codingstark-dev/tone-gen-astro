@@ -21,7 +21,9 @@ changeLanguage("es");
       <ol>
         {
           (
-            t("tone.how_to_generate_tone.steps", { returnObjects: true }) as string[]
+            t("tone.how_to_generate_tone.steps", {
+              returnObjects: true,
+            }) as string[]
           ).map((step, i) => <li>{step}</li>)
         }
       </ol>
@@ -82,15 +84,39 @@ changeLanguage("es");
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (
-          <div class="collapse bg-base-200 m-2">
-            <input type="checkbox" />
-            <div class="collapse-title text-xl font-medium">
-              {answer.question}
+          <div class="p-2">
+            <div class="collapse bg-base-200 collapse-arrow">
+              <input type="checkbox" />
+              <div class="collapse-title text-xl font-medium">
+                {answer.question}
+              </div>
+              <div class="collapse-content">{answer.answer}</div>
             </div>
-            <div class="collapse-content">{answer.answer}</div>
           </div>
         ))
       }
     </article>
   </main>
 </Layout>
+<style is:global>
+.range1.range::-moz-range-thumb {
+  box-shadow: none !important;
+  background-color: darkgray !important;
+}  
+.range1.range::-webkit-slider-thumb {
+    box-shadow: none !important;
+  background-color: darkgray !important;
+
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
