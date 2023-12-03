@@ -3,6 +3,7 @@ import Footer from "../components/Footer.astro";
 import NavBar from "../components/NavBar.astro";
 import { SEO } from "astro-seo";
 import { HeadHrefLangs } from "astro-i18next/components";
+import i18next from "i18next";
 
 interface Props {
   title: string;
@@ -13,7 +14,7 @@ const { title, description } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={i18next.language}>
   <head>
     <HeadHrefLangs />
     <SEO
@@ -25,6 +26,9 @@ const { title, description } = Astro.props;
         imageAlt: "Tone generator",
       }}
       title={title}
+      extend={{
+        link: [{ rel: "icon", href: "/favicon.png" }],
+      }}
       description={description}
       openGraph={{
         basic: {
@@ -36,7 +40,7 @@ const { title, description } = Astro.props;
           description: description,
         },
       }}
-    />    
+    />
     <meta name="viewport" content="width=device-width" />
     <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
