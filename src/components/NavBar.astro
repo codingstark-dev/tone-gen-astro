@@ -21,13 +21,13 @@ import { Trans, LanguageSelector } from "astro-i18next/components";
     <div class="flex-1">
       {/* <img src={logo} alt="OM" class="btn btn-ghost p-0" /> */}
       <a href={"/"}>
-        <h1 class="text-lg font-bold mx-2">Tone Generator</h1>
+        <h1 class="text-lg font-bold mx-2">ToneGen</h1>
       </a>
     </div>
 
     <div class="flex-none space-x-2">
       <a href={"/fixmyspeakers"}>
-        <button class="btn btn-sm flex items-center">
+        <button class="btn btn-sm flex items-center text-sm">
           <span>Fix My Speaker</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ import { Trans, LanguageSelector } from "astro-i18next/components";
           >
         </button>
       </a>
-          <LanguageSelector showFlag={false} class="input h-8 border border-gray-200" />
+          <LanguageSelector showFlag={true} lang="en"  class="input h-8 border border-gray-200 text-sm w-24" />
 
       {/* Toggle button here */}
 

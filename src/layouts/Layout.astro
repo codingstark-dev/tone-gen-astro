@@ -1,38 +1,56 @@
 ---
 import Footer from "../components/Footer.astro";
 import NavBar from "../components/NavBar.astro";
+import { SEO } from "astro-seo";
+import { HeadHrefLangs } from "astro-i18next/components";
+
 interface Props {
   title: string;
+  description: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <HeadHrefLangs />
+    <SEO
+      twitter={{
+        card: "summary_large_image",
+        title: title,
+        description: description,
+        image: "/favicon.png",
+        imageAlt: "Tone generator",
+      }}
+      title={title}
+      description={description}
+      openGraph={{
+        basic: {
+          title: title,
+          image: "/favicon.png",
+          type: "website",
+        },
+        optional: {
+          description: description,
+        },
+      }}
+    />
   </head>
   <header>
     <NavBar />
   </header>
-  <body >
+  <body>
     <slot />
   </body>
   <Footer />
 
   <style is:global>
-    html {
+    /* html {
       font-family: system-ui, sans-serif;
       background: #13151a;
       background-size: 224px;
-    }
+    } */
   </style>
-
-
 </html>

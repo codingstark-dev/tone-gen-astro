@@ -19,6 +19,7 @@
     "astro": "^3.6.3",
     "astro-color-scheme": "^1.1.2",
     "astro-i18next": "1.0.0-beta.21",
+    "astro-seo": "^0.8.0",
     "i18next": "^22.5.1",
     "i18next-fs-backend": "^2.3.0",
     "react": "^18.0.0",

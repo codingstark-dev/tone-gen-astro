@@ -29,6 +29,9 @@ dependencies:
   astro-i18next:
     specifier: 1.0.0-beta.21
     version: 1.0.0-beta.21(astro@3.6.3)
+  astro-seo:
+    specifier: ^0.8.0
+    version: 0.8.0
   i18next:
     specifier: ^22.5.1
     version: 22.5.1
@@ -1255,6 +1258,10 @@ packages:
       pathe: 1.1.1
     transitivePeerDependencies:
       - encoding
+    dev: false
+
+  /astro-seo@0.8.0:
+    resolution: {integrity: sha512-7gq6lhibCM8FuzZIJlbLLWP5EJ9KL2/4XqeFrAg9O6ZK2xMFxJ5ubKf+a0VJwwTu8W8Xr421CmpiXu6Hq7n/7Q==}
     dev: false
 
   /astro@3.6.3(typescript@5.3.2):

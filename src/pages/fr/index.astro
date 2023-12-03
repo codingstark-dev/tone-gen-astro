@@ -1,52 +1,97 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import ToneGenSection from "../../components/ToneGen";
-import { Trans, LanguageSelector } from "astro-i18next/components";
+import { Trans, LanguageSelector, } from "astro-i18next/components";
 import { t, changeLanguage } from "i18next";
 
 changeLanguage("fr");
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={t("meta_title")} description={t("meta_description")}>
   <main class="prose mx-auto">
-    <LanguageSelector showFlag={true} class="languages" />
-    <h1 class="text-center">{t("title")}</h1>
+    <h1 class="text-center pt-4">{t("title")}</h1>
 
     <ToneGenSection client:visible />
 
     <article class="p-2">
       <div role="alert" class="alert alert-error my-10">
-        <span
-          >{
-            "CAUTION: To safeguard your hearing, avoid listening to extremely low frequencies (below 20 Hz) or extremely high frequencies (above 10,000 Hz) at elevated volumes."
-          }</span
-        >
+        <span>{t("caution")}</span>
       </div>
-      <h2>How to Generate Tone</h2>
+      <h2>{t("how_to_generate_tone.title")}</h2>
+
+      <ol>
+        {
+          (
+            t("how_to_generate_tone.steps", { returnObjects: true }) as string[]
+          ).map((step, i) => <li>{step}</li>)
+        }
+      </ol>
+      <h3>{t("what_is_tone.title")}</h3>
+
       <p>
-        Tuning instruments, science experiments (<i
-          >what’s the resonant frequency of this wineglass?</i
-        >), testing audio equipment (<i>how low does my subwoofer go?</i>),
-        testing your hearing (<i
-          >what’s the highest frequency you can hear? are there frequencies you
-          can hear in only one ear?</i
-        >).
+        {t("what_is_tone.description")}
       </p>
+      <h3>{t("production_of_sound_frequency.title")}</h3>
+
       <p>
-        <b>Tinnitus frequency matching.</b>
-         If you have pure-tone <a
-          href="https://blog.szynalski.com/2010/12/24/tinnitus-tips/"
-          >tinnitus</a
-        >, this online frequency generator can help you determine its frequency.
-        Knowing your tinnitus frequency can enable you to better target masking
-        sounds and
-        <a href="https://plasticity.szynalski.com/">
-          frequency discrimination training</a
-        >. When you find a frequency that seems to match your tinnitus, make
-        sure you check frequencies one octave higher (frequency × 2) and one
-        octave lower (frequency × ½), as it is easy to confuse tones that are
-        one octave apart.
+        {t("production_of_sound_frequency.description")}
       </p>
+      <h3>{t("pitch_variation_through_vibrations.title")}</h3>
+
+      <p>
+        {t("pitch_variation_through_vibrations.description")}
+      </p>
+
+      <h3>{t("measurement_in_hertz.title")}</h3>
+
+      <p>
+        {t("measurement_in_hertz.description")}
+      </p>
+      <h3>{t("pure_tones_and_real_life_complexity.title")}</h3>
+
+      <p>
+        {t("pure_tones_and_real_life_complexity.description")}
+      </p>
+      <h2>{t("utilization_purposes.title")}</h2>
+      {
+        (
+          t("utilization_purposes.purposes", {
+            returnObjects: true,
+          }) as string[]
+        ).map((step, i) => (
+          <p>
+            <b>{step.split(":")[0]}:</b> {step.split(":")[1]}{" "}
+          </p>
+        ))
+      }<h2>{t("waveforms.title")}</h2>
+      <p>{t("waveforms.description")}</p>
+      {
+        (
+          t("waveforms.types", {
+            returnObjects: true,
+          }) as string[]
+        ).map((step, i) => (
+          <p>
+            <b>{step.split(":")[0]}:</b> {step.split(":")[1]}{" "}
+          </p>
+        ))
+      }
+      <h3>FAQ's</h3>
+      {
+        (
+          t("faqs.questions", {
+            returnObjects: true,
+          }) as []
+        ).map((answer: any, question) => (
+          <div class="collapse bg-base-200 m-4">
+            <input type="checkbox" />
+            <div class="collapse-title text-xl font-medium">
+              {answer.question}
+            </div>
+            <div class="collapse-content">{answer.answer}</div>
+          </div>
+        ))
+      }
     </article>
   </main>
 </Layout>
