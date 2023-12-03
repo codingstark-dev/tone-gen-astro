@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import ToneGenSection from "../components/ToneGen";
-import { Trans, LanguageSelector, } from "astro-i18next/components";
+import { Trans, LanguageSelector } from "astro-i18next/components";
 import { t, changeLanguage } from "i18next";
 
 changeLanguage("en");
@@ -22,7 +22,9 @@ changeLanguage("en");
       <ol>
         {
           (
-            t("tone.how_to_generate_tone.steps", { returnObjects: true }) as string[]
+            t("tone.how_to_generate_tone.steps", {
+              returnObjects: true,
+            }) as string[]
           ).map((step, i) => <li>{step}</li>)
         }
       </ol>
@@ -83,12 +85,14 @@ changeLanguage("en");
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (
-          <div class="collapse bg-base-200 m-2">
-            <input type="checkbox" />
-            <div class="collapse-title text-xl font-medium">
-              {answer.question}
+          <div class="p-2">
+            <div class="collapse bg-base-200">
+              <input type="checkbox" />
+              <div class="collapse-title text-xl font-medium">
+                {answer.question}
+              </div>
+              <div class="collapse-content">{answer.answer}</div>
             </div>
-            <div class="collapse-content">{answer.answer}</div>
           </div>
         ))
       }
