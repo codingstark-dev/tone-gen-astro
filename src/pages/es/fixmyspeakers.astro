@@ -1,14 +1,52 @@
 ---
-import { changeLanguage } from "i18next";
 import Layout from "../../layouts/Layout.astro";
 import FixMySpeaker from "../../components/FixMySpeaker";
+import { t, changeLanguage } from "i18next";
 
 changeLanguage("es");
 ---
 
-<Layout title="Welcome to Astro.">
-  <main class=" prose mx-auto">
-    <FixMySpeaker client:visible />
+<Layout
+  title={t("speaker.meta_title")}
+  description={t("speaker.meta_description")}
+>
+  <main class="prose mx-auto">
+    <FixMySpeaker client:idle />
+    <article class="p-2">
+      <div role="alert" class="alert alert-warning">
+        <span>{t("speaker.note")}</span>
+      </div>
+      <h2>
+        {t("speaker.online_speaker_cleaner.title")}
+      </h2>
+      <p>{t("speaker.online_speaker_cleaner.description")}</p>
+      <h2>
+        {t("speaker.how_online_speaker_cleaner_works.title")}
+      </h2>
+      <p>{t("speaker.how_online_speaker_cleaner_works.description")}</p><h2>
+        {t("speaker.water_removal_sound.title")}
+      </h2>
+      <p>{t("speaker.water_removal_sound.description")}</p><h2>
+        {t("speaker.fix_my_speakers_using_water_eject_tool.title")}
+      </h2>
+      <p>{t("speaker.fix_my_speakers_using_water_eject_tool.description")}</p>
+      <h3>FAQ's</h3>
+      {
+        (
+          t("speaker.faqs.questions", {
+            returnObjects: true,
+          }) as []
+        ).map((answer: any, question) => (
+          <div class="collapse bg-base-200 m-2">
+            <input type="checkbox" />
+            <div class="collapse-title text-xl font-medium">
+              {answer.question}
+            </div>
+            <div class="collapse-content">{answer.answer}</div>
+          </div>
+        ))
+      }F
+    </article>
   </main>
 </Layout>
 

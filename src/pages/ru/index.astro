@@ -7,55 +7,55 @@ import { t, changeLanguage } from "i18next";
 changeLanguage("ru");
 ---
 
-<Layout title={t("meta_title")} description={t("meta_description")}>
+<Layout title={t("tone.meta_title")} description={t("tone.meta_description")}>
   <main class="prose mx-auto">
-    <h1 class="text-center pt-4">{t("title")}</h1>
+    <h1 class="text-center pt-4">{t("tone.title")}</h1>
 
-    <ToneGenSection client:visible />
+    <ToneGenSection client:idle />
 
     <article class="p-2">
       <div role="alert" class="alert alert-error my-10">
-        <span>{t("caution")}</span>
+        <span>{t("tone.caution")}</span>
       </div>
-      <h2>{t("how_to_generate_tone.title")}</h2>
+      <h2>{t("tone.how_to_generate_tone.title")}</h2>
 
       <ol>
         {
           (
-            t("how_to_generate_tone.steps", { returnObjects: true }) as string[]
+            t("tone.how_to_generate_tone.steps", { returnObjects: true }) as string[]
           ).map((step, i) => <li>{step}</li>)
         }
       </ol>
-      <h3>{t("what_is_tone.title")}</h3>
+      <h3>{t("tone.what_is_tone.title")}</h3>
 
       <p>
-        {t("what_is_tone.description")}
+        {t("tone.what_is_tone.description")}
       </p>
-      <h3>{t("production_of_sound_frequency.title")}</h3>
+      <h3>{t("tone.production_of_sound_frequency.title")}</h3>
 
       <p>
-        {t("production_of_sound_frequency.description")}
+        {t("tone.production_of_sound_frequency.description")}
       </p>
-      <h3>{t("pitch_variation_through_vibrations.title")}</h3>
+      <h3>{t("tone.pitch_variation_through_vibrations.title")}</h3>
 
       <p>
-        {t("pitch_variation_through_vibrations.description")}
+        {t("tone.pitch_variation_through_vibrations.description")}
       </p>
 
-      <h3>{t("measurement_in_hertz.title")}</h3>
-
-      <p>
-        {t("measurement_in_hertz.description")}
-      </p>
-      <h3>{t("pure_tones_and_real_life_complexity.title")}</h3>
+      <h3>{t("tone.measurement_in_hertz.title")}</h3>
 
       <p>
-        {t("pure_tones_and_real_life_complexity.description")}
+        {t("tone.measurement_in_hertz.description")}
       </p>
-      <h2>{t("utilization_purposes.title")}</h2>
+      <h3>{t("tone.pure_tones_and_real_life_complexity.title")}</h3>
+
+      <p>
+        {t("tone.pure_tones_and_real_life_complexity.description")}
+      </p>
+      <h2>{t("tone.utilization_purposes.title")}</h2>
       {
         (
-          t("utilization_purposes.purposes", {
+          t("tone.utilization_purposes.purposes", {
             returnObjects: true,
           }) as string[]
         ).map((step, i) => (
@@ -63,11 +63,11 @@ changeLanguage("ru");
             <b>{step.split(":")[0]}:</b> {step.split(":")[1]}{" "}
           </p>
         ))
-      }<h2>{t("waveforms.title")}</h2>
-      <p>{t("waveforms.description")}</p>
+      }<h2>{t("tone.waveforms.title")}</h2>
+      <p>{t("tone.waveforms.description")}</p>
       {
         (
-          t("waveforms.types", {
+          t("tone.waveforms.types", {
             returnObjects: true,
           }) as string[]
         ).map((step, i) => (
@@ -79,11 +79,11 @@ changeLanguage("ru");
       <h3>FAQ's</h3>
       {
         (
-          t("faqs.questions", {
+          t("tone.faqs.questions", {
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (
-          <div class="collapse bg-base-200 m-4">
+          <div class="collapse bg-base-200 m-2">
             <input type="checkbox" />
             <div class="collapse-title text-xl font-medium">
               {answer.question}
