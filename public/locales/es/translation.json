@@ -1,102 +1,177 @@
 {
-  "meta_title": "Generador de tonos en línea",
-  "meta_description": "Gratis, simple y fácil de usar. ¡Genera ondas sinusoidales, tonos de barrido, ruidos y otras formas de onda de prueba de sonido en línea!",
-  "title": "Generador de tonos en línea",
-  "caution": "PRECAUCIÓN: Para proteger tu audición, evita escuchar frecuencias extremadamente bajas (por debajo de 20 Hz) o frecuencias extremadamente altas (por encima de 10,000 Hz) a volúmenes elevados.",
-  "how_to_generate_tone": {
-    "title": "Cómo generar tono",
-    "steps": [
-      "Elige tu tono ajustando el deslizador o ingresando una frecuencia.",
-      "Ajusta el sonido usando la barra de volumen.",
-      "Selecciona una forma de onda: sinusoidal, cuadrada, diente de sierra o triangular.",
-      "Haz clic en 'reproducir' para escuchar tu tono, 'pausa' para detener.",
-      "Ajusta el equilibrio del altavoz con el deslizador.",
-      "Abre múltiples pestañas para tonos múltiples."
-    ]
+  "tone": {
+    "meta_title": "Generador de tonos en línea",
+    "meta_description": "Gratis, simple y fácil de usar. ¡Genera ondas sinusoidales, tonos de barrido, ruidos y otras formas de onda de prueba de sonido en línea!",
+    "title": "Generador de tonos en línea",
+    "caution": "PRECAUCIÓN: Para proteger tu audición, evita escuchar frecuencias extremadamente bajas (por debajo de 20 Hz) o frecuencias extremadamente altas (por encima de 10,000 Hz) a volúmenes elevados.",
+    "how_to_generate_tone": {
+      "title": "Cómo generar tono",
+      "steps": [
+        "Elige tu tono ajustando el deslizador o ingresando una frecuencia.",
+        "Ajusta el sonido usando la barra de volumen.",
+        "Selecciona una forma de onda: sinusoidal, cuadrada, diente de sierra o triangular.",
+        "Haz clic en 'reproducir' para escuchar tu tono, 'pausa' para detener.",
+        "Ajusta el equilibrio del altavoz con el deslizador.",
+        "Abre múltiples pestañas para tonos múltiples."
+      ]
+    },
+    "what_is_tone": {
+      "title": "¿Qué es un tono?",
+      "description": "Cuando nos referimos al tono en el contexto del generador de tonos, estamos hablando de cómo percibimos la frecuencia de un sonido. Este concepto es fundamental para entender las características de los tonos generados."
+    },
+    "production_of_sound_frequency": {
+      "title": "Producción de frecuencia de sonido:",
+      "description": "La frecuencia de un sonido es el resultado de vibraciones que crean ondas sonoras. Por ejemplo, el sonido que emana de una guitarra tocada es producto de las cuerdas vibrando, y estas vibraciones generan ondas sonoras que viajan por el aire para llegar a nuestros oídos."
+    },
+    "pitch_variation_through_vibrations": {
+      "title": "Variación de tono mediante vibraciones:",
+      "description": "La velocidad de las vibraciones dicta la frecuencia y, consecuentemente, el tono. Vibraciones más rápidas conducen a frecuencias más altas y tonos más agudos, mientras que vibraciones más lentas resultan en frecuencias más bajas y tonos más graves. Estas frecuencias se cuantifican en Hercios (Hz)."
+    },
+    "measurement_in_hertz": {
+      "title": "Medición en Hercios (Hz):",
+      "description": "La unidad de medida para estas frecuencias es el Hertzio, abreviado como Hz. Esta unidad representa la cantidad de ciclos por segundo, proporcionando una medida cuantitativa de la frecuencia de las ondas sonoras."
+    },
+    "pure_tones_and_real_life_complexity": {
+      "title": "Tonos puros y complejidad en la vida real:",
+      "description": "El generador de tonos utilizado produce tonos puros, caracterizados por una sola frecuencia. Sin embargo, es importante tener en cuenta que en escenarios musicales de la vida real, la mayoría de los sonidos constan de una mezcla de múltiples frecuencias, lo que contribuye a la complejidad y riqueza de la experiencia auditiva."
+    },
+    "utilization_purposes": {
+      "title": "¿Para qué propósitos se puede utilizar este generador de tonos?",
+      "purposes": [
+        "Pruebas de equipos: Utiliza el generador de tonos para realizar pruebas exhaustivas en dispositivos de audio, lo que permite el diagnóstico de problemas potenciales relacionados con el cableado eléctrico y las funcionalidades de reproducción.",
+        "Evaluación del rango de frecuencia: Emplea la herramienta para evaluar las capacidades de frecuencia de altavoces, subwoofers o auriculares, brindando información valiosa sobre su rango de rendimiento.",
+        "Afinación de instrumentos: Aprovecha el generador de tonos para facilitar la afinación precisa de instrumentos por el oído, especialmente beneficioso para músicos que trabajan con instrumentos como guitarras, pianos o violines.",
+        "Análisis del rango auditivo: Emplea la herramienta para analizar tu rango auditivo, ofreciendo información valiosa sobre los límites superiores e inferiores de las frecuencias audibles. Por lo general, los adultos sanos pueden percibir frecuencias que van desde aproximadamente 20 Hz hasta 17,000 Hz, con una disminución en el límite superior a medida que avanza la edad.",
+        "Identificación de la frecuencia del tinnitus: Abordando a las personas que experimentan tinnitus puro, el generador ayuda a identificar la frecuencia exacta de la afección. Este proceso, conocido como coincidencia de frecuencia del tinnitus, puede ayudar a identificar sonidos de enmascaramiento potenciales para aliviar el malestar auditivo.",
+        "Nota: No sustituye el diagnóstico médico; consulta a un profesional para temas relacionados con la salud."
+      ]
+    },
+    "waveforms": {
+      "title": "Tipos de formas de onda:",
+      "description": "Este generador de tonos ofrece soporte para las cuatro formas de onda principales: sinusoidal, cuadrada, diente de sierra y triangular, todas clasificadas como 'formas de onda periódicas' debido a su capacidad para crear un tono constante al repetirse. Cada forma de onda proporciona una calidad distintiva a la frecuencia reproducida:",
+      "types": [
+        "Ondas sinusoidales: Conocidas por producir tonos suaves y limpios, las ondas sinusoidales son la forma de onda más simple y se pueden combinar para crear otras formas de onda.",
+        "Ondas cuadradas: En contraste con las ondas sinusoidales, las ondas cuadradas, con diferentes armónicos, generan un tono más rico y vibrante, ofreciendo un sonido único.",
+        "Ondas diente de sierra: Similares a las ondas cuadradas pero con mayor vibración, las ondas diente de sierra son adecuadas para crear sonidos ásperos y distorsionados.",
+        "Ondas triangulares: Encontrando un equilibrio entre las vibrantes ondas cuadradas y las limpias ondas sinusoidales, las ondas triangulares producen un tono más brillante, susurrante y natural."
+      ]
+    },
+    "faqs": {
+      "questions": [
+        {
+          "question": "¿Qué es un generador de frecuencia tonal?",
+          "answer": "Un generador de frecuencia tonal es un dispositivo o software que produce tonos de audio a frecuencias específicas. A menudo se utiliza con fines de prueba y calibración, así como en diversas aplicaciones como la producción musical y experimentos científicos."
+        },
+        {
+          "question": "¿Cómo funciona un generador de frecuencia tonal?",
+          "answer": "Un generador de frecuencia tonal funciona produciendo señales eléctricas que crean ondas sonoras a frecuencias específicas. Estas frecuencias se emiten luego como tonos audibles a través de altavoces o auriculares."
+        },
+        {
+          "question": "¿Cuáles son las formas de onda comunes generadas por estas herramientas?",
+          "answer": "Las formas de onda comunes generadas por los generadores de frecuencia tonal incluyen ondas sinusoidales, cuadradas, diente de sierra y triangulares. Cada forma de onda tiene características únicas que impactan en la calidad del tono producido."
+        },
+        {
+          "question": "¿Cómo puede utilizarse un generador de frecuencia tonal para probar equipos de audio?",
+          "answer": "Los generadores de frecuencia tonal se utilizan para evaluar el rendimiento de equipos de audio como altavoces y auriculares. Al emitir tonos a diferentes frecuencias, los usuarios pueden identificar problemas como distorsión, vibraciones o variaciones en la respuesta de frecuencia."
+        },
+        {
+          "question": "¿Puede un generador de frecuencia tonal ser utilizado para afinar instrumentos?",
+          "answer": "Sí, un generador de frecuencia tonal es una herramienta valiosa para afinar instrumentos. Los músicos pueden usarlo para producir tonos de referencia, especialmente al afinar instrumentos por el oído."
+        },
+        {
+          "question": "¿Existen consideraciones de salud al utilizar generadores de frecuencia tonal?",
+          "answer": "Es importante usar generadores de frecuencia tonal a niveles de volumen razonables para proteger la audición. La exposición prolongada a volúmenes altos, especialmente con tonos de baja frecuencia, puede causar daño potencial."
+        },
+        {
+          "question": "¿Los generadores de frecuencia tonal pueden ayudar con el tinnitus u otros problemas auditivos?",
+          "answer": "Algunas investigaciones sugieren que frecuencias específicas, como 40 Hz, pueden tener efectos terapéuticos en condiciones como el tinnitus. Sin embargo, es crucial consultar con un profesional de la salud para obtener consejos personalizados."
+        },
+        {
+          "question": "¿Qué papel desempeñan las diferentes formas de onda en la generación de tonos?",
+          "answer": "Las diferentes formas de onda contribuyen a la calidad y timbre de los tonos generados. Las ondas sinusoidales producen tonos suaves y limpios, mientras que las ondas cuadradas y diente de sierra introducen armónicos adicionales, creando sonidos más ricos y complejos."
+        },
+        {
+          "question": "¿Existen limitaciones para usar un generador de frecuencia tonal?",
+          "answer": "Si bien los generadores de frecuencia tonal son herramientas versátiles, su efectividad puede estar limitada en ciertas aplicaciones. Para diagnósticos médicos precisos o intervenciones terapéuticas, se recomienda consultar con profesionales especializados."
+        },
+        {
+          "question": "¿Cómo puedo incorporar un generador de frecuencia tonal en mi flujo de trabajo de producción musical?",
+          "answer": "Los músicos y productores de audio pueden usar generadores de frecuencia tonal para tareas como diseño de sonido, prueba de equipos o calibración de monitores de estudio. Integrar la herramienta en configuraciones de software o hardware permite flexibilidad para generar tonos específicos durante el proceso de producción."
+        }
+      ]
+    }
   },
-  "what_is_tone": {
-    "title": "¿Qué es un tono?",
-    "description": "Cuando nos referimos al tono en el contexto del generador de tonos, estamos hablando de cómo percibimos la frecuencia de un sonido. Este concepto es fundamental para entender las características de los tonos generados."
-  },
-  "production_of_sound_frequency": {
-    "title": "Producción de frecuencia de sonido:",
-    "description": "La frecuencia de un sonido es el resultado de vibraciones que crean ondas sonoras. Por ejemplo, el sonido que emana de una guitarra tocada es producto de las cuerdas vibrando, y estas vibraciones generan ondas sonoras que viajan por el aire para llegar a nuestros oídos."
-  },
-  "pitch_variation_through_vibrations": {
-    "title": "Variación de tono mediante vibraciones:",
-    "description": "La velocidad de las vibraciones dicta la frecuencia y, consecuentemente, el tono. Vibraciones más rápidas conducen a frecuencias más altas y tonos más agudos, mientras que vibraciones más lentas resultan en frecuencias más bajas y tonos más graves. Estas frecuencias se cuantifican en Hercios (Hz)."
-  },
-  "measurement_in_hertz": {
-    "title": "Medición en Hercios (Hz):",
-    "description": "La unidad de medida para estas frecuencias es el Hertzio, abreviado como Hz. Esta unidad representa la cantidad de ciclos por segundo, proporcionando una medida cuantitativa de la frecuencia de las ondas sonoras."
-  },
-  "pure_tones_and_real_life_complexity": {
-    "title": "Tonos puros y complejidad en la vida real:",
-    "description": "El generador de tonos utilizado produce tonos puros, caracterizados por una sola frecuencia. Sin embargo, es importante tener en cuenta que en escenarios musicales de la vida real, la mayoría de los sonidos constan de una mezcla de múltiples frecuencias, lo que contribuye a la complejidad y riqueza de la experiencia auditiva."
-  },
-  "utilization_purposes": {
-    "title": "¿Para qué propósitos se puede utilizar este generador de tonos?",
-    "purposes": [
-      "Pruebas de equipos: Utiliza el generador de tonos para realizar pruebas exhaustivas en dispositivos de audio, lo que permite el diagnóstico de problemas potenciales relacionados con el cableado eléctrico y las funcionalidades de reproducción.",
-      "Evaluación del rango de frecuencia: Emplea la herramienta para evaluar las capacidades de frecuencia de altavoces, subwoofers o auriculares, brindando información valiosa sobre su rango de rendimiento.",
-      "Afinación de instrumentos: Aprovecha el generador de tonos para facilitar la afinación precisa de instrumentos por el oído, especialmente beneficioso para músicos que trabajan con instrumentos como guitarras, pianos o violines.",
-      "Análisis del rango auditivo: Emplea la herramienta para analizar tu rango auditivo, ofreciendo información valiosa sobre los límites superiores e inferiores de las frecuencias audibles. Por lo general, los adultos sanos pueden percibir frecuencias que van desde aproximadamente 20 Hz hasta 17,000 Hz, con una disminución en el límite superior a medida que avanza la edad.",
-      "Identificación de la frecuencia del tinnitus: Abordando a las personas que experimentan tinnitus puro, el generador ayuda a identificar la frecuencia exacta de la afección. Este proceso, conocido como coincidencia de frecuencia del tinnitus, puede ayudar a identificar sonidos de enmascaramiento potenciales para aliviar el malestar auditivo.",
-      "Nota: No sustituye el diagnóstico médico; consulta a un profesional para temas relacionados con la salud."
-    ]
-  },
-  "waveforms": {
-    "title": "Tipos de formas de onda:",
-    "description": "Este generador de tonos ofrece soporte para las cuatro formas de onda principales: sinusoidal, cuadrada, diente de sierra y triangular, todas clasificadas como 'formas de onda periódicas' debido a su capacidad para crear un tono constante al repetirse. Cada forma de onda proporciona una calidad distintiva a la frecuencia reproducida:",
-    "types": [
-      "Ondas sinusoidales: Conocidas por producir tonos suaves y limpios, las ondas sinusoidales son la forma de onda más simple y se pueden combinar para crear otras formas de onda.",
-      "Ondas cuadradas: En contraste con las ondas sinusoidales, las ondas cuadradas, con diferentes armónicos, generan un tono más rico y vibrante, ofreciendo un sonido único.",
-      "Ondas diente de sierra: Similares a las ondas cuadradas pero con mayor vibración, las ondas diente de sierra son adecuadas para crear sonidos ásperos y distorsionados.",
-      "Ondas triangulares: Encontrando un equilibrio entre las vibrantes ondas cuadradas y las limpias ondas sinusoidales, las ondas triangulares producen un tono más brillante, susurrante y natural."
-    ]
-  },
-  "faqs": {
-    "questions": [
-      {
-        "question": "¿Qué es un generador de frecuencia tonal?",
-        "answer": "Un generador de frecuencia tonal es un dispositivo o software que produce tonos de audio a frecuencias específicas. A menudo se utiliza con fines de prueba y calibración, así como en diversas aplicaciones como la producción musical y experimentos científicos."
-      },
-      {
-        "question": "¿Cómo funciona un generador de frecuencia tonal?",
-        "answer": "Un generador de frecuencia tonal funciona produciendo señales eléctricas que crean ondas sonoras a frecuencias específicas. Estas frecuencias se emiten luego como tonos audibles a través de altavoces o auriculares."
-      },
-      {
-        "question": "¿Cuáles son las formas de onda comunes generadas por estas herramientas?",
-        "answer": "Las formas de onda comunes generadas por los generadores de frecuencia tonal incluyen ondas sinusoidales, cuadradas, diente de sierra y triangulares. Cada forma de onda tiene características únicas que impactan en la calidad del tono producido."
-      },
-      {
-        "question": "¿Cómo puede utilizarse un generador de frecuencia tonal para probar equipos de audio?",
-        "answer": "Los generadores de frecuencia tonal se utilizan para evaluar el rendimiento de equipos de audio como altavoces y auriculares. Al emitir tonos a diferentes frecuencias, los usuarios pueden identificar problemas como distorsión, vibraciones o variaciones en la respuesta de frecuencia."
-      },
-      {
-        "question": "¿Puede un generador de frecuencia tonal ser utilizado para afinar instrumentos?",
-        "answer": "Sí, un generador de frecuencia tonal es una herramienta valiosa para afinar instrumentos. Los músicos pueden usarlo para producir tonos de referencia, especialmente al afinar instrumentos por el oído."
-      },
-      {
-        "question": "¿Existen consideraciones de salud al utilizar generadores de frecuencia tonal?",
-        "answer": "Es importante usar generadores de frecuencia tonal a niveles de volumen razonables para proteger la audición. La exposición prolongada a volúmenes altos, especialmente con tonos de baja frecuencia, puede causar daño potencial."
-      },
-      {
-        "question": "¿Los generadores de frecuencia tonal pueden ayudar con el tinnitus u otros problemas auditivos?",
-        "answer": "Algunas investigaciones sugieren que frecuencias específicas, como 40 Hz, pueden tener efectos terapéuticos en condiciones como el tinnitus. Sin embargo, es crucial consultar con un profesional de la salud para obtener consejos personalizados."
-      },
-      {
-        "question": "¿Qué papel desempeñan las diferentes formas de onda en la generación de tonos?",
-        "answer": "Las diferentes formas de onda contribuyen a la calidad y timbre de los tonos generados. Las ondas sinusoidales producen tonos suaves y limpios, mientras que las ondas cuadradas y diente de sierra introducen armónicos adicionales, creando sonidos más ricos y complejos."
-      },
-      {
-        "question": "¿Existen limitaciones para usar un generador de frecuencia tonal?",
-        "answer": "Si bien los generadores de frecuencia tonal son herramientas versátiles, su efectividad puede estar limitada en ciertas aplicaciones. Para diagnósticos médicos precisos o intervenciones terapéuticas, se recomienda consultar con profesionales especializados."
-      },
-      {
-        "question": "¿Cómo puedo incorporar un generador de frecuencia tonal en mi flujo de trabajo de producción musical?",
-        "answer": "Los músicos y productores de audio pueden usar generadores de frecuencia tonal para tareas como diseño de sonido, prueba de equipos o calibración de monitores de estudio. Integrar la herramienta en configuraciones de software o hardware permite flexibilidad para generar tonos específicos durante el proceso de producción."
-      }
-    ]
+  "speaker": {
+    "meta_title": "Limpiador de Altavoces en Línea",
+    "meta_description": "Limpiador de altavoces en línea, para limpiar los altavoces de tu teléfono del agua y el polvo. Gratis, simple y fácil de usar.",
+    "note": "Nota: Desconéctate de los dispositivos Bluetooth, sube el volumen al máximo y toca para expulsar el agua del altavoz. Repite la reproducción del sonido 2-3 veces. Si no tienes éxito, sella el teléfono en arroz durante un día o consulta a un profesional.",
+    "online_speaker_cleaner": {
+      "title": "Limpiador de Altavoces en Línea",
+      "description": "Tonegen es como el superhéroe del cuidado de altavoces. Es este fantástico Limpiador de Altavoces en línea que funciona súper rápido. Simplemente reproduces un sonido y ¡listo!, elimina mágicamente todo el molesto polvo de tus altavoces, haciéndolos sonar como nuevos. Pero aquí está la parte realmente genial: si tu teléfono cae inesperadamente al agua, Tonegen interviene y expulsa el agua de tus altavoces. Es como tener un ángel guardián experto en tecnología para tus equipos de audio, asegurándose de que tu sonido se mantenga increíble."
+    },
+    "how_online_speaker_cleaner_works": {
+      "title": "Cómo funciona el Limpiador de Altavoces en Línea",
+      "description": "Entonces, ¿se te cayó accidentalmente el teléfono en lugares no tan amigables para los teléfonos, como el baño, el lavabo o la piscina? Todos hemos estado ahí. El problema es que cuando el agua se mete en el altavoz de tu teléfono, el sonido se vuelve extraño y apagado. Es un verdadero dolor de cabeza. Dejar cualquier tipo de líquido ahí dentro es una manera segura de terminar con algunos daños serios cuando se seque. Pero aquí está la parte interesante: es un poco como el truco que hace el Apple Watch con el agua."
+    },
+    "water_removal_sound": {
+      "title": "Cómo funciona el Sonido para Eliminar el Agua",
+      "description": "El proceso de eliminación de agua mediante sonido implica emitir un tono específico que genera ondas sonoras. Estas ondas sonoras, al reproducirse a través del altavoz del dispositivo, crean vibraciones que ayudan a desalojar y expulsar el agua que puede haber ingresado al recinto del altavoz. Es un mecanismo inteligente inspirado en la función de expulsión de agua integrada en el Apple Watch. Las ondas sonoras emitidas básicamente funcionan como una fuerza suave, expulsando el agua de las aberturas del altavoz, evitando daños potenciales y restaurando la funcionalidad de audio óptima."
+    },
+    "fix_my_speakers_using_water_eject_tool": {
+      "title": "Arreglar mis altavoces usando la herramienta de expulsión de agua",
+      "description": "¿Caíste tu teléfono en el agua? ¡No entres en pánico! Tonegen.net ofrece una solución simple y gratuita. Al reproducir un sonido específico, similar a la función de expulsión de agua de Apple, elimina efectivamente el agua de los altavoces de tu teléfono. Mira su tutorial en video para una solución fácil y asegúrate de que tu teléfono se mantenga libre de daños. Sin embargo, si es agua salada, considera buscar ayuda profesional para una recuperación segura. Mantener limpio y seco el altavoz de tu teléfono es clave para prevenir daños."
+    },
+    "faqs": {
+      "questions": [
+        {
+          "question": "¿Cómo funciona Arreglar mis altavoces para eliminar el agua de los altavoces del teléfono?",
+          "answer": "Arreglar mis altavoces utiliza ondas sonoras para crear vibraciones en los altavoces del teléfono, expulsando efectivamente el agua."
+        },
+        {
+          "question": "¿Se puede usar Arreglar mis altavoces para auriculares y otros dispositivos?",
+          "answer": "Sí, Arreglar mis altavoces está diseñado para eliminar el polvo tanto de los altavoces del teléfono como de los auriculares."
+        },
+        {
+          "question": "¿Es seguro usar el sonido para limpiar los altavoces del teléfono?",
+          "answer": "Sí, usar el sonido es un método seguro, simple y efectivo. Genera vibraciones que expulsan líquidos o residuos sin riesgo de dañar el teléfono."
+        },
+        {
+          "question": "¿Qué pasa si mi teléfono cayó en agua salada? ¿Puede Arreglar mis altavoces ayudar aún así?",
+          "answer": "Para incidentes con agua salada, se recomienda buscar ayuda profesional para una recuperación segura."
+        },
+        {
+          "question": "¿Existen problemas potenciales causados por el agua y el polvo en los altavoces del teléfono?",
+          "answer": "El agua y el polvo pueden causar problemas como sonido amortiguado o distorsionado, volumen reducido, vida útil de la batería más corta, sobrecalentamiento y corrosión o daños en los componentes del altavoz."
+        },
+        {
+          "question": "¿Cómo limpio el altavoz del teléfono usando el sonido con Arreglar mis altavoces?",
+          "answer": "Desconéctate de los dispositivos Bluetooth, maximiza el volumen del teléfono y toca el botón 'Herramienta de expulsión de agua' en el sitio web de Arreglar mis altavoces. Repite hasta que no salga más agua o polvo."
+        },
+        {
+          "question": "¿Por qué es importante limpiar los altavoces del teléfono rápidamente?",
+          "answer": "La limpieza rápida es crucial para prevenir problemas como el deterioro de la calidad del sonido, la reducción del volumen y posibles daños en los componentes internos."
+        },
+        {
+          "question": "¿Puedo usar métodos tradicionales, como palillos o hisopos de algodón, para limpiar los altavoces del teléfono?",
+          "answer": "Usar métodos tradicionales puede ser arriesgado e ineficaz, pudiendo causar más daños que beneficios. El método del sonido es una alternativa más segura."
+        },
+        {
+          "question": "¿Es un servicio de pago Arreglar mis altavoces?",
+          "answer": "No, Arreglar mis altavoces es una aplicación web gratuita y fácil de usar."
+        },
+        {
+          "question": "¿Cuánto tiempo debo dejar mi teléfono en una bolsa de arroz sellada si el método del sonido no funciona?",
+          "answer": "Si el método del sonido no tiene éxito, se recomienda dejar el teléfono en una bolsa de arroz sellada durante un día antes de buscar ayuda profesional."
+        },
+        {
+          "question": "¿Cómo puedo limpiar el altavoz de mi iPhone?",
+          "answer": "Para limpiar el altavoz de tu iPhone, apaga el dispositivo, usa un cepillo de cerdas suaves o un cepillo de dientes para eliminar suavemente los residuos visibles y considera usar aire comprimido para partículas difíciles. Opcionalmente, humedece un hisopo de algodón con alcohol isopropílico para sustancias pegajosas. Evita el agua y asegúrate de que tu dispositivo esté encendido después de limpiar para probar la funcionalidad del altavoz."
+        },
+        {
+          "question": "¿Cómo sacar agua de un iPhone?",
+          "answer": "Para eliminar el agua del altavoz de tu teléfono, comienza apagando el dispositivo. Desconéctate de cualquier altavoz o auriculares Bluetooth. Sube el volumen del teléfono al máximo. Visita el sitio web tonegen.net, toca el botón 'Expulsar agua' y espera 4 minutos o más. Repite hasta que no salga más agua o polvo. Si no funciona, busca ayuda profesional, por favor."
+        }
+      ]
+    }
   }
 }

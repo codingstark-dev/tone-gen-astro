@@ -1,102 +1,177 @@
 {
-  "meta_title":"Online Tone Generator",
-  "meta_description":"Free, Simple and Easy to Use. Generate sine waves, sweep tones, noises and other sound test waveforms, online!",
-  "title": "Online Tone Generator",
-  "caution": "CAUTION: To safeguard your hearing, avoid listening to extremely low frequencies (below 20 Hz) or extremely high frequencies (above 10,000 Hz) at elevated volumes.",
-  "how_to_generate_tone": {
-    "title": "How to Generate Tone",
-    "steps": [
-      "Choose your tone by adjusting the slider or entering a frequency.",
-      "Adjust sound using the volume bar.",
-      "Pick a waveform: sine, square, sawtooth, or triangle.",
-      "Click 'play' to hear your tone, 'pause' to stop.",
-      "Adjust speaker balance with the slider.",
-      "Open in multiple tabs for multiple tones."
-    ]
+  "tone": {
+    "meta_title": "Online Tone Generator",
+    "meta_description": "Free, Simple and Easy to Use. Generate sine waves, sweep tones, noises and other sound test waveforms, online!",
+    "title": "Online Tone Generator",
+    "caution": "CAUTION: To safeguard your hearing, avoid listening to extremely low frequencies (below 20 Hz) or extremely high frequencies (above 10,000 Hz) at elevated volumes.",
+    "how_to_generate_tone": {
+      "title": "How to Generate Tone",
+      "steps": [
+        "Choose your tone by adjusting the slider or entering a frequency.",
+        "Adjust sound using the volume bar.",
+        "Pick a waveform: sine, square, sawtooth, or triangle.",
+        "Click 'play' to hear your tone, 'pause' to stop.",
+        "Adjust speaker balance with the slider.",
+        "Open in multiple tabs for multiple tones."
+      ]
+    },
+    "what_is_tone": {
+      "title": "What is Tone?",
+      "description": "When we refer to tone in the context of the tone generator, we are addressing the way we perceive the frequency of a sound. This concept is central to understanding the characteristics of the generated tones."
+    },
+    "production_of_sound_frequency": {
+      "title": "Production of Sound Frequency:",
+      "description": "The frequency of a sound is a result of vibrations that create sound waves. For example, the sound emanating from a played guitar is a product of the strings vibrating, and these vibrations give rise to sound waves that travel through the air to reach our ears."
+    },
+    "pitch_variation_through_vibrations": {
+      "title": "Pitch Variation through Vibrations:",
+      "description": "The speed of vibrations dictates the frequency and, consequently, the pitch of the tone. Faster vibrations lead to higher frequencies and higher pitched tones, while slower vibrations result in lower frequencies and lower pitched tones. These frequencies are quantified in Hertz (Hz)."
+    },
+    "measurement_in_hertz": {
+      "title": "Measurement in Hertz (Hz):",
+      "description": "The unit of measurement for these frequencies is Hertz, denoted as Hz. This unit represents the number of cycles per second, providing a quantitative measure of the frequency of the sound waves."
+    },
+    "pure_tones_and_real_life_complexity": {
+      "title": "Pure Tones and Real-life Complexity:",
+      "description": "The tone generator in use produces pure tones, characterized by a single frequency. However, it's important to note that in real-life musical scenarios, most sounds comprise a blend of multiple frequencies, contributing to the complexity and richness of the auditory experience."
+    },
+    "utilization_purposes": {
+      "title": "For what purposes can this tone generator be utilized?",
+      "purposes": [
+        "Equipment Testing: Utilize the tone generator to conduct comprehensive tests on audio devices, enabling the diagnosis of potential issues related to electrical wiring and playback functionalities.",
+        "Frequency Range Assessment: Employ the tool to assess the frequency capabilities of speakers, subwoofers bass testing, or headphones, providing valuable insights into their performance range.",
+        "Instrument Tuning: Leverage the tone generator to facilitate precise instrument tuning by ear, particularly beneficial for musicians working with instruments such as guitars, pianos, or violins.",
+        "Hearing Range Analysis: Employ the tool to analyze your hearing range, offering valuable information on the upper and lower limits of audible frequencies. Typically, healthy adults can perceive frequencies ranging from approximately 20 Hz to 17,000 Hz, with a decline in the upper limit as age advances.",
+        "Tinnitus Frequency Identification: Addressing individuals experiencing pure tone tinnitus, the generator aids in pinpointing the exact frequency of the condition. This process, known as tinnitus frequency matching, may assist in identifying potential masking sounds to alleviate auditory discomfort.",
+        "Note: Not a substitute for medical diagnosis; consult a professional for health-related concerns."
+      ]
+    },
+    "waveforms": {
+      "title": "Types of waveforms:",
+      "description": "This tone generator offers support for the four primary waveforms: sine, square, sawtooth, and triangle, all classified as 'periodic waveforms' due to their ability to create a constant tone when repeated. Each waveform shape imparts a distinct quality to the played frequency:",
+      "types": [
+        "Sine Waves: Known for producing the smoothest and cleanest tones, sine waves are the simplest waveform and can be combined to create other waveforms.",
+        "Square Waves: In contrast to sine waves, square waves, with different harmonics, generate a richer and more buzzy tone, offering a unique sound.",
+        "Sawtooth Waves: Similar to square waves but with increased buzziness, sawtooth waves are suitable for creating harsh and distorted sounds.",
+        "Triangle Waves: Striking a balance between the buzzy square waves and the clean sine waves, triangle waves produce a brighter, breathy, and more natural-sounding tone."
+      ]
+    },
+    "faqs": {
+      "questions": [
+        {
+          "question": "What is a tone frequency generator?",
+          "answer": "A tone frequency generator is a device or software that produces audio tones at specific frequencies. It is often used for testing and calibration purposes, as well as in various applications such as music production and scientific experiments."
+        },
+        {
+          "question": "How does a tone frequency generator work?",
+          "answer": "A tone frequency generator works by producing electrical signals that create sound waves at specific frequencies. These frequencies are then emitted as audible tones through speakers or headphones."
+        },
+        {
+          "question": "What are the common waveforms generated by these tools?",
+          "answer": "The common waveforms generated by tone frequency generators include sine waves, square waves, sawtooth waves, and triangle waves. Each waveform has unique characteristics that impact the quality of the produced tone."
+        },
+        {
+          "question": "How can a tone frequency generator be used for testing audio equipment?",
+          "answer": "Tone frequency generators are used to assess the performance of audio equipment such as speakers and headphones. By emitting tones at different frequencies, users can identify issues like distortion, rattling, or frequency response variations."
+        },
+        {
+          "question": "Can a tone frequency generator be used for instrument tuning?",
+          "answer": "Yes, a tone frequency generator is a valuable tool for instrument tuning. Musicians can use it to produce reference tones, especially when tuning instruments by ear."
+        },
+        {
+          "question": "Are there health considerations when using tone frequency generators?",
+          "answer": "It's important to use tone frequency generators at reasonable volume levels to protect hearing. Prolonged exposure to high volumes, especially with low-frequency tones, can potentially cause harm."
+        },
+        {
+          "question": "Can tone frequency generators help with tinnitus or other auditory issues?",
+          "answer": "Some research suggests that specific frequencies, such as 40 Hz, may have therapeutic effects on conditions like tinnitus. However, it's crucial to consult with a healthcare professional for personalized advice."
+        },
+        {
+          "question": "What role do different waveforms play in tone generation?",
+          "answer": " Different waveforms contribute to the quality and timbre of the generated tones. Sine waves produce smooth and clean tones, while square waves and sawtooth waves introduce additional harmonics, creating richer and more complex sounds."
+        },
+        {
+          "question": "Are there limitations to using a tone frequency generator?",
+          "answer": "While tone frequency generators are versatile tools, their effectiveness may be limited in certain applications. For precise medical diagnoses or therapeutic interventions, consulting with specialized professionals is recommended."
+        },
+        {
+          "question": "How can I incorporate a tone frequency generator into my music production workflow?",
+          "answer": "Musicians and audio producers can use tone frequency generators for tasks such as sound design, testing equipment, or calibrating studio monitors. Integrating the tool into software or hardware setups allows for flexibility in generating specific tones during the production process."
+        }
+      ]
+    }
   },
-  "what_is_tone": {
-    "title": "What is Tone?",
-    "description": "When we refer to tone in the context of the tone generator, we are addressing the way we perceive the frequency of a sound. This concept is central to understanding the characteristics of the generated tones."
-  },
-  "production_of_sound_frequency": {
-    "title": "Production of Sound Frequency:",
-    "description": "The frequency of a sound is a result of vibrations that create sound waves. For example, the sound emanating from a played guitar is a product of the strings vibrating, and these vibrations give rise to sound waves that travel through the air to reach our ears."
-  },
-  "pitch_variation_through_vibrations": {
-    "title": "Pitch Variation through Vibrations:",
-    "description": "The speed of vibrations dictates the frequency and, consequently, the pitch of the tone. Faster vibrations lead to higher frequencies and higher pitched tones, while slower vibrations result in lower frequencies and lower pitched tones. These frequencies are quantified in Hertz (Hz)."
-  },
-  "measurement_in_hertz": {
-    "title": "Measurement in Hertz (Hz):",
-    "description": "The unit of measurement for these frequencies is Hertz, denoted as Hz. This unit represents the number of cycles per second, providing a quantitative measure of the frequency of the sound waves."
-  },
-  "pure_tones_and_real_life_complexity": {
-    "title": "Pure Tones and Real-life Complexity:",
-    "description": "The tone generator in use produces pure tones, characterized by a single frequency. However, it's important to note that in real-life musical scenarios, most sounds comprise a blend of multiple frequencies, contributing to the complexity and richness of the auditory experience."
-  },
-  "utilization_purposes": {
-    "title": "For what purposes can this tone generator be utilized?",
-    "purposes": [
-      "Equipment Testing: Utilize the tone generator to conduct comprehensive tests on audio devices, enabling the diagnosis of potential issues related to electrical wiring and playback functionalities.",
-      "Frequency Range Assessment: Employ the tool to assess the frequency capabilities of speakers, subwoofers bass testing, or headphones, providing valuable insights into their performance range.",
-      "Instrument Tuning: Leverage the tone generator to facilitate precise instrument tuning by ear, particularly beneficial for musicians working with instruments such as guitars, pianos, or violins.",
-      "Hearing Range Analysis: Employ the tool to analyze your hearing range, offering valuable information on the upper and lower limits of audible frequencies. Typically, healthy adults can perceive frequencies ranging from approximately 20 Hz to 17,000 Hz, with a decline in the upper limit as age advances.",
-      "Tinnitus Frequency Identification: Addressing individuals experiencing pure tone tinnitus, the generator aids in pinpointing the exact frequency of the condition. This process, known as tinnitus frequency matching, may assist in identifying potential masking sounds to alleviate auditory discomfort.",
-      "Note: Not a substitute for medical diagnosis; consult a professional for health-related concerns."
-    ]
-  },
-  "waveforms": {
-    "title": "Types of waveforms:",
-    "description": "This tone generator offers support for the four primary waveforms: sine, square, sawtooth, and triangle, all classified as 'periodic waveforms' due to their ability to create a constant tone when repeated. Each waveform shape imparts a distinct quality to the played frequency:",
-    "types": [
-      "Sine Waves: Known for producing the smoothest and cleanest tones, sine waves are the simplest waveform and can be combined to create other waveforms.",
-      "Square Waves: In contrast to sine waves, square waves, with different harmonics, generate a richer and more buzzy tone, offering a unique sound.",
-      "Sawtooth Waves: Similar to square waves but with increased buzziness, sawtooth waves are suitable for creating harsh and distorted sounds.",
-      "Triangle Waves: Striking a balance between the buzzy square waves and the clean sine waves, triangle waves produce a brighter, breathy, and more natural-sounding tone."
-    ]
-  },
-  "faqs": {
-    "questions": [
-      {
-        "question": "What is a tone frequency generator?",
-        "answer": "A tone frequency generator is a device or software that produces audio tones at specific frequencies. It is often used for testing and calibration purposes, as well as in various applications such as music production and scientific experiments."
-      },
-      {
-        "question": "How does a tone frequency generator work?",
-        "answer": "A tone frequency generator works by producing electrical signals that create sound waves at specific frequencies. These frequencies are then emitted as audible tones through speakers or headphones."
-      },
-      {
-        "question": "What are the common waveforms generated by these tools?",
-        "answer": "The common waveforms generated by tone frequency generators include sine waves, square waves, sawtooth waves, and triangle waves. Each waveform has unique characteristics that impact the quality of the produced tone."
-      },
-      {
-        "question": "How can a tone frequency generator be used for testing audio equipment?",
-        "answer": "Tone frequency generators are used to assess the performance of audio equipment such as speakers and headphones. By emitting tones at different frequencies, users can identify issues like distortion, rattling, or frequency response variations."
-      },
-      {
-        "question": "Can a tone frequency generator be used for instrument tuning?",
-        "answer": "Yes, a tone frequency generator is a valuable tool for instrument tuning. Musicians can use it to produce reference tones, especially when tuning instruments by ear."
-      },
-      {
-        "question": "Are there health considerations when using tone frequency generators?",
-        "answer": "It's important to use tone frequency generators at reasonable volume levels to protect hearing. Prolonged exposure to high volumes, especially with low-frequency tones, can potentially cause harm."
-      },
-      {
-        "question": "Can tone frequency generators help with tinnitus or other auditory issues?",
-        "answer": "Some research suggests that specific frequencies, such as 40 Hz, may have therapeutic effects on conditions like tinnitus. However, it's crucial to consult with a healthcare professional for personalized advice."
-      },
-      {
-        "question": "What role do different waveforms play in tone generation?",
-        "answer": " Different waveforms contribute to the quality and timbre of the generated tones. Sine waves produce smooth and clean tones, while square waves and sawtooth waves introduce additional harmonics, creating richer and more complex sounds."
-      },
-      {
-        "question": "Are there limitations to using a tone frequency generator?",
-        "answer": "While tone frequency generators are versatile tools, their effectiveness may be limited in certain applications. For precise medical diagnoses or therapeutic interventions, consulting with specialized professionals is recommended."
-      },
-      {
-        "question": "How can I incorporate a tone frequency generator into my music production workflow?",
-        "answer": "Musicians and audio producers can use tone frequency generators for tasks such as sound design, testing equipment, or calibrating studio monitors. Integrating the tool into software or hardware setups allows for flexibility in generating specific tones during the production process."
-      }
-    ]
+  "speaker": {
+    "meta_title": "Online Speaker Cleaner",
+    "meta_description": "Online Speaker Cleaner, for cleaning your phone speakers from water and dust. Free, Simple and Easy to Use.",
+    "note": "Note: Disconnect from Bluetooth devices, max out the volume, and tap to expel water from the speaker. Repeat the sound play 2-3 times. If unsuccessful, seal the phone in rice for a day or consult a professional.",
+    "online_speaker_cleaner": {
+      "title": "Online Speaker Cleaner",
+      "description": "Tonegen is like the superhero of speaker care. It's this fantastic online Speaker Cleaner that works crazy fast. You just play some sound, and voila, it magically clears out all the pesky dust in your speakers, making them sound brand new. But here's the really cool part – if your phone ever takes an unexpected dive and gets wet, Tonegen steps in and kicks out the water from your speakers. It's like having a tech-savvy guardian angel for your audio gear, making sure your sound stays awesome."
+    },
+    "how_online_speaker_cleaner_works": {
+      "title": "How Online Speaker Cleaner works",
+      "description": "So, you accidentally dropped your phone into some not-so-phone-friendly places like the toilet, sink, or pool? We've all been there. The trouble is, when water creeps into your phone's speaker, the sound gets all wonky and muffled. It's a real headache. Leaving any kind of liquid hanging out in there is a surefire way to end up with some serious damage when it dries up. But here's the cool part – it's a bit like the trick the Apple Watch does with water."
+    },
+    "water_removal_sound": {
+      "title": "How Water Removal Sound Works",
+      "description": "The process of water removal sound involves emitting a specific tone that generates sound waves. These sound waves, when played through the device's speaker, create vibrations that help dislodge and expel water that may have entered the speaker enclosure. It's a clever mechanism inspired by the Apple Watch's built-in water ejection feature. The emitted sound waves essentially serve as a gentle force, pushing the water out of the speaker openings, preventing potential damage and restoring optimal audio functionality."
+    },
+    "fix_my_speakers_using_water_eject_tool": {
+      "title": "Fix My Speakers Using water eject tool",
+      "description": "Dropped your phone in water? Don't panic! Tonegen.net offers a simple and free solution. By playing a specific sound, similar to Apple's water ejection feature, it effectively removes water from your phone's speakers. Check out their video tutorial for an easy fix and ensure your phone stays damage-free. However, if it's saltwater, consider seeking professional help for a safe recovery. Keeping your phone's speaker clean and dry is key to preventing damage."
+    },
+    "faqs": {
+      "questions": [
+        {
+          "question": "How does Fix My Speaker work to remove water from phone speakers?",
+          "answer": "Fix My Speaker uses sound waves to create vibrations in the phone's speakers, effectively ejecting water."
+        },
+        {
+          "question": "Can Fix My Speaker be used for earpods and other devices?",
+          "answer": "Yes, Fix My Speaker is designed to remove dust from both phone speakers and earpods."
+        },
+        {
+          "question": "Is using sound to clean phone speakers safe?",
+          "answer": "Yes, using sound is a safe, simple, and effective method. It generates vibrations that push out liquid or debris without the risk of damaging the phone."
+        },
+        {
+          "question": "What if my phone fell into saltwater? Can Fix My Speaker still help?",
+          "answer": "For saltwater incidents, it's recommended to seek professional help for a safe recovery."
+        },
+        {
+          "question": "Are there any potential issues caused by water and dust in phone speakers?",
+          "answer": "Water and dust can lead to problems such as muffled or distorted sound, reduced volume, shortened battery life, overheating, and corrosion or damage to speaker components."
+        },
+        {
+          "question": "How do I clean my phone speaker using sound with Fix My Speaker?",
+          "answer": "Disconnect from Bluetooth devices, maximize the phone volume, and tap the 'Eject water tool' button on the Fix My Speaker website. Repeat until there is no more water or dust coming out."
+        },
+        {
+          "question": "Why is it important to clean phone speakers promptly?",
+          "answer": "Prompt cleaning is crucial to prevent worsening problems like damaged sound quality, reduced volume, and potential harm to internal components."
+        },
+        {
+          "question": "Can I use traditional methods, like toothpicks or cotton swabs, to clean my phone speakers?",
+          "answer": "Using traditional methods can be risky and ineffective, potentially causing more harm than good. The sound method is a safer alternative."
+        },
+        {
+          "question": "Is Fix My Speaker a paid service?",
+          "answer": "No, Fix My Speaker is a free and easy-to-use web app."
+        },
+        {
+          "question": "How long should I leave my phone in a sealed rice bag if the sound method doesn't work?",
+          "answer": "If the sound method is unsuccessful, leaving the phone in a sealed rice bag for a day is recommended before seeking professional assistance."
+        },
+        {
+          "question": "How can I clean my iPhone speaker?",
+          "answer": "To clean your iPhone speaker, power off the device, use a soft-bristled brush or toothbrush to gently remove visible debris, and consider using compressed air for stubborn particles. Optionally, dampen a cotton swab with isopropyl alcohol for sticky substances. Avoid water and ensure your device is powered on after cleaning to test the speaker's functionality."
+        },
+        {
+          "question": "How to Get water out of iphone?",
+          "answer": "To clean water from your phone speaker, start by powering off your device. Disconnect from any Bluetooth speakers or earbuds. Increase the phone volume to the maximum level. Visit the website tonegen.net, tap the 'Eject water' button, and wait for 4 minutes or more. Repeat until no more water or dust comes out. If not working please seek professional help."
+        }
+      ]
+    }
   }
 }

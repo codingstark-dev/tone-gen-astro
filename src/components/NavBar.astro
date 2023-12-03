@@ -1,7 +1,6 @@
 ---
 import { ThemeSwitch } from "astro-color-scheme";
 import { Trans, LanguageSelector } from "astro-i18next/components";
-
 ---
 
 <script>
@@ -42,9 +41,11 @@ import { Trans, LanguageSelector } from "astro-i18next/components";
           >
         </button>
       </a>
-          <LanguageSelector showFlag={true} lang="en"  class="input h-8 border border-gray-200 text-sm w-24" />
-
-      {/* Toggle button here */}
+      <LanguageSelector
+        showFlag={true}
+        lang="en"
+        class="input h-8 border border-gray-200 text-sm w-20"
+      />
 
       <ThemeSwitch strategy="checkbox">
         <button class="btn btn-circle btn-ghost">

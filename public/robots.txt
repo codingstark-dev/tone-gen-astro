@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tonegen.net/sitemap-index.xml

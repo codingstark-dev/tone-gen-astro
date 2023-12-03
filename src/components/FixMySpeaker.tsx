@@ -39,7 +39,7 @@ export default function FixMySpeaker() {
         }
     }
     return (
-        <div className="max-w-2xl p-5 mx-auto text-center card rounded-lg bg-gray-50 my-10 dark:text-black">
+        <div className="max-w-2xl p-5 mx-auto text-center card rounded-lg bg-gray-50 m-4 dark:text-black">
             <div className="header"><h1>Fix My Speakers 🔊</h1><p>Eject 💦 water from your phone's speakers after getting it wet.</p></div>
             <div className="flex justify-center">
                 <button className={isPlaying ? "btn btn-lg animate-pulse border border-gray-500" : "btn btn-lg border border-gray-500"} onClick={
