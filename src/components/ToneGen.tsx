@@ -11,7 +11,7 @@ interface ToneGenProps {
 export default function ToneGenSection({
 
 }: ToneGenProps) {
-    const [frequency, setFrequency] = useState(440);
+    const [frequency, setFrequency] = useState(432);
     const [volume, setVolume] = useState(-3.1);
     const [panning, setPanning] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
