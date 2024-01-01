@@ -1,0 +1,125 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Subwoofers from "../components/Subwoofer";
+import { t, changeLanguage } from "i18next";
+
+changeLanguage("en");
+---
+
+<Layout
+  title={t("speaker.meta_title")}
+  description={t("speaker.meta_description")}
+>
+  <main class="prose mx-auto pb-10">
+    <br />
+
+    <h4 class="text-center">White Noise</h4>
+    <iframe
+      width="100%"
+      height="166"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/28906870&color=d3d3d3&show_artwork=false"
+    ></iframe>
+    <br />
+    <h4 class="text-center">Pink Noise</h4>
+    <iframe
+      width="100%"
+      height="166"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/28907786&color=fcaacb&show_artwork=false"
+    ></iframe><div
+      style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+    >
+      <a
+        href="https://soundcloud.com/onlinetonegenerator"
+        title="OnlineToneGenerator"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;">OnlineToneGenerator</a
+      > · <a
+        href="https://soundcloud.com/onlinetonegenerator/pink-noise"
+        title="Pink Noise"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;">Pink Noise</a
+      >
+    </div>
+    <br />
+    <h4 class="text-center">Brown Noise</h4>
+    <iframe
+      width="100%"
+      height="166"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/28908647&color=ac5f3f&show_artwork=false"
+    ></iframe><div
+      style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+    >
+      <a
+        href="https://soundcloud.com/onlinetonegenerator"
+        title="OnlineToneGenerator"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;">OnlineToneGenerator</a
+      > · <a
+        href="https://soundcloud.com/onlinetonegenerator/brown-noise"
+        title="Brown Noise"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;">Brown Noise</a>
+    </div>
+    <div
+      style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+    >
+      <a
+        href="https://soundcloud.com/onlinetonegenerator"
+        title="OnlineToneGenerator"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;">OnlineToneGenerator</a
+      > · <a
+        href="https://soundcloud.com/onlinetonegenerator/white-noise"
+        title="White Noise"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none;">White Noise</a
+      >
+    </div>
+    <article class="p-4">
+      <div role="alert" class="alert alert-warning">
+        <span>{t("speaker.note")}</span>
+      </div>
+      <h2>
+        {t("speaker.online_speaker_cleaner.title")}
+      </h2>
+      <p>{t("speaker.online_speaker_cleaner.description")}</p>
+      <h2>
+        {t("speaker.how_online_speaker_cleaner_works.title")}
+      </h2>
+      <p>{t("speaker.how_online_speaker_cleaner_works.description")}</p><h2>
+        {t("speaker.water_removal_sound.title")}
+      </h2>
+      <p>{t("speaker.water_removal_sound.description")}</p><h2>
+        {t("speaker.fix_my_speakers_using_water_eject_tool.title")}
+      </h2>
+      <p>{t("speaker.fix_my_speakers_using_water_eject_tool.description")}</p>
+      <h3>FAQ's</h3>
+      {
+        (
+          t("speaker.faqs.questions", {
+            returnObjects: true,
+          }) as []
+        ).map((answer: any, question) => (
+          <div class="p-2">
+            <div class="collapse bg-base-200 collapse-arrow">
+              <input type="checkbox" />
+              <div class="collapse-title text-xl font-medium">
+                {answer.question}
+              </div>
+              <div class="collapse-content">{answer.answer}</div>
+            </div>
+          </div>
+        ))
+      }
+    </article>
+  </main>
+</Layout>
