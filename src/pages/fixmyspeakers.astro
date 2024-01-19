@@ -2,10 +2,21 @@
 import Layout from "../layouts/Layout.astro";
 import FixMySpeaker from "../components/FixMySpeaker";
 import { t, changeLanguage } from "i18next";
+import DisqusJS from "../components/Disqus";
 
 changeLanguage("en");
 ---
 
+<script>
+  (function () {
+    // DON'T EDIT BELOW THIS LINE
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://tone-gen.disqus.com/embed.js";
+    s.setAttribute("data-timestamp", new Date().toString());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
 <Layout
   title={t("speaker.meta_title")}
   description={t("speaker.meta_description")}
@@ -13,6 +24,9 @@ changeLanguage("en");
   <main class="prose mx-auto">
     <FixMySpeaker client:idle />
     <article class="p-4">
+      <div id="disqusjs"></div>
+      <div id="disqus_thread"></div>
+      
       <div role="alert" class="alert alert-warning">
         <span>{t("speaker.note")}</span>
       </div>
@@ -31,6 +45,7 @@ changeLanguage("en");
       </h2>
       <p>{t("speaker.fix_my_speakers_using_water_eject_tool.description")}</p>
       <h3>FAQ's</h3>
+      <DisqusJS className="" pagename={"fix"} client:load/>
       {
         (
           t("speaker.faqs.questions", {
@@ -38,13 +53,14 @@ changeLanguage("en");
           }) as []
         ).map((answer: any, question) => (
           <div class="p-2">
-          <div class="collapse bg-base-200 collapse-arrow">
-            <input type="checkbox" />
-            <div class="collapse-title text-xl font-medium">
-              {answer.question}
+            <div class="collapse bg-base-200 collapse-arrow">
+              <input type="checkbox" />
+              <div class="collapse-title text-xl font-medium">
+                {answer.question}
+              </div>
+              <div class="collapse-content">{answer.answer}</div>
             </div>
-            <div class="collapse-content">{answer.answer}</div>
-          </div></div>
+          </div>
         ))
       }
     </article>
