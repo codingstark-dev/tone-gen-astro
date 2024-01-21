@@ -22,6 +22,9 @@ interface ToneData {
 export default function MultipleToneGen({
 
 }: ToneGenProps) {
+    const oscRef = useRef<Tone.Oscillator | null>(null);
+    const volRef = useRef<Tone.Volume | null>(null);
+    const pannerRef = useRef<Tone.Panner | null>(null);
 
     const data: ToneData = {
         frequency: 432,
@@ -42,6 +45,7 @@ export default function MultipleToneGen({
     // const oscRef = useRef<Tone.Oscillator | null>(null);
     // const volRef = useRef<Tone.Volume | null>(null);
     // const pannerRef = useRef<Tone.Panner | null>(null);
+
     const [tones, setTones] = useState<ToneData[]>([
         // {
         //     frequency: 432,
@@ -77,63 +81,74 @@ export default function MultipleToneGen({
             return newTones;
         });
     };
-
     useEffect(() => {
-        if (typeof window !== 'undefined') {
-            tones.forEach((tone) => {
-                tone.volRef.current = new Tone.Volume(tone.volume).toDestination();
-                tone.pannerRef.current = new Tone.Panner(tone.panning).connect(tone.volRef.current);
-                const newOsc = new Tone.Oscillator(tone.frequency, tone.oscillatorType).connect(
-                    tone.pannerRef.current
-                );
-                tone.oscRef.current = newOsc;
-            });
+        tones.forEach((tone, index) => {
+            if (tone.oscRef && tone.oscRef.current === null) {
+                const vol = new Tone.Volume(tone.volume).toDestination();
+                const panner = new Tone.Panner(tone.panning).connect(vol);
+                const osc = new Tone.Oscillator(tone.frequency, tone.oscillatorType).connect(panner);
+                tone.oscRef.current = osc;
+                tone.volRef.current = vol;
+                tone.pannerRef.current = panner;
+            }
+        });
+    }, [tones]);
+    // useEffect(() => {
+    //     if (typeof window !== 'undefined') {
+    //         tones.forEach((tone) => {
+    //             tone.volRef.current = new Tone.Volume(tone.volume).toDestination();
+    //             tone.pannerRef.current = new Tone.Panner(tone.panning).connect(tone.volRef.current);
+    //             const newOsc = new Tone.Oscillator(tone.frequency, tone.oscillatorType).connect(
+    //                 tone.pannerRef.current
+    //             );
+    //             tone.oscRef.current = newOsc;
+    //         });
 
-        }
-        return () => {
-            tones.forEach((tone) => {
-                if (tone.oscRef.current) {
-                    tone.oscRef.current.dispose();
-                }
-            });
-        };
-    }, [
-        tones
+    //     }
+    //     return () => {
+    //         tones.forEach((tone) => {
+    //             if (tone.oscRef.current) {
+    //                 tone.oscRef.current.dispose();
+    //             }
+    //         });
+    //     };
+    // }, [
+    //     tones
 
-        // tones.map((tone) => tone.frequency),
-        // tones.map((tone) => tone.volume),
-        // tones.map((tone) => tone.panning),
-        // tones.map((tone) => tone.oscillatorType),
-    ]);
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            tones.forEach((tone) => {
-                tone.volRef.current = new Tone.Volume(tone.volume).toDestination();
+    //     // tones.map((tone) => tone.frequency),
+    //     // tones.map((tone) => tone.volume),
+    //     // tones.map((tone) => tone.panning),
+    //     // tones.map((tone) => tone.oscillatorType),
+    // ]);
+    // useEffect(() => {
+    //     if (typeof window !== 'undefined') {
+    //         tones.forEach((tone) => {
+    //             tone.volRef.current = new Tone.Volume(tone.volume).toDestination();
 
-                // tone.pannerRef.current = new Tone.Panner(tone.panning).connect(tone.volRef.current);
-                // const newOsc = new Tone.Oscillator(tone.frequency, tone.oscillatorType).connect(
-                //     tone.pannerRef.current
-                // );
-                // tone.oscRef.current = newOsc;
-            });
+    //             // tone.pannerRef.current = new Tone.Panner(tone.panning).connect(tone.volRef.current);
+    //             // const newOsc = new Tone.Oscillator(tone.frequency, tone.oscillatorType).connect(
+    //             //     tone.pannerRef.current
+    //             // );
+    //             // tone.oscRef.current = newOsc;
+    //         });
 
 
-        }
-        return () => {
-            // tones.forEach((tone) => {
-            //     if (tone.oscRef.current) {
-            //         tone.oscRef.current.dispose();
-            //     }
-            // });
-        };
-    }, [
-        // tones
-        // 
-        changeFrequency
-        // tones.map((tone) => tone.volume),
-        // tones.map((tone) => tone.panning),
-        // tones.map((tone) => tone.oscillatorType),
-    ]);
+    //     }
+    //     return () => {
+    //         // tones.forEach((tone) => {
+    //         //     if (tone.oscRef.current) {
+    //         //         tone.oscRef.current.dispose();
+    //         //     }
+    //         // });
+    //     };
+    // }, [
+    //     // tones
+    //     // 
+    //     changeFrequency
+    //     // tones.map((tone) => tone.volume),
+    //     // tones.map((tone) => tone.panning),
+    //     // tones.map((tone) => tone.oscillatorType),
+    // ]);
     const startTone1 = (tone: ToneData) => {
         if (tone.oscRef.current) {
             tone.isPlaying = true;
@@ -152,13 +167,21 @@ export default function MultipleToneGen({
         }
     };
 
-    const addTone = () => {
 
+    const addTone = () => {
         setTones((prevTones) => [
             ...prevTones,
-            data
+            {
+                frequency: 432,
+                volume: -3.1,
+                panning: 0,
+                oscillatorType: 'sine',
+                isPlaying: false,
+                oscRef: { current: null },
+                volRef: { current: null },
+                pannerRef: { current: null },
+            }
         ]);
-        console.log(tones);
     };
     const changeVolume = (index: number, newVolume: number) => {
         setTones((prevTones) => {
