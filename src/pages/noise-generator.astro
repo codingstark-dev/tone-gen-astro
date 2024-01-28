@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Subwoofers from "../components/Subwoofer";
 import { t, changeLanguage } from "i18next";
+import Noise from "../components/Noise";
 
 changeLanguage("en");
 ---
@@ -12,8 +13,9 @@ changeLanguage("en");
 >
   <main class="prose mx-auto pb-10">
     <br />
+    <Noise client:load />
 
-    <h4 class="text-center">White Noise</h4>
+    <!-- <h4 class="text-center">White Noise</h4>
     <iframe
       width="100%"
       height="166"
@@ -67,7 +69,8 @@ changeLanguage("en");
         href="https://soundcloud.com/onlinetonegenerator/brown-noise"
         title="Brown Noise"
         target="_blank"
-        style="color: #cccccc; text-decoration: none;">Brown Noise</a>
+        style="color: #cccccc; text-decoration: none;">Brown Noise</a
+      >
     </div>
     <div
       style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
@@ -83,7 +86,7 @@ changeLanguage("en");
         target="_blank"
         style="color: #cccccc; text-decoration: none;">White Noise</a
       >
-    </div>
+    </div> -->
     <article class="p-4">
       <div role="alert" class="alert alert-warning">
         <span>{t("speaker.note")}</span>
