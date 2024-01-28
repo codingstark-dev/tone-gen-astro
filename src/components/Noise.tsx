@@ -68,8 +68,8 @@ const Noise = () => {
                     noiseType === 'white' ? <span className='text-green-500 font-extrabold'>ON</span> : <span className='text-red-500 font-extrabold'>OFF</span>
                 }</button></div>
             <div>
-                <button className='btn-square btn btn-wide bg-pink-500 text-white  font-bold' onClick={generatePinkNoise}>Pink Noise
-                    {noiseType === 'pink' ? <span className='text-green-500 font-extrabold'>ON</span> : <span className='text-red-500 font-extrabold'>OFF</span>}
+                <button className='btn-square btn btn-wide bg-pink-400 text-white  font-bold' onClick={generatePinkNoise}>Pink Noise
+                    {noiseType === 'pink' ? <span className='text-green-500 font-extrabold'>ON</span> : <span className='text-white font-extrabold'>OFF</span>}
                 </button></div>
             <div><button className='btn-square btn btn-wide font-bold bg-red-950 text-white' onClick={generateBrownNoise}>Brown Noise
                 {noiseType === 'brown' ? <span className='text-green-500 font-extrabold'>ON</span> : <span className='text-red-500 font-extrabold'>OFF</span>}
