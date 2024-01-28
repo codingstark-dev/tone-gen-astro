@@ -2,7 +2,6 @@
 import Layout from "../layouts/Layout.astro";
 import HearingTest from "../components/HeartingTest";
 import { t, changeLanguage } from "i18next";
-import Disqus from "../components/Disqus.tsx";
 
 changeLanguage("en");
 ---
@@ -50,7 +49,6 @@ changeLanguage("en");
         ))
       }
     </article>
-    <Disqus client:idle />
   </main>
 </Layout>
 
