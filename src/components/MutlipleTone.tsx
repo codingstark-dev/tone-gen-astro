@@ -47,16 +47,17 @@ export default function MultipleToneGen({
     // const pannerRef = useRef<Tone.Panner | null>(null);
 
     const [tones, setTones] = useState<ToneData[]>([
-        // {
-        //     frequency: 432,
-        //     volume: -3.1,
-        //     panning: 0,
-        //     oscillatorType: 'sine',
-        //     isPlaying: false,
-        //     oscRef: useRef<Tone.Oscillator | null>(null),
-        //     volRef: useRef<Tone.Volume | null>(null),
-        //     pannerRef: useRef<Tone.Panner | null>(null),
-        // }, {
+        {
+            frequency: 432,
+            volume: -3.1,
+            panning: 0,
+            oscillatorType: 'sine',
+            isPlaying: false,
+            oscRef: useRef<Tone.Oscillator | null>(null),
+            volRef: useRef<Tone.Volume | null>(null),
+            pannerRef: useRef<Tone.Panner | null>(null),
+        },
+        //{
         //     frequency: 432,
         //     volume: -3.1,
         //     panning: 0,
@@ -93,62 +94,7 @@ export default function MultipleToneGen({
             }
         });
     }, [tones]);
-    // useEffect(() => {
-    //     if (typeof window !== 'undefined') {
-    //         tones.forEach((tone) => {
-    //             tone.volRef.current = new Tone.Volume(tone.volume).toDestination();
-    //             tone.pannerRef.current = new Tone.Panner(tone.panning).connect(tone.volRef.current);
-    //             const newOsc = new Tone.Oscillator(tone.frequency, tone.oscillatorType).connect(
-    //                 tone.pannerRef.current
-    //             );
-    //             tone.oscRef.current = newOsc;
-    //         });
-
-    //     }
-    //     return () => {
-    //         tones.forEach((tone) => {
-    //             if (tone.oscRef.current) {
-    //                 tone.oscRef.current.dispose();
-    //             }
-    //         });
-    //     };
-    // }, [
-    //     tones
-
-    //     // tones.map((tone) => tone.frequency),
-    //     // tones.map((tone) => tone.volume),
-    //     // tones.map((tone) => tone.panning),
-    //     // tones.map((tone) => tone.oscillatorType),
-    // ]);
-    // useEffect(() => {
-    //     if (typeof window !== 'undefined') {
-    //         tones.forEach((tone) => {
-    //             tone.volRef.current = new Tone.Volume(tone.volume).toDestination();
-
-    //             // tone.pannerRef.current = new Tone.Panner(tone.panning).connect(tone.volRef.current);
-    //             // const newOsc = new Tone.Oscillator(tone.frequency, tone.oscillatorType).connect(
-    //             //     tone.pannerRef.current
-    //             // );
-    //             // tone.oscRef.current = newOsc;
-    //         });
-
-
-    //     }
-    //     return () => {
-    //         // tones.forEach((tone) => {
-    //         //     if (tone.oscRef.current) {
-    //         //         tone.oscRef.current.dispose();
-    //         //     }
-    //         // });
-    //     };
-    // }, [
-    //     // tones
-    //     // 
-    //     changeFrequency
-    //     // tones.map((tone) => tone.volume),
-    //     // tones.map((tone) => tone.panning),
-    //     // tones.map((tone) => tone.oscillatorType),
-    // ]);
+    ;
     const startTone1 = (tone: ToneData) => {
         if (tone.oscRef.current) {
             tone.isPlaying = true;
@@ -203,81 +149,144 @@ export default function MultipleToneGen({
         return percentage.toFixed(decimalPlaces);
     }
     return (
-        <div className="max-w-2xl p-5">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Tone</th>
-                        <th>Start</th>
-                        <th>Stop</th>
-                        <th>Frequency</th>
-                        <th>Volume</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {tones.map((tone, index) => (
-                        <tr key={index}>
-                            <td>{index + 1}</td>
-                            <td>
-                                <button onClick={() => startTone1(tone)}>Start</button>
-                            </td>
-                            <td>
-                                <button onClick={() => stopTone1(tone)}>Stop</button>
-                            </td>
-                            <td>
-                                <input
-                                    type="range"
-                                    min="20"
-                                    max="20000"
-                                    step="1"
-                                    value={tone.frequency}
-                                    onChange={(event) => changeFrequency(index, parseFloat(event.target.value))}
-                                />
-                            </td>
-                            <td>
-                                <input
-                                    type="range"
-                                    min="-60"
-                                    max="0"
-                                    step="0.1"
-                                    value={tone.volume}
-                                    onChange={(event) => changeVolume(index, parseFloat(event.target.value))}
-                                />
-                            </td>
+        <div className="p-5">
+            <div className="overflow-x-auto">
+                <table className="table table-zebra table-sm" >
+                    <thead>
+                        <tr>
+                            {/* <th>Tone</th> */}
+                            <th>WaveForm</th>
+                            <th>Frequency</th>
+                            <th>Volume</th>
+                            <th>Panning (Left/Right)</th>
+                            <th>On/Off</th>
                         </tr>
-                    ))}
-                </tbody>
-            </table>
-            <button onClick={addTone}>Add Tone</button>
-            <div>
-                {tones.map((tone, index) => (
-                    <div key={index}>
-                        {/* Render controls for each tone */}
+                    </thead>
+                    <tbody>
+                        {tones.map((tone, index) => (
+                            <tr key={index}>
+                                {/* <td className="btn btn-square btn-sm">{index + 1}</td> */}
+                                <td>
+                                    <select
+                                        className="input input-ghost p-0 m-0 w-18 text-center"
+                                        value={tone.oscillatorType}
+                                        onChange={(event) => {
+                                            setTones((prevTones) => {
+                                                const newTones = [...prevTones];
+                                                const tone = { ...newTones[index], oscillatorType: event.target.value as Tone.ToneOscillatorType };
+                                                if (tone.oscRef.current) {
+                                                    tone.oscRef.current.type = event.target.value as Tone.ToneOscillatorType;
+                                                }
+                                                newTones[index] = tone;
+                                                return newTones;
+                                            });
+                                        }}
+                                    >
+                                        {["sine", "square", "sawtooth", "triangle"].map((type) => (
+                                            <option key={type} value={type}>
+                                                {type}
+                                            </option>
+                                        ))}
+                                    </select>
+                                </td>
 
-                        <button onClick={() => startTone1(tone)}>Start</button>
-                        <button onClick={() => stopTone1(tone)}>Stop</button>
-                        <input
-                            type="range"
-                            min="20"
-                            max="20000"
-                            step="1"
-                            value={tone.frequency}
-                            onChange={(event) => changeFrequency(index, parseFloat(event.target.value))}
-                        />
-                        <input
-                            type="range"
-                            min="-60"
-                            max="0"
-                            step="0.1"
-                            value={tone.volume}
-                            onChange={(event) => changeVolume(index, parseFloat(event.target.value))}
-                        />
+                                <td >
+                                    <div className="flex justify-center items-center" >
+                                        <input
+                                            type="number"
+                                            min="20"
+                                            max="20000"
+                                            step="1"
+                                            className="input input-ghost p-0 m-0 w-14 text-center" value={tone.frequency}
+                                            onChange={(event) => {
+                                                if (event.target.valueAsNumber > 20154) {
+                                                    changeFrequency(index, 20154);
+                                                } else if (event.target.valueAsNumber < 1) {
+                                                    changeFrequency(index, 1);
+                                                } else if (isNaN(event.target.valueAsNumber)) {
+                                                    changeFrequency(index, 1);
+                                                } else {
+                                                    changeFrequency(index, event.target.value as unknown as number);
+                                                }
+                                            }}
+                                        />   <span>
+                                            Hz
+                                        </span></div>
+                                </td>
+                                <td>
+                                    <input
+                                        type="number"
+                                        min="0"
+                                        max="100"
+                                        step="1"
+                                        className="input input-ghost p-0 m-0 w-14 text-center"
+                                        value={((tone.volume + 60) / 60) * 100} // Convert volume to 0-100 range for display
+                                        onChange={(event) => {
+                                            let volume = ((event.target.valueAsNumber / 100) * 60) - 60; // Convert back to -60 to 0 range for actual volume
+                                            if (volume > 0) {
+                                                volume = 0;
+                                            } else if (volume < -60) {
+                                                volume = -60;
+                                            } else if (isNaN(volume)) {
+                                                volume = -60;
+                                            }
+                                            changeVolume(index, volume);
+                                        }}
+                                    />
+                                    {/* <input
+                                        type="range"
+                                        min="-60"
+                                        max="0"
+                                        step="0.1"
+                                        value={tone.volume}
+                                        onChange={(event) => changeVolume(index, parseFloat(event.target.value))}
+                                    /> */}
+                                </td>
+                                <td>
+                                    <input
+                                        type="range"
+                                        min="-1"
+                                        max="1"
+                                        step="0.1"
+                                        value={tone.panning}
+                                        onChange={(event) => {
+                                            setTones((prevTones) => {
+                                                const newTones = [...prevTones];
+                                                const tone = { ...newTones[index], panning: parseFloat(event.target.value) };
+                                                if (tone.pannerRef.current) {
+                                                    tone.pannerRef.current.pan.value = parseFloat(event.target.value);
+                                                }
+                                                newTones[index] = tone;
+                                                return newTones;
+                                            });
+                                        }}
+                                    />
+                                </td>
+                                <td >
+                                    <div className="flex flex-wrap">
+                                        <button className="btn btn-square btn-sm bg-green-300 px-6" onClick={() => startTone1(tone)}>Start</button>
 
-                        {/* Add more controls as needed */}
-                    </div>
-                ))}
-                <button onClick={addTone}>Add Tone</button>
-            </div>
+                                        <button className="btn btn-square btn-sm bg-red-300 px-6" onClick={() => stopTone1(tone)}>Stop</button>
+                                    </div>  </td>
+                                <td >                                    <div className="flex justify-center items-center" >
+
+                                    <button className="btn btn-square btn-sm bg-red-300 px-6" onClick={() => {
+                                        stopTone1(tone);
+                                        setTones((prevTones) => {
+                                            const newTones = prevTones.filter((_, toneIndex) => toneIndex !== index);
+                                            return newTones;
+                                        });
+                                    }}>Delete</button>
+                                </div>
+                                </td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table></div>
+            <div className="flex justify-center">
+
+                <button onClick={addTone} className="btn btn-square w-40">Add Tone</button></div>
+
 
 
 
