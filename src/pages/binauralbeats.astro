@@ -8,79 +8,52 @@ changeLanguage("en");
 
 <Layout title={t("tone.meta_title")} description={t("tone.meta_description")}>
   <main class="prose mx-auto">
-    <h1 class="text-center pt-4">{t("tone.title")}</h1>
+    <h1>{t("binaural.sections.binauralBeatsGenerator.heading")}</h1>
 
     <BinauralBeats client:idle />
 
     <article class="p-4">
-      <div role="alert" class="alert alert-error my-10">
-        <span>{t("tone.caution")}</span>
-      </div>
-      <h2>{t("tone.how_to_generate_tone.title")}</h2>
-
-      <ol>
+      <h2>{t("binaural.sections.understandingBinauralBeats.heading")}</h2>
+      <p>
+        {t("binaural.sections.binauralBeatsGenerator.generateBeats.content")}
+      </p>
+      <h3>
+        {t("binaural.sections.understandingBinauralBeats.definition.heading")}
+      </h3>
+      <p>
+        {t("binaural.sections.understandingBinauralBeats.definition.content")}
+      </p>
+      <h3>
+        {t("binaural.sections.understandingBinauralBeats.howItWorks.heading")}
+      </h3>
+      <p>
+        {t("binaural.sections.understandingBinauralBeats.howItWorks.content")}
+      </p>
+      <h2>{t("binaural.sections.benefitsOfBinauralBeats.heading")}</h2>
+      <h3>
+        {t("binaural.sections.benefitsOfBinauralBeats.relaxation.heading")}
+      </h3>
+      <p>{t("binaural.sections.benefitsOfBinauralBeats.relaxation.content")}</p>
+      <h3>{t("binaural.sections.benefitsOfBinauralBeats.focus.heading")}</h3>
+      <p>{t("binaural.sections.benefitsOfBinauralBeats.focus.content")}</p>
+      <h3>
         {
-          (
-            t("tone.how_to_generate_tone.steps", {
-              returnObjects: true,
-            }) as string[]
-          ).map((step, i) => <li>{step}</li>)
+          t(
+            "binaural.sections.benefitsOfBinauralBeats.sleepEnhancement.heading"
+          )
         }
-      </ol>
-      <h3>{t("tone.what_is_tone.title")}</h3>
-
+      </h3>
       <p>
-        {t("tone.what_is_tone.description")}
+        {
+          t(
+            "binaural.sections.benefitsOfBinauralBeats.sleepEnhancement.content"
+          )
+        }
       </p>
-      <h3>{t("tone.production_of_sound_frequency.title")}</h3>
-
-      <p>
-        {t("tone.production_of_sound_frequency.description")}
-      </p>
-      <h3>{t("tone.pitch_variation_through_vibrations.title")}</h3>
-
-      <p>
-        {t("tone.pitch_variation_through_vibrations.description")}
-      </p>
-
-      <h3>{t("tone.measurement_in_hertz.title")}</h3>
-
-      <p>
-        {t("tone.measurement_in_hertz.description")}
-      </p>
-      <h3>{t("tone.pure_tones_and_real_life_complexity.title")}</h3>
-
-      <p>
-        {t("tone.pure_tones_and_real_life_complexity.description")}
-      </p>
-      <h2>{t("tone.utilization_purposes.title")}</h2>
+      <h3>{t("binaural.sections.faqs.heading")}</h3>
       {
         (
-          t("tone.utilization_purposes.purposes", {
-            returnObjects: true,
-          }) as string[]
-        ).map((step, i) => (
-          <p>
-            <b>{step.split(":")[0]}:</b> {step.split(":")[1]}{" "}
-          </p>
-        ))
-      }<h2>{t("tone.waveforms.title")}</h2>
-      <p>{t("tone.waveforms.description")}</p>
-      {
-        (
-          t("tone.waveforms.types", {
-            returnObjects: true,
-          }) as string[]
-        ).map((step, i) => (
-          <p>
-            <b>{step.split(":")[0]}:</b> {step.split(":")[1]}{" "}
-          </p>
-        ))
-      }
-      <h3>FAQ's</h3>
-      {
-        (
-          t("tone.faqs.questions", {
+          t("binaural.sections.faqs.questions", {
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (
@@ -99,24 +72,23 @@ changeLanguage("en");
   </main>
 </Layout>
 <style is:global>
-.range1.range::-moz-range-thumb {
-  box-shadow: none !important;
-  background-color: darkgray !important;
-}  
-.range1.range::-webkit-slider-thumb {
+  .range1.range::-moz-range-thumb {
     box-shadow: none !important;
-  background-color: darkgray !important;
+    background-color: darkgray !important;
+  }
+  .range1.range::-webkit-slider-thumb {
+    box-shadow: none !important;
+    background-color: darkgray !important;
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 
-}
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
 </style>
