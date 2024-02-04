@@ -6,17 +6,6 @@ import { t, changeLanguage } from "i18next";
 
 changeLanguage("en");
 ---
-
-<script>
-  (function () {
-    // DON'T EDIT BELOW THIS LINE
-    var d = document,
-      s = d.createElement("script");
-    s.src = "https://tone-gen.disqus.com/embed.js";
-    s.setAttribute("data-timestamp", new Date().toString());
-    (d.head || d.body).appendChild(s);
-  })();
-</script>
 <Layout
   title={t("speaker.meta_title")}
   description={t("speaker.meta_description")}
@@ -24,8 +13,7 @@ changeLanguage("en");
   <main class="prose mx-auto">
     <FixMySpeaker client:idle />
     <article class="p-4">
-      <div id="disqusjs"></div>
-      <div id="disqus_thread"></div>
+   
       
       <div role="alert" class="alert alert-warning">
         <span>{t("speaker.note")}</span>
