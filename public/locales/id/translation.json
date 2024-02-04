@@ -369,8 +369,8 @@
     "title": "Uji Subwoofer Online - Periksa Bass Frekuensi Rendah",
     "description": "Periksa Online Subwoofer basS. Uji Frekuensi Rendah 20Hz hingga 200Hz untuk subwoofer Anda.",
     "subwooferTest": {
-      "title": "Uji Bass Subwoofer Online",
-      "content": "<h2>Cara Menguji Bass Subwoofer</h2>\n\nUntuk menguji bass subwoofer Anda secara online menggunakan ToneGen.net, cukup kunjungi situs web dan temukan generator nada frekuensi. Mulailah dengan memutar nada frekuensi rendah dan secara bertahap tingkatkan pitch, mendengarkan tanggapan bass yang jelas dan dalam. ToneGen.net memungkinkan Anda dengan mudah menyesuaikan frekuensi dan menilai kinerja subwoofer Anda, memastikan menghasilkan suara rendah yang diinginkan untuk pengalaman audio optimal."
+      "title": "Cara Menguji Bass Subwoofer",
+      "content": "Untuk menguji bass subwoofer Anda secara online menggunakan ToneGen.net, cukup kunjungi situs web dan temukan generator nada frekuensi. Mulailah dengan memutar nada frekuensi rendah dan secara bertahap tingkatkan pitch, mendengarkan tanggapan bass yang jelas dan dalam. ToneGen.net memungkinkan Anda dengan mudah menyesuaikan frekuensi dan menilai kinerja subwoofer Anda, memastikan menghasilkan suara rendah yang diinginkan untuk pengalaman audio optimal."
     },
     "frequencyTesting": {
       "title": "Penguji Frekuensi Subwoofer Online:",
@@ -439,7 +439,7 @@
 "noise": {
   "title": "Generador Kebisingan Online - Hasilkan Kebisingan Putih, Merah Muda, dan Cokelat",
   "description": "Alat Generasi Kebisingan Online Gratis untuk Kebisingan Putih, Merah Muda, atau Cokelat",
-  "sections": {
+
     "onlineNoiseGenerator": {
       "heading": "Generador Kebisingan Online",
       "subheading": "Generador Kebisingan Online",
@@ -504,7 +504,7 @@
         }
       ]
     }
-  }
+
 },
 "binaural": {
   "title": "Generador Binaural Beats Online - Hasilkan Kebisingan Putih, Merah Muda, dan Cokelat",
