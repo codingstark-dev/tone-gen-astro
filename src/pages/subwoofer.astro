@@ -2,99 +2,95 @@
 import Layout from "../layouts/Layout.astro";
 import Subwoofers from "../components/Subwoofer";
 import { t, changeLanguage } from "i18next";
+import MoreTools from "../components/MoreTools.astro";
 
 changeLanguage("en");
 ---
 
-<Layout
-  title={t("subwoffer.title")}
-  description={t("subwoffer.description")}
->
+<Layout title={t("subwoffer.title")} description={t("subwoffer.description")}>
   <main class="prose mx-auto">
     <h1 class="text-center pt-4">{t("subwoffer.title")}</h1>
     <Subwoofers client:idle />
+    <MoreTools />
+
     <article class="p-4">
       <h2>
         {t("subwoffer.subwooferTest.title")}
       </h2>
-      
-        <p>{t("subwoffer.subwooferTest.content")}</p>
-        <h2>
-          {t("subwoffer.frequencyTesting.title")}
-        </h2>
-        <p>{t("subwoffer.frequencyTesting.content")}</p>
-        <h2>
-          {t("subwoffer.frequencyRanges.title")}
-        </h2>
-        <h3>
-          {t("subwoffer.frequencyRanges.lowFrequency.title")}
-        </h3>
-        <p>{t("subwoffer.frequencyRanges.lowFrequency.content")}</p>
-        <h3>
-          {t("subwoffer.frequencyRanges.midFrequency.title")}
-        </h3>
-        <p>{t("subwoffer.frequencyRanges.midFrequency.content")}</p>
-        <h3>
-          {t("subwoffer.frequencyRanges.highFrequency.title")}
-        </h3>
-        <p>{t("subwoffer.frequencyRanges.highFrequency.content")}</p>
-        <h2>
-          {t("subwoffer.choosingFrequencyTone.title")}
-        </h2>
-        <h3>
-          {t("subwoffer.choosingFrequencyTone.lowFrequencyTones.title")}
-        </h3>
-        <p>
-          {t("subwoffer.choosingFrequencyTone.lowFrequencyTones.content")}
-        </p>
-        <h3>
-          {t("subwoffer.choosingFrequencyTone.midFrequencyTones.title")}
-        </h3>
-        <p>
-          {t("subwoffer.choosingFrequencyTone.midFrequencyTones.content")}
-        </p>
-        <h3>
-          {
-            t(
-              "subwoffer.choosingFrequencyTone.avoidingHighFrequencyTones.title"
-            )
-          }
-        </h3>
-        <p>
-          {
-            t(
-              "subwoffer.choosingFrequencyTone.avoidingHighFrequencyTones.content"
-            )
-          }
-        </p>
-        <h3>
-          {t("subwoffer.choosingFrequencyTone.subwooferSafety.title")}
-        </h3>
-        <p>{t("subwoffer.choosingFrequencyTone.subwooferSafety.content")}</p>
-        <h3>
-          {t("subwoffer.faqs.title")}
-        </h3>
-        {
-          (
-            t("subwoffer.faqs.questions", {
-              returnObjects: true,
-            }) as []
-          ).map((answer: any, question) => (
-            <div class="p-2">
-              <div class="collapse bg-base-200 collapse-arrow">
-                <input type="checkbox" />
-                <div class="collapse-title text-xl font-medium">
-                  {answer.question}
-                </div>
-                <div class="collapse-content">{answer.answer}</div>
-              </div>
-            </div>
-          ))
-        }
+
+      <p>{t("subwoffer.subwooferTest.content")}</p>
+      <h2>
+        {t("subwoffer.frequencyTesting.title")}
       </h2>
+      <p>{t("subwoffer.frequencyTesting.content")}</p>
+      <h2>
+        {t("subwoffer.frequencyRanges.title")}
+      </h2>
+      <h3>
+        {t("subwoffer.frequencyRanges.lowFrequency.title")}
+      </h3>
+      <p>{t("subwoffer.frequencyRanges.lowFrequency.content")}</p>
+      <h3>
+        {t("subwoffer.frequencyRanges.midFrequency.title")}
+      </h3>
+      <p>{t("subwoffer.frequencyRanges.midFrequency.content")}</p>
+      <h3>
+        {t("subwoffer.frequencyRanges.highFrequency.title")}
+      </h3>
+      <p>{t("subwoffer.frequencyRanges.highFrequency.content")}</p>
+      <h2>
+        {t("subwoffer.choosingFrequencyTone.title")}
+      </h2>
+      <h3>
+        {t("subwoffer.choosingFrequencyTone.lowFrequencyTones.title")}
+      </h3>
+      <p>
+        {t("subwoffer.choosingFrequencyTone.lowFrequencyTones.content")}
+      </p>
+      <h3>
+        {t("subwoffer.choosingFrequencyTone.midFrequencyTones.title")}
+      </h3>
+      <p>
+        {t("subwoffer.choosingFrequencyTone.midFrequencyTones.content")}
+      </p>
+      <h3>
+        {t("subwoffer.choosingFrequencyTone.avoidingHighFrequencyTones.title")}
+      </h3>
+      <p>
+        {
+          t(
+            "subwoffer.choosingFrequencyTone.avoidingHighFrequencyTones.content"
+          )
+        }
+      </p>
+      <h3>
+        {t("subwoffer.choosingFrequencyTone.subwooferSafety.title")}
+      </h3>
+      <p>{t("subwoffer.choosingFrequencyTone.subwooferSafety.content")}</p>
+      <h3>
+        {t("subwoffer.faqs.title")}
+      </h3>
+      {
+        (
+          t("subwoffer.faqs.questions", {
+            returnObjects: true,
+          }) as []
+        ).map((answer: any, question) => (
+          <div class="p-2">
+            <div class="collapse bg-base-200 collapse-arrow">
+              <input type="checkbox" />
+              <div class="collapse-title text-base font-medium">
+                {answer.question}
+              </div>
+              <div class="collapse-content">{answer.answer}</div>
+            </div>
+          </div>
+        ))
+      }
     </article>
   </main>
-  <!-- "subwoffer": {
+</Layout>
+<!-- "subwoffer": {
     "title": "Online Subwoofer Test -  Check Low Frequency Bass",
     "description": "Check Online Subwoofer basS. Test 20hz to 200hz Low Frequency for your subwoofers.",
     "subwooferTest": {
@@ -165,4 +161,3 @@ changeLanguage("en");
       ]
     }
   }, -->
-</Layout>

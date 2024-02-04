@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import { t, changeLanguage } from "i18next";
 import BinauralBeats from "../components/BinerualBeats";
+import MoreTools from "../components/MoreTools.astro";
 
 changeLanguage("en");
 ---
@@ -11,6 +12,7 @@ changeLanguage("en");
     <h1>{t("binaural.sections.binauralBeatsGenerator.heading")}</h1>
 
     <BinauralBeats client:idle />
+    <MoreTools/>
 
     <article class="p-4">
       <h2>{t("binaural.sections.understandingBinauralBeats.heading")}</h2>
@@ -60,7 +62,7 @@ changeLanguage("en");
           <div class="p-2">
             <div class="collapse bg-base-200 collapse-arrow">
               <input type="checkbox" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-base font-medium">
                 {answer.question}
               </div>
               <div class="collapse-content">{answer.answer}</div>

@@ -2,56 +2,18 @@
 import Layout from "../layouts/Layout.astro";
 import MultipleToneGen from "../components/MutlipleTone.tsx";
 import { t, changeLanguage } from "i18next";
+import MoreTools from "../components/MoreTools.astro";
 
 changeLanguage("en");
 ---
 
-<!-- "multi_tone": {
-    "title": "Online Multiple Tone Frequency Generator",
-    "description": "Generate Multi-Tone Frequency Online, You can generate unlimited multiple tones,  Use our Free Multi Tone Frequency player.",
-    "whatIsGenerator": {
-      "title": "What is Multiple Tone Frequency Generator?",
-      "content": "An online Multi-Tone Generator is a web-based tool that allows users to produce multiple tones simultaneously through a web browser, eliminating the need for software installation. Typically used for audio testing, telecommunications, and musical instrument tuning, these generators offer adjustable parameters such as frequency, amplitude, and waveform.\n\nUsers can experiment with various combinations of tones to assess the performance of audio equipment, evaluate communication systems, or tune musical instruments. With easy accessibility and intuitive interfaces, online multi-tone generators serve as versatile tools for both professionals and enthusiasts seeking a quick and convenient way to generate complex audio signals for testing or creative purposes."
-    },
-    "generatorUses": {
-      "title": "Online Multiple Tone Generator Uses:",
-      "content": "The purpose of a Multi-Tone Generator lies in its ability to simultaneously produce multiple tones with different frequencies, amplitudes, and durations. This versatile tool serves various applications across different industries.\n\n- **Audio Testing:** In the realm of audio engineering, multi-tone generators are instrumental for testing and evaluating the performance of audio equipment such as speakers, headphones, and microphones. By generating multiple tones at once, they allow engineers to assess factors like frequency response, distortion, and harmonic content.\n\n- **Telecommunications:** Multi-tone generators play a crucial role in testing and optimizing communication systems. They simulate different frequencies and tones, helping engineers evaluate how well a system can handle diverse signals. This is essential for ensuring the robustness and efficiency of telecommunications networks.\n\n- **Musical Instrument Tuning:** Musicians and audio technicians use multi-tone generators for tuning musical instruments. By generating several tones simultaneously, they can fine-tune different components of an instrument, ensuring accurate pitch and harmony.\n\n- **Frequency Response Analysis:** Engineers use multi-tone generators to analyze the frequency response of electronic circuits and systems. This helps in understanding how devices respond to various frequencies, identifying weaknesses or irregularities.\n\n- **Sound Masking:** In certain applications, multi-tone generators are employed for sound masking purposes. By producing a combination of tones, they create background noise that can help reduce distractions and improve concentration in environments like offices.\n\n- **Educational Purposes:** Multi-tone generators are valuable tools in educational settings to teach and demonstrate concepts related to sound, frequencies, and waveforms.\n\n- **Custom Audio Production:** In the field of music production and sound design, multi-tone generators offer a creative tool for generating complex audio signals, allowing for experimentation and unique sound creation."
-    },
-    "faqs": {
-      "title": "FAQ’s",
-      "questions": [
-        {
-          "question": "Are online tone generators compatible with all browsers?",
-          "answer": "Most online tone generators work across popular web browsers like Chrome, Firefox, Safari, and Edge."
-        },
-        {
-          "question": "Can I use a multi-tone generator on my smartphone or tablet?",
-          "answer": "Yes, many online tone generators are compatible with mobile devices, allowing for convenient use on smartphones and tablets."
-        },
-        {
-          "question": "Do I need to create an account to use an online tone generator?",
-          "answer": "No account creation is required. Users can typically access and use online tone generators without logging in."
-        },
-        {
-          "question": "What types of waveforms can I generate with multi-tone generators?",
-          "answer": "Multi-tone generators often support common waveforms like sine, square, sawtooth, and triangle, offering flexibility for different applications."
-        },
-        {
-          "question": "Do online tone generators have a limit on tone duration?",
-          "answer": "The duration of tones can usually be adjusted, but individual platforms may have specific limits. Check the settings or documentation for details."
-        },
-        {
-          "question": "Can I use online tone generators for testing my headphones or speakers?",
-          "answer": "Yes, these generators are commonly used for audio testing and can help assess the performance of headphones, speakers, and other audio equipment."
-        }
-      ]
-    }
-  }, -->
+
 <Layout title={t("multi_tone.title")} description={t("multi_tone.description")}>
   <main class="prose mx-auto max-w-6xl">
     <h1 class="text-center pt-4">{t("multi_tone.title")}</h1>
 
     <MultipleToneGen client:load />
+    <MoreTools/>
 
     <article class="p-4">
       <h2>{t("multi_tone.whatIsGenerator.title")}</h2>
@@ -68,7 +30,7 @@ changeLanguage("en");
           <div class="p-2">
             <div class="collapse bg-base-200 collapse-arrow">
               <input type="checkbox" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-base font-medium">
                 {answer.question}
               </div>
               <div class="collapse-content">{answer.answer}</div>

@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Subwoofers from "../components/Subwoofer";
 import { t, changeLanguage } from "i18next";
 import Noise from "../components/Noise";
+import MoreTools from "../components/MoreTools.astro";
 
 changeLanguage("en");
 ---
@@ -17,6 +18,7 @@ changeLanguage("en");
     <h1 class="text-center pt-4">{t("noise.onlineNoiseGenerator.heading")}</h1>
 
     <Noise client:load />
+    <MoreTools/>
 
     <article class="p-4">
       <p>{t("noise.onlineNoiseGenerator.content")}</p>
@@ -66,7 +68,7 @@ changeLanguage("en");
           <div class="p-2">
             <div class="collapse bg-base-200 collapse-arrow">
               <input type="checkbox" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-base font-medium">
                 {answer.question}
               </div>
               <div class="collapse-content">{answer.answer}</div>

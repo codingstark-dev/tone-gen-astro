@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import FixMySpeaker from "../components/FixMySpeaker";
 import { t, changeLanguage } from "i18next";
+import MoreTools from "../components/MoreTools.astro";
 // import DisqusJS from "../components/Disqus";
 
 changeLanguage("en");
@@ -12,6 +13,8 @@ changeLanguage("en");
 >
   <main class="prose mx-auto">
     <FixMySpeaker client:idle />
+        <MoreTools/>
+
     <article class="p-4">
    
       
@@ -42,7 +45,7 @@ changeLanguage("en");
           <div class="p-2">
             <div class="collapse bg-base-200 collapse-arrow">
               <input type="checkbox" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-base font-medium">
                 {answer.question}
               </div>
               <div class="collapse-content">{answer.answer}</div>

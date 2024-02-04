@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar.astro";
 import { SEO } from "astro-seo";
 import { HeadHrefLangs } from "astro-i18next/components";
 import i18next from "i18next";
-import { ViewTransitions } from 'astro:transitions';
+// import { ViewTransitions } from 'astro:transitions';
 
 interface Props {
   title: string;
@@ -45,7 +45,7 @@ const { title, description } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="sitemap" href="/sitemap-index.xml" />
   </head>
-  <ViewTransitions />
+  <!-- <ViewTransitions /> -->
   <header>
     <NavBar />
   </header>

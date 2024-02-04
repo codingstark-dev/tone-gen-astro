@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import HearingTest from "../components/HeartingTest";
 import { t, changeLanguage } from "i18next";
+import MoreTools from "../components/MoreTools.astro";
 
 changeLanguage("en");
 ---
@@ -12,6 +13,8 @@ changeLanguage("en");
 >
   <main class="prose mx-auto">
     <HearingTest client:idle />
+        <MoreTools/>
+
     <article class="p-4">
       <h2>
         {t("hearing.hearingTest.title")}
@@ -35,7 +38,7 @@ changeLanguage("en");
           <div class="p-2">
             <div class="collapse bg-base-200 collapse-arrow">
               <input type="checkbox" />
-              <div class="collapse-title text-xl font-medium">
+              <div class="collapse-title text-base font-medium">
                 {answer.question}
               </div>
               <div class="collapse-content">{answer.answer}</div>
