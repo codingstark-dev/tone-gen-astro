@@ -370,8 +370,8 @@
     "title": "Prueba en línea de Subwoofer - Verificación de bajos de baja frecuencia",
     "description": "Verifica los bajos en línea de tu subwoofer. Prueba de frecuencia baja de 20 Hz a 200 Hz para tus subwoofers.",
     "subwooferTest": {
-      "title": "Prueba de Bajos en Línea para Subwoofer",
-      "content": "<h2>Cómo Probar los Bajos del Subwoofer</h2>\n\nPara probar los bajos de tu subwoofer en línea utilizando ToneGen.net, simplemente visita el sitio web y localiza el generador de tonos de frecuencia. Comienza reproduciendo tonos de baja frecuencia y aumenta gradualmente el tono, escuchando respuestas de bajos claras y profundas. ToneGen.net te permite ajustar fácilmente las frecuencias y evaluar el rendimiento de tu subwoofer, asegurando que produzca el sonido de baja frecuencia deseado para una experiencia auditiva óptima."
+      "title": "Cómo Probar los Bajos del Subwoofer",
+      "content": "Para probar los bajos de tu subwoofer en línea utilizando ToneGen.net, simplemente visita el sitio web y localiza el generador de tonos de frecuencia. Comienza reproduciendo tonos de baja frecuencia y aumenta gradualmente el tono, escuchando respuestas de bajos claras y profundas. ToneGen.net te permite ajustar fácilmente las frecuencias y evaluar el rendimiento de tu subwoofer, asegurando que produzca el sonido de baja frecuencia deseado para una experiencia auditiva óptima."
     },
     "frequencyTesting": {
       "title": "Prueba de Frecuencia en Línea para Subwoofer:",
@@ -440,71 +440,70 @@
   "noise": {
     "title": "Generador de Ruido en Línea - Genera Ruido Blanco, Rosa y Marrón",
     "description": "Herramienta gratuita en línea para generar ruido blanco, rosa o marrón",
-    "sections": {
-      "onlineNoiseGenerator": {
-        "heading": "Generador de Ruido en Línea",
-        "subheading": "Generador de Ruido en Línea",
-        "content": "Un generador de ruido en línea es una herramienta práctica que ofrece opciones de ruido blanco, rosa y marrón para experiencias auditivas personalizadas. Ya sea para mejorar la concentración, relajarse o conciliar un mejor sueño, estos generadores, fácilmente accesibles en diversas plataformas, proporcionan una solución simple para crear entornos sónicos personalizados."
+
+    "onlineNoiseGenerator": {
+      "heading": "Generador de Ruido en Línea",
+      "subheading": "Generador de Ruido en Línea",
+      "content": "Un generador de ruido en línea es una herramienta práctica que ofrece opciones de ruido blanco, rosa y marrón para experiencias auditivas personalizadas. Ya sea para mejorar la concentración, relajarse o conciliar un mejor sueño, estos generadores, fácilmente accesibles en diversas plataformas, proporcionan una solución simple para crear entornos sónicos personalizados."
+    },
+    "typesOfNoise": {
+      "heading": "Tipos de Ruido",
+      "whiteNoise": {
+        "heading": "Ruido Blanco",
+        "content": "A menudo comparado con el sonido estático de un televisor o radio sintonizado entre canales, el ruido blanco contiene energía igual en todas las frecuencias. Es eficaz para enmascarar otros sonidos y promover una sensación de calma, siendo popular para mejorar la concentración y facilitar el sueño."
       },
-      "typesOfNoise": {
-        "heading": "Tipos de Ruido",
-        "whiteNoise": {
-          "heading": "Ruido Blanco",
-          "content": "A menudo comparado con el sonido estático de un televisor o radio sintonizado entre canales, el ruido blanco contiene energía igual en todas las frecuencias. Es eficaz para enmascarar otros sonidos y promover una sensación de calma, siendo popular para mejorar la concentración y facilitar el sueño."
-        },
-        "pinkNoise": {
-          "heading": "Ruido Rosa",
-          "content": "El ruido rosa se caracteriza por una disminución en la intensidad a medida que aumenta la frecuencia. Imita el sonido de la lluvia constante o una cascada suave, proporcionando una experiencia auditiva más natural y relajante. Se ha vinculado el ruido rosa a una mejora en la calidad del sueño y el rendimiento cognitivo."
-        },
-        "brownNoise": {
-          "heading": "Ruido Marrón",
-          "content": "Más profundo y rico que el ruido blanco y rosa, el ruido marrón tiene un énfasis en las frecuencias bajas más pronunciado. A menudo descrito como un retumbo profundo, el ruido marrón es apreciado para promover la relajación y crear un capullo de sonido que ahoga las perturbaciones externas."
-        }
+      "pinkNoise": {
+        "heading": "Ruido Rosa",
+        "content": "El ruido rosa se caracteriza por una disminución en la intensidad a medida que aumenta la frecuencia. Imita el sonido de la lluvia constante o una cascada suave, proporcionando una experiencia auditiva más natural y relajante. Se ha vinculado el ruido rosa a una mejora en la calidad del sueño y el rendimiento cognitivo."
       },
-      "exploringNoiseGenerators": {
-        "heading": "Explorando Generadores de Ruido en Línea",
-        "content": "Las plataformas en línea ahora ofrecen un acceso fácil a generadores de ruido personalizables, lo que permite a los usuarios adaptar su experiencia auditiva según sus preferencias individuales. Estos generadores suelen incluir controles deslizantes para ajustar la intensidad de diferentes frecuencias, lo que permite a los usuarios crear una mezcla personalizada de ruido blanco, rosa o marrón."
-      },
-      "benefitsOfUsingGenerators": {
-        "heading": "Beneficios de Usar Generadores de Ruido en Línea",
-        "focus": {
-          "heading": "Enfoque Mejorado",
-          "content": "El ruido blanco, en particular, ha demostrado mejorar el enfoque y la concentración al minimizar distracciones en el entorno circundante. Incorporar esto en tu rutina de trabajo o estudio a través de generadores en línea puede aumentar la productividad."
-        },
-        "relaxation": {
-          "heading": "Relajación y Reducción del Estrés",
-          "content": "Ya sea que prefieras el sonido relajante de la lluvia (ruido rosa) o un retumbo constante profundo (ruido marrón), los generadores de ruido en línea proporcionan una herramienta versátil para la relajación y la reducción del estrés. Úsalos durante la meditación, el yoga o momentos tranquilos de reflexión."
-        },
-        "sleepQuality": {
-          "heading": "Mejora de la Calidad del Sueño",
-          "content": "Muchas personas tienen dificultades para conciliar el sueño en un entorno ruidoso. Los generadores en línea personalizables permiten a los usuarios crear la mezcla perfecta de ruido para enmascarar sonidos disruptivos, lo que conduce a una mejora en la calidad del sueño y una noche más tranquila."
-        }
-      },
-      "faqs": {
-        "heading": "Preguntas frecuentes",
-        "questions": [
-          {
-            "question": "¿Qué es un generador de ruido?",
-            "answer": "Un generador de ruido es una herramienta que produce varios sonidos, como ruido blanco o rosa, para relajación, enfoque u otros fines."
-          },
-          {
-            "question": "¿Cómo funcionan los generadores de ruido?",
-            "answer": "Funcionan generando señales eléctricas aleatorias para crear tipos específicos de sonidos, permitiendo a los usuarios personalizar su entorno auditivo."
-          },
-          {
-            "question": "¿Cuáles son los beneficios de usar un generador de ruido?",
-            "answer": "Los beneficios incluyen promover la relajación, ayudar en la concentración, mejorar el sueño y crear paisajes sonoros personalizados para diversas actividades."
-          },
-          {
-            "question": "¿Puedo personalizar el ruido producido por un generador?",
-            "answer": "Sí, ofrecemos opciones de personalización, permitiendo a los usuarios ajustar el tipo e intensidad del ruido."
-          },
-          {
-            "question": "¿Cuál tipo de ruido es mejor para la relajación o el sueño?",
-            "answer": "Para la relajación, se prefiere a menudo el ruido rosa (semejante a la lluvia constante), mientras que el ruido marrón (con un retumbo profundo) puede ser eficaz para enmascarar perturbaciones externas durante el sueño."
-          }
-        ]
+      "brownNoise": {
+        "heading": "Ruido Marrón",
+        "content": "Más profundo y rico que el ruido blanco y rosa, el ruido marrón tiene un énfasis en las frecuencias bajas más pronunciado. A menudo descrito como un retumbo profundo, el ruido marrón es apreciado para promover la relajación y crear un capullo de sonido que ahoga las perturbaciones externas."
       }
+    },
+    "exploringNoiseGenerators": {
+      "heading": "Explorando Generadores de Ruido en Línea",
+      "content": "Las plataformas en línea ahora ofrecen un acceso fácil a generadores de ruido personalizables, lo que permite a los usuarios adaptar su experiencia auditiva según sus preferencias individuales. Estos generadores suelen incluir controles deslizantes para ajustar la intensidad de diferentes frecuencias, lo que permite a los usuarios crear una mezcla personalizada de ruido blanco, rosa o marrón."
+    },
+    "benefitsOfUsingGenerators": {
+      "heading": "Beneficios de Usar Generadores de Ruido en Línea",
+      "focus": {
+        "heading": "Enfoque Mejorado",
+        "content": "El ruido blanco, en particular, ha demostrado mejorar el enfoque y la concentración al minimizar distracciones en el entorno circundante. Incorporar esto en tu rutina de trabajo o estudio a través de generadores en línea puede aumentar la productividad."
+      },
+      "relaxation": {
+        "heading": "Relajación y Reducción del Estrés",
+        "content": "Ya sea que prefieras el sonido relajante de la lluvia (ruido rosa) o un retumbo constante profundo (ruido marrón), los generadores de ruido en línea proporcionan una herramienta versátil para la relajación y la reducción del estrés. Úsalos durante la meditación, el yoga o momentos tranquilos de reflexión."
+      },
+      "sleepQuality": {
+        "heading": "Mejora de la Calidad del Sueño",
+        "content": "Muchas personas tienen dificultades para conciliar el sueño en un entorno ruidoso. Los generadores en línea personalizables permiten a los usuarios crear la mezcla perfecta de ruido para enmascarar sonidos disruptivos, lo que conduce a una mejora en la calidad del sueño y una noche más tranquila."
+      }
+    },
+    "faqs": {
+      "heading": "Preguntas frecuentes",
+      "questions": [
+        {
+          "question": "¿Qué es un generador de ruido?",
+          "answer": "Un generador de ruido es una herramienta que produce varios sonidos, como ruido blanco o rosa, para relajación, enfoque u otros fines."
+        },
+        {
+          "question": "¿Cómo funcionan los generadores de ruido?",
+          "answer": "Funcionan generando señales eléctricas aleatorias para crear tipos específicos de sonidos, permitiendo a los usuarios personalizar su entorno auditivo."
+        },
+        {
+          "question": "¿Cuáles son los beneficios de usar un generador de ruido?",
+          "answer": "Los beneficios incluyen promover la relajación, ayudar en la concentración, mejorar el sueño y crear paisajes sonoros personalizados para diversas actividades."
+        },
+        {
+          "question": "¿Puedo personalizar el ruido producido por un generador?",
+          "answer": "Sí, ofrecemos opciones de personalización, permitiendo a los usuarios ajustar el tipo e intensidad del ruido."
+        },
+        {
+          "question": "¿Cuál tipo de ruido es mejor para la relajación o el sueño?",
+          "answer": "Para la relajación, se prefiere a menudo el ruido rosa (semejante a la lluvia constante), mientras que el ruido marrón (con un retumbo profundo) puede ser eficaz para enmascarar perturbaciones externas durante el sueño."
+        }
+      ]
     }
   },
   "binaural": {
