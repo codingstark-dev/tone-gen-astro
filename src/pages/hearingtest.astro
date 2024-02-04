@@ -13,27 +13,22 @@ changeLanguage("en");
   <main class="prose mx-auto">
     <HearingTest client:idle />
     <article class="p-4">
-      <div role="alert" class="alert alert-warning">
-        <span>{t("speaker.note")}</span>
-      </div>
       <h2>
-        {t("speaker.online_speaker_cleaner.title")}
+        {t("hearing.hearingTest.title")}
       </h2>
-      <p>{t("speaker.online_speaker_cleaner.description")}</p>
+      <p>{t("hearing.hearingTest.content")}</p>
       <h2>
-        {t("speaker.how_online_speaker_cleaner_works.title")}
+        {t("hearing.disclaimer.title")}
       </h2>
-      <p>{t("speaker.how_online_speaker_cleaner_works.description")}</p><h2>
-        {t("speaker.water_removal_sound.title")}
+      <p>{t("hearing.disclaimer.content")}</p>
+      <h2>
+        {t("hearing.howToTakeTest.title")}
       </h2>
-      <p>{t("speaker.water_removal_sound.description")}</p><h2>
-        {t("speaker.fix_my_speakers_using_water_eject_tool.title")}
-      </h2>
-      <p>{t("speaker.fix_my_speakers_using_water_eject_tool.description")}</p>
+      <p>{t("hearing.howToTakeTest.content")}</p>
       <h3>FAQ's</h3>
       {
         (
-          t("speaker.faqs.questions", {
+          t("hearing.faqs.questions", {
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (
@@ -51,4 +46,3 @@ changeLanguage("en");
     </article>
   </main>
 </Layout>
-
