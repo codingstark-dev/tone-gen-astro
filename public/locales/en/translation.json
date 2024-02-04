@@ -370,8 +370,8 @@
     "title": "Online Subwoofer Test -  Check Low Frequency Bass",
     "description": "Check Online Subwoofer basS. Test 20hz to 200hz Low Frequency for your subwoofers.",
     "subwooferTest": {
-      "title": "Online Subwoofer Bass Test",
-      "content": "<h2>How to Test Subwoofer Bass</h2>\n\nTo test your subwoofer's bass online using ToneGen.net, simply visit the website and locate the frequency tone generator. Start by playing low-frequency tones and gradually increase the pitch, listening for clear and deep bass responses. ToneGen.net allows you to easily adjust frequencies and assess your subwoofer's performance, ensuring it produces the desired low-end sound for an optimal audio experience."
+      "title": "How to Test Subwoofer Bass",
+      "content": "To test your subwoofer's bass online using ToneGen.net, simply visit the website and locate the frequency tone generator. Start by playing low-frequency tones and gradually increase the pitch, listening for clear and deep bass responses. ToneGen.net allows you to easily adjust frequencies and assess your subwoofer's performance, ensuring it produces the desired low-end sound for an optimal audio experience."
     },
     "frequencyTesting": {
       "title": "Online Subwoofer Frequency Testing:",
@@ -440,7 +440,7 @@
   "noise": {
     "title": "Online Noise Generator - Generate White, Pink and Brown Noise",
     "description": "Free Online Noise Generator tool for White, Pink or Brown Noise",
-    "sections": {
+   
       "onlineNoiseGenerator": {
         "heading": "Online Noise Generator",
         "subheading": "Noise generator Online",
@@ -505,7 +505,7 @@
           }
         ]
       }
-    }
+  
   },
   "binaural": {
     "title": "Online Binaural Beats Generator - Generate White, Pink and Brown Noise",
