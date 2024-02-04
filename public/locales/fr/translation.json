@@ -370,8 +370,8 @@
     "title": "Test de caisson de basses en ligne - Vérifiez les basses fréquences",
     "description": "Vérifiez les basses en ligne pour votre caisson de basses. Testez les fréquences basses de 20 Hz à 200 Hz pour votre caisson de basses.",
     "subwooferTest": {
-      "title": "Test de basses en ligne pour caisson de basses",
-      "content": "<h2>Comment tester les basses d'un caisson de basses</h2>\n\nPour tester les basses de votre caisson de basses en ligne avec ToneGen.net, il vous suffit de visiter le site web et de localiser le générateur de tonalités. Commencez par jouer des tonalités de basses fréquences et augmentez progressivement la hauteur, en écoutant des réponses claires et profondes. ToneGen.net vous permet d'ajuster facilement les fréquences et d'évaluer les performances de votre caisson de basses, garantissant qu'il produit le son grave désiré pour une expérience audio optimale."
+      "title": "Comment tester les basses d'un caisson de basses",
+      "content": "Pour tester les basses de votre caisson de basses en ligne avec ToneGen.net, il vous suffit de visiter le site web et de localiser le générateur de tonalités. Commencez par jouer des tonalités de basses fréquences et augmentez progressivement la hauteur, en écoutant des réponses claires et profondes. ToneGen.net vous permet d'ajuster facilement les fréquences et d'évaluer les performances de votre caisson de basses, garantissant qu'il produit le son grave désiré pour une expérience audio optimale."
     },
     "frequencyTesting": {
       "title": "Test des fréquences en ligne pour caisson de basses :",
@@ -440,7 +440,7 @@
   "noise": {
     "title": "Générateur de bruit en ligne - Générez du bruit blanc, rose et brun",
     "description": "Outil gratuit de génération de bruit en ligne pour du bruit blanc, rose ou brun",
-    "sections": {
+
       "onlineNoiseGenerator": {
         "heading": "Générateur de bruit en ligne",
         "subheading": "Générateur de bruit en ligne",
@@ -505,7 +505,7 @@
           }
         ]
       }
-    }
+  
   },
   "binaural": {
     "title": "Generador de Binaural Beats en línea - Genera ruido blanco, rosa y café",
