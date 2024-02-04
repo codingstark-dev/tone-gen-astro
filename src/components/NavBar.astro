@@ -1,6 +1,8 @@
 ---
 import { ThemeSwitch } from "astro-color-scheme";
 import { LanguageSelector } from "astro-i18next/components";
+import { localizePath } from "astro-i18next";
+
 ---
 
 <script>
@@ -96,55 +98,55 @@ import { LanguageSelector } from "astro-i18next/components";
         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-60"
       >
         <li>
-          <a class="justify-between" href="/">
+          <a class="justify-between" href={localizePath("/")}>
             Tone Generator
             <span class="badge bg-blue-100">Updated</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/fixmyspeakers">
+          <a class="justify-between" href={localizePath("/fixmyspeakers")}>
             Fix My Speakers
             <span class="badge bg-blue-100">Updated</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/multiple-tone-generator">
+          <a class="justify-between" href={localizePath("/multiple-tone-generator")}>
             Multi Tone Generator
             <span class="badge bg-green-100">New</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/432Hz">
+          <a class="justify-between" href={localizePath("/432Hz")}>
             432Hz Tone Generator
             <span class="badge bg-green-100">New</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/pips">
+          <a class="justify-between" href={localizePath("/pips")}>
             The Pips (GTS)
             <span class="badge bg-green-100">New</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/hearingtest">
+          <a class="justify-between" href={localizePath("/hearingtest")}>
             Hearing Test
             <span class="badge bg-green-100">New</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/subwoofer">
+          <a class="justify-between" href={localizePath("/subwoofer")}>
             Subwoofer Test
             <span class="badge bg-green-100">New</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/noise-generator">
+          <a class="justify-between" href={localizePath("/noise-generator")}>
             Noise Generator
             <span class="badge bg-green-100">New</span>
           </a>
         </li>
         <li>
-          <a class="justify-between" href="/binauralbeats">
+          <a class="justify-between" href={localizePath("/binauralbeats")}>
             Binaural Beats
             <span class="badge bg-green-100">New</span>
           </a>
