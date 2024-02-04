@@ -7,47 +7,162 @@ changeLanguage("en");
 ---
 
 <Layout
-  title={t("speaker.meta_title")}
-  description={t("speaker.meta_description")}
+  title={t("subwoffer.title")}
+  description={t("subwoffer.description")}
 >
   <main class="prose mx-auto">
+    <h1 class="text-center pt-4">{t("subwoffer.title")}</h1>
     <Subwoofers client:idle />
     <article class="p-4">
-      <div role="alert" class="alert alert-warning">
-        <span>{t("speaker.note")}</span>
-      </div>
       <h2>
-        {t("speaker.online_speaker_cleaner.title")}
+        {t("subwoffer.subwooferTest.title")}
       </h2>
-      <p>{t("speaker.online_speaker_cleaner.description")}</p>
-      <h2>
-        {t("speaker.how_online_speaker_cleaner_works.title")}
-      </h2>
-      <p>{t("speaker.how_online_speaker_cleaner_works.description")}</p><h2>
-        {t("speaker.water_removal_sound.title")}
-      </h2>
-      <p>{t("speaker.water_removal_sound.description")}</p><h2>
-        {t("speaker.fix_my_speakers_using_water_eject_tool.title")}
-      </h2>
-      <p>{t("speaker.fix_my_speakers_using_water_eject_tool.description")}</p>
-      <h3>FAQ's</h3>
-      {
-        (
-          t("speaker.faqs.questions", {
-            returnObjects: true,
-          }) as []
-        ).map((answer: any, question) => (
-          <div class="p-2">
-            <div class="collapse bg-base-200 collapse-arrow">
-              <input type="checkbox" />
-              <div class="collapse-title text-xl font-medium">
-                {answer.question}
+      
+        <p>{t("subwoffer.subwooferTest.content")}</p>
+        <h2>
+          {t("subwoffer.frequencyTesting.title")}
+        </h2>
+        <p>{t("subwoffer.frequencyTesting.content")}</p>
+        <h2>
+          {t("subwoffer.frequencyRanges.title")}
+        </h2>
+        <h3>
+          {t("subwoffer.frequencyRanges.lowFrequency.title")}
+        </h3>
+        <p>{t("subwoffer.frequencyRanges.lowFrequency.content")}</p>
+        <h3>
+          {t("subwoffer.frequencyRanges.midFrequency.title")}
+        </h3>
+        <p>{t("subwoffer.frequencyRanges.midFrequency.content")}</p>
+        <h3>
+          {t("subwoffer.frequencyRanges.highFrequency.title")}
+        </h3>
+        <p>{t("subwoffer.frequencyRanges.highFrequency.content")}</p>
+        <h2>
+          {t("subwoffer.choosingFrequencyTone.title")}
+        </h2>
+        <h3>
+          {t("subwoffer.choosingFrequencyTone.lowFrequencyTones.title")}
+        </h3>
+        <p>
+          {t("subwoffer.choosingFrequencyTone.lowFrequencyTones.content")}
+        </p>
+        <h3>
+          {t("subwoffer.choosingFrequencyTone.midFrequencyTones.title")}
+        </h3>
+        <p>
+          {t("subwoffer.choosingFrequencyTone.midFrequencyTones.content")}
+        </p>
+        <h3>
+          {
+            t(
+              "subwoffer.choosingFrequencyTone.avoidingHighFrequencyTones.title"
+            )
+          }
+        </h3>
+        <p>
+          {
+            t(
+              "subwoffer.choosingFrequencyTone.avoidingHighFrequencyTones.content"
+            )
+          }
+        </p>
+        <h3>
+          {t("subwoffer.choosingFrequencyTone.subwooferSafety.title")}
+        </h3>
+        <p>{t("subwoffer.choosingFrequencyTone.subwooferSafety.content")}</p>
+        <h3>
+          {t("subwoffer.faqs.title")}
+        </h3>
+        {
+          (
+            t("subwoffer.faqs.questions", {
+              returnObjects: true,
+            }) as []
+          ).map((answer: any, question) => (
+            <div class="p-2">
+              <div class="collapse bg-base-200 collapse-arrow">
+                <input type="checkbox" />
+                <div class="collapse-title text-xl font-medium">
+                  {answer.question}
+                </div>
+                <div class="collapse-content">{answer.answer}</div>
               </div>
-              <div class="collapse-content">{answer.answer}</div>
             </div>
-          </div>
-        ))
-      }
+          ))
+        }
+      </h2>
     </article>
   </main>
+  <!-- "subwoffer": {
+    "title": "Online Subwoofer Test -  Check Low Frequency Bass",
+    "description": "Check Online Subwoofer basS. Test 20hz to 200hz Low Frequency for your subwoofers.",
+    "subwooferTest": {
+      "title": "Online Subwoofer Bass Test",
+      "content": "<h2>How to Test Subwoofer Bass</h2>\n\nTo test your subwoofer's bass online using ToneGen.net, simply visit the website and locate the frequency tone generator. Start by playing low-frequency tones and gradually increase the pitch, listening for clear and deep bass responses. ToneGen.net allows you to easily adjust frequencies and assess your subwoofer's performance, ensuring it produces the desired low-end sound for an optimal audio experience."
+    },
+    "frequencyTesting": {
+      "title": "Online Subwoofer Frequency Testing:",
+      "content": "Testing your subwoofer online is a breeze with an online frequency tone generator. Find one, play low-frequency tones, and gradually increase pitch to gauge your subwoofer's performance. Explore specific subwoofer test tracks for tailored assessments. Listen for any distortion or rattling sounds—your subwoofer should handle low frequencies with clarity. This online method offers a quick and accessible way to optimize your subwoofer settings for an enhanced audio experience."
+    },
+    "frequencyRanges": {
+      "title": "Understanding Frequency Ranges:",
+      "lowFrequency": {
+        "title": "Low Frequency (Bass):",
+        "content": "The low-frequency range typically refers to the bass notes in music, commonly ranging from 20Hz to 200Hz. Subwoofers are designed to handle these low frequencies, providing a deep and resonant audio experience."
+      },
+      "midFrequency": {
+        "title": "Mid Frequency:",
+        "content": "Mid frequencies fall between the low and high-frequency ranges, typically ranging from 200Hz to 2kHz. While subwoofers primarily handle low frequencies, understanding mid frequencies is essential for achieving a balanced sound profile in your audio setup."
+      },
+      "highFrequency": {
+        "title": "High Frequency (Treble):",
+        "content": "High frequencies, also known as treble, range from 2kHz and above. Subwoofers are not designed to handle high frequencies, so it's crucial to have additional speakers, such as tweeters, to cover this range."
+      }
+    },
+    "choosingFrequencyTone": {
+      "title": "Choosing the Right Frequency Tone for Subwoofer Testing:",
+      "lowFrequencyTones": {
+        "title": "Low-Frequency Tones (20Hz - 80Hz):",
+        "content": "To evaluate your subwoofer's ability to produce deep bass, look for tones in the 20Hz to 80Hz range. These frequencies will help you identify any distortion, rattling, or lack of clarity in the lower end of the spectrum."
+      },
+      "midFrequencyTones": {
+        "title": "Mid-Frequency Tones (80Hz - 500Hz):",
+        "content": "While not the primary focus of a subwoofer, mid-frequency tones can reveal how well your subwoofer seamlessly integrates with the rest of your audio system. Test tones in the 80Hz to 500Hz range for a comprehensive assessment."
+      },
+      "avoidingHighFrequencyTones": {
+        "title": "Avoiding High-Frequency Tones:",
+        "content": "Remember that subwoofers are not designed for high-frequency reproduction. Testing with high-frequency tones may lead to damage or distortion, so it's advisable to stick to frequencies within the subwoofer's designated range."
+      },
+      "subwooferSafety": {
+        "title": "Subwoofer Safety:",
+        "content": "Ensure subwoofer safety by checking frequency levels. Keep volumes moderate to prevent damage and distortion. Regularly inspect wiring, position the subwoofer on stable surfaces, and follow manufacturer guidelines for optimal frequency performance without compromising safety."
+      }
+    },
+    "faqs": {
+      "title": "FAQ’s",
+      "questions": [
+        {
+          "question": "1. What is the range for low-frequency (bass) notes?",
+          "answer": "Low-frequency (bass) notes typically range from 20Hz to 200Hz, and subwoofers are designed to handle these for a deep audio experience."
+        },
+        {
+          "question": "2. Why is mid-frequency understanding important for a balanced sound profile?",
+          "answer": "Mid frequencies (200Hz to 2kHz) matter for balance in your audio setup, even though subwoofers primarily handle low frequencies."
+        },
+        {
+          "question": "3. Why do I need additional speakers for high frequencies (treble)?",
+          "answer": "Subwoofers aren't designed for high frequencies (above 2kHz), so you need additional speakers like tweeters to cover this range."
+        },
+        {
+          "question": "4. How do I test my subwoofer online using frequency sweep tests?",
+          "answer": "Use online platforms offering frequency sweep tests. Start with lower frequencies and gradually increase pitch to assess your subwoofer's performance."
+        },
+        {
+          "question": "5. What are subwoofer frequency test tracks, and how do they help?",
+          "answer": "Subwoofer test tracks online highlight your subwoofer's capabilities with low-frequency tones, providing an accurate evaluation of its performance."
+        }
+      ]
+    }
+  }, -->
 </Layout>
