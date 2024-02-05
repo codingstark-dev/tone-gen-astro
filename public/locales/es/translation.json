@@ -102,74 +102,74 @@
     }
   },
   "speaker": {
-    "meta_title": "Online Speaker Cleaner",
-    "meta_description": "Online Speaker Cleaner, for cleaning your phone speakers from water and dust. Free, Simple and Easy to Use.",
-    "note": "Note: Disconnect from Bluetooth devices, max out the volume, and tap to expel water from the speaker. Repeat the sound play 2-3 times. If unsuccessful, seal the phone in rice for a day or consult a professional.",
+    "meta_title": "Limpiador de Altavoces en Línea",
+    "meta_description": "Limpiador de altavoces en línea, para limpiar los altavoces de tu teléfono de agua y polvo. Gratis, simple y fácil de usar.",
+    "note": "Nota: Desconéctate de dispositivos Bluetooth, sube al máximo el volumen y toca para expulsar el agua del altavoz. Repite la reproducción de sonido 2-3 veces. Si no tienes éxito, sella el teléfono en arroz durante un día o consulta a un profesional.",
     "online_speaker_cleaner": {
-      "title": "Online Speaker Cleaner",
-      "description": "Tonegen is like the superhero of speaker care. It's this fantastic online Speaker Cleaner that works crazy fast. You just play some sound, and voila, it magically clears out all the pesky dust in your speakers, making them sound brand new. But here's the really cool part – if your phone ever takes an unexpected dive and gets wet, Tonegen steps in and kicks out the water from your speakers. It's like having a tech-savvy guardian angel for your audio gear, making sure your sound stays awesome."
+      "title": "Limpiador de Altavoces en Línea",
+      "description": "Tonegen es como el superhéroe del cuidado de altavoces. Es este fantástico Limpiador de Altavoces en Línea que funciona increíblemente rápido. Simplemente reproduces un sonido y ¡voilà!, elimina mágicamente todo el molesto polvo de tus altavoces, haciéndolos sonar como nuevos. Pero aquí está la parte realmente genial: si tu teléfono alguna vez cae inesperadamente y se moja, Tonegen interviene y expulsa el agua de tus altavoces. Es como tener un ángel guardián con conocimientos tecnológicos para tu equipo de audio, asegurándose de que tu sonido siga siendo impresionante."
     },
     "how_online_speaker_cleaner_works": {
-      "title": "How Online Speaker Cleaner works",
-      "description": "So, you accidentally dropped your phone into some not-so-phone-friendly places like the toilet, sink, or pool? We've all been there. The trouble is, when water creeps into your phone's speaker, the sound gets all wonky and muffled. It's a real headache. Leaving any kind of liquid hanging out in there is a surefire way to end up with some serious damage when it dries up. But here's the cool part – it's a bit like the trick the Apple Watch does with water."
+      "title": "Cómo funciona el Limpiador de Altavoces en Línea",
+      "description": "Entonces, accidentalmente dejaste caer tu teléfono en lugares no tan amigables para los teléfonos, como el inodoro, el lavabo o la piscina. Todos hemos estado allí. El problema es que cuando el agua se filtra en el altavoz de tu teléfono, el sonido se vuelve extraño y apagado. Es un verdadero dolor de cabeza. Dejar cualquier tipo de líquido allí es una manera segura de terminar con daños graves cuando se seque. Pero aquí está la parte genial: es un poco como el truco que hace el Apple Watch con el agua."
     },
     "water_removal_sound": {
-      "title": "How Water Removal Sound Works",
-      "description": "The process of water removal sound involves emitting a specific tone that generates sound waves. These sound waves, when played through the device's speaker, create vibrations that help dislodge and expel water that may have entered the speaker enclosure. It's a clever mechanism inspired by the Apple Watch's built-in water ejection feature. The emitted sound waves essentially serve as a gentle force, pushing the water out of the speaker openings, preventing potential damage and restoring optimal audio functionality."
+      "title": "Cómo Funciona el Sonido de Eliminación de Agua",
+      "description": "El proceso de eliminación de agua mediante sonido implica emitir un tono específico que genera ondas de sonido. Estas ondas de sonido, cuando se reproducen a través del altavoz del dispositivo, crean vibraciones que ayudan a desalojar y expulsar el agua que podría haber ingresado al compartimento del altavoz. Es un mecanismo ingenioso inspirado en la función de expulsión de agua incorporada en el Apple Watch. Las ondas de sonido emitidas sirven esencialmente como una fuerza suave, empujando el agua fuera de las aberturas del altavoz, evitando posibles daños y restaurando la funcionalidad de audio óptima."
     },
     "fix_my_speakers_using_water_eject_tool": {
-      "title": "Fix My Speakers Using water eject tool",
-      "description": "Dropped your phone in water? Don't panic! Tonegen.net offers a simple and free solution. By playing a specific sound, similar to Apple's water ejection feature, it effectively removes water from your phone's speakers. Check out their video tutorial for an easy fix and ensure your phone stays damage-free. However, if it's saltwater, consider seeking professional help for a safe recovery. Keeping your phone's speaker clean and dry is key to preventing damage."
+      "title": "Arregla Mis Altavoces Usando la Herramienta de Expulsión de Agua",
+      "description": "¿Caíste tu teléfono al agua? ¡No entres en pánico! Tonegen.net ofrece una solución simple y gratuita. Al reproducir un sonido específico, similar a la función de expulsión de agua de Apple, elimina efectivamente el agua de los altavoces de tu teléfono. Mira su tutorial en video para una solución fácil y asegúrate de que tu teléfono se mantenga libre de daños. Sin embargo, si es agua salada, considera buscar ayuda profesional para una recuperación segura. Mantener limpio y seco el altavoz de tu teléfono es clave para evitar daños."
     },
     "faqs": {
       "questions": [
         {
-          "question": "How does Fix My Speaker work to remove water from phone speakers?",
-          "answer": "Fix My Speaker uses sound waves to create vibrations in the phone's speakers, effectively ejecting water."
+          "question": "¿Cómo funciona Arregla Mis Altavoces para eliminar el agua de los altavoces del teléfono?",
+          "answer": "Arregla Mis Altavoces utiliza ondas de sonido para crear vibraciones en los altavoces del teléfono, expulsando efectivamente el agua."
         },
         {
-          "question": "Can Fix My Speaker be used for earpods and other devices?",
-          "answer": "Yes, Fix My Speaker is designed to remove dust from both phone speakers and earpods."
+          "question": "¿Se puede usar Arregla Mis Altavoces para earpods y otros dispositivos?",
+          "answer": "Sí, Arregla Mis Altavoces está diseñado para eliminar el polvo tanto de los altavoces del teléfono como de los earpods."
         },
         {
-          "question": "Is using sound to clean phone speakers safe?",
-          "answer": "Yes, using sound is a safe, simple, and effective method. It generates vibrations that push out liquid or debris without the risk of damaging the phone."
+          "question": "¿Es seguro usar el sonido para limpiar los altavoces del teléfono?",
+          "answer": "Sí, usar el sonido es un método seguro, simple y efectivo. Genera vibraciones que expulsan líquidos o partículas sin riesgo de dañar el teléfono."
         },
         {
-          "question": "What if my phone fell into saltwater? Can Fix My Speaker still help?",
-          "answer": "For saltwater incidents, it's recommended to seek professional help for a safe recovery."
+          "question": "¿Qué pasa si mi teléfono cayó en agua salada? ¿Arregla Mis Altavoces aún puede ayudar?",
+          "answer": "Para incidentes con agua salada, se recomienda buscar ayuda profesional para una recuperación segura."
         },
         {
-          "question": "Are there any potential issues caused by water and dust in phone speakers?",
-          "answer": "Water and dust can lead to problems such as muffled or distorted sound, reduced volume, shortened battery life, overheating, and corrosion or damage to speaker components."
+          "question": "¿Existen problemas potenciales causados por agua y polvo en los altavoces del teléfono?",
+          "answer": "El agua y el polvo pueden provocar problemas como sonido amortiguado o distorsionado, volumen reducido, vida útil de la batería más corta, sobrecalentamiento y corrosión o daño a los componentes del altavoz."
         },
         {
-          "question": "How do I clean my phone speaker using sound with Fix My Speaker?",
-          "answer": "Disconnect from Bluetooth devices, maximize the phone volume, and tap the 'Eject water tool' button on the Fix My Speaker website. Repeat until there is no more water or dust coming out."
+          "question": "¿Cómo limpio el altavoz de mi teléfono usando el sonido con Arregla Mis Altavoces?",
+          "answer": "Desconéctate de dispositivos Bluetooth, maximiza el volumen del teléfono y toca el botón 'Herramienta de expulsión de agua' en el sitio web de Arregla Mis Altavoces. Repite hasta que no salga más agua o polvo."
         },
         {
-          "question": "Why is it important to clean phone speakers promptly?",
-          "answer": "Prompt cleaning is crucial to prevent worsening problems like damaged sound quality, reduced volume, and potential harm to internal components."
+          "question": "¿Por qué es importante limpiar los altavoces del teléfono rápidamente?",
+          "answer": "La limpieza rápida es crucial para evitar problemas que empeoren, como daño en la calidad del sonido, volumen reducido y posibles daños a componentes internos."
         },
         {
-          "question": "Can I use traditional methods, like toothpicks or cotton swabs, to clean my phone speakers?",
-          "answer": "Using traditional methods can be risky and ineffective, potentially causing more harm than good. The sound method is a safer alternative."
+          "question": "¿Puedo usar métodos tradicionales, como palillos o bastoncillos de algodón, para limpiar los altavoces de mi teléfono?",
+          "answer": "Usar métodos tradicionales puede ser arriesgado e ineficaz, pudiendo causar más daño que beneficio. El método del sonido es una alternativa más segura."
         },
         {
-          "question": "Is Fix My Speaker a paid service?",
-          "answer": "No, Fix My Speaker is a free and easy-to-use web app."
+          "question": "¿Arregla Mis Altavoces es un servicio pago?",
+          "answer": "No, Arregla Mis Altavoces es una aplicación web gratuita y fácil de usar."
         },
         {
-          "question": "How long should I leave my phone in a sealed rice bag if the sound method doesn't work?",
-          "answer": "If the sound method is unsuccessful, leaving the phone in a sealed rice bag for a day is recommended before seeking professional assistance."
+          "question": "¿Cuánto tiempo debo dejar mi teléfono en una bolsa de arroz sellada si el método del sonido no funciona?",
+          "answer": "Si el método del sonido no tiene éxito, se recomienda dejar el teléfono en una bolsa de arroz sellada durante un día antes de buscar ayuda profesional."
         },
         {
-          "question": "How can I clean my iPhone speaker?",
-          "answer": "To clean your iPhone speaker, power off the device, use a soft-bristled brush or toothbrush to gently remove visible debris, and consider using compressed air for stubborn particles. Optionally, dampen a cotton swab with isopropyl alcohol for sticky substances. Avoid water and ensure your device is powered on after cleaning to test the speaker's functionality."
+          "question": "¿Cómo puedo limpiar el altavoz de mi iPhone?",
+          "answer": "Para limpiar el altavoz de tu iPhone, apaga el dispositivo, usa un cepillo de cerdas suaves o un cepillo de dientes para quitar suavemente los residuos visibles y considera el uso de aire comprimido para partículas obstinadas. Opcionalmente, humedece un bastoncillo de algodón con alcohol isopropílico para sustancias pegajosas. Evita el agua y asegúrate de que tu dispositivo esté encendido después de la limpieza para probar la funcionalidad del altavoz."
         },
         {
-          "question": "How to Get water out of iphone?",
-          "answer": "To clean water from your phone speaker, start by powering off your device. Disconnect from any Bluetooth speakers or earbuds. Increase the phone volume to the maximum level. Visit the website tonegen.net, tap the 'Eject water' button, and wait for 4 minutes or more. Repeat until no more water or dust comes out. If not working please seek professional help."
+          "question": "¿Cómo sacar el agua del iPhone?",
+          "answer": "Para limpiar el agua del altavoz de tu teléfono, comienza apagando el dispositivo. Desconéctate de cualquier altavoz o auriculares Bluetooth. Aumenta el volumen del teléfono al máximo. Visita el sitio web tonegen.net, toca el botón 'Expulsar agua' y espera 4 minutos o más. Repite hasta que no salga más agua o polvo. Si no funciona, busca ayuda profesional."
         }
       ]
     }
