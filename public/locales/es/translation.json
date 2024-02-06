@@ -183,7 +183,37 @@
     },
     "generatorUses": {
       "title": "Usos del Generador de Frecuencias de Tono Múltiple en Línea:",
-      "content": "El propósito de un Generador de Tono Múltiple radica en su capacidad para producir simultáneamente múltiples tonos con diferentes frecuencias, amplitudes y duraciones. Esta herramienta versátil sirve para diversas aplicaciones en diferentes industrias.\n\n- Pruebas de Audio: En el ámbito de la ingeniería de audio, los generadores de tono múltiple son fundamentales para probar y evaluar el rendimiento de equipos de audio como altavoces, auriculares y micrófonos. Al generar múltiples tonos a la vez, permiten a los ingenieros evaluar factores como la respuesta de frecuencia, distorsión y contenido armónico.\n\n- Telecomunicaciones: Los generadores de tono múltiple desempeñan un papel crucial en las pruebas y optimización de sistemas de comunicación. Simulan diferentes frecuencias y tonos, ayudando a los ingenieros a evaluar qué tan bien un sistema puede manejar señales diversas. Esto es esencial para garantizar la solidez y eficiencia de las redes de telecomunicaciones.\n\n- Afinación de Instrumentos Musicales: Músicos y técnicos de audio utilizan generadores de tono múltiple para afinar instrumentos musicales. Al generar varios tonos simultáneamente, pueden ajustar diferentes componentes de un instrumento, asegurando una afinación precisa y armoniosa.\n\n- Análisis de Respuesta de Frecuencia: Los ingenieros utilizan generadores de tono múltiple para analizar la respuesta de frecuencia de circuitos electrónicos y sistemas. Esto ayuda a comprender cómo responden los dispositivos a diversas frecuencias, identificando debilidades o irregularidades.\n\n- Enmascaramiento de Sonido: En ciertas aplicaciones, se emplean generadores de tono múltiple con fines de enmascaramiento de sonido. Al producir una combinación de tonos, crean un ruido de fondo que puede ayudar a reducir distracciones y mejorar la concentración en entornos como oficinas.\n\n- Propósitos Educativos: Los generadores de tono múltiple son herramientas valiosas en entornos educativos para enseñar y demostrar conceptos relacionados con el sonido, las frecuencias y las formas de onda.\n\n- Producción de Audio Personalizado: En el campo de la producción musical y el diseño de sonido, los generadores de tono múltiple ofrecen una herramienta creativa para generar señales de audio complejas, permitiendo experimentación y creación de sonidos únicos."
+      "content": "El propósito de un Generador de Tono Múltiple radica en su capacidad para producir simultáneamente múltiples tonos con diferentes frecuencias, amplitudes y duraciones. Esta herramienta versátil sirve para diversas aplicaciones en diferentes industrias.",
+      "applications": {
+        "audio_testing": {
+          "title": "Pruebas de Audio",
+          "description": "En el ámbito de la ingeniería de audio, los generadores multi-tono son fundamentales para probar y evaluar el rendimiento de equipos de audio como altavoces, auriculares y micrófonos. Al generar múltiples tonos a la vez, permiten a los ingenieros evaluar factores como la respuesta de frecuencia, la distorsión y el contenido armónico."
+        },
+        "telecommunications": {
+          "title": "Telecomunicaciones",
+          "description": "Los generadores multi-tono juegan un papel crucial en las pruebas y optimización de sistemas de comunicación. Simulan diferentes frecuencias y tonos, ayudando a los ingenieros a evaluar qué tan bien puede manejar un sistema señales diversas. Esto es esencial para garantizar la robustez y eficiencia de las redes de telecomunicaciones."
+        },
+        "musical_instrument_tuning": {
+          "title": "Afinación de Instrumentos Musicales",
+          "description": "Músicos y técnicos de audio utilizan generadores multi-tono para afinar instrumentos musicales. Al generar varios tonos simultáneamente, pueden ajustar diferentes componentes de un instrumento, asegurando una afinación y armonía precisas."
+        },
+        "frequency_response_analysis": {
+          "title": "Análisis de Respuesta de Frecuencia",
+          "description": "Los ingenieros utilizan generadores multi-tono para analizar la respuesta de frecuencia de circuitos y sistemas electrónicos. Esto ayuda a comprender cómo responden los dispositivos a diferentes frecuencias, identificando debilidades o irregularidades."
+        },
+        "sound_masking": {
+          "title": "Enmascaramiento de Sonido",
+          "description": "En ciertas aplicaciones, se emplean generadores multi-tono con fines de enmascaramiento de sonido. Al producir una combinación de tonos, crean un ruido de fondo que puede ayudar a reducir distracciones y mejorar la concentración en entornos como oficinas."
+        },
+        "educational_purposes": {
+          "title": "Propósitos Educativos",
+          "description": "Los generadores multi-tono son herramientas valiosas en entornos educativos para enseñar y demostrar conceptos relacionados con el sonido, las frecuencias y las formas de onda."
+        },
+        "custom_audio_production": {
+          "title": "Producción de Audio Personalizada",
+          "description": "En el campo de la producción musical y el diseño de sonido, los generadores multi-tono ofrecen una herramienta creativa para generar señales de audio complejas, permitiendo experimentación y creación de sonidos únicos."
+        }
+      }
     },
     "faqs": {
       "title": "Preguntas frecuentes",

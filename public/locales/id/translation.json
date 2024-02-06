@@ -173,48 +173,80 @@
         }
       ]
     }
-  },"multi_tone": {
+  },
+
+  "multi_tone": {
     "title": "Generator Frekuensi Multi-Tone Online",
-    "description": "Hasilkan Frekuensi Multi-Tone secara Online, Anda dapat menghasilkan berbagai nada secara tak terbatas, Gunakan pemutar Frekuensi Multi-Tone Gratis kami.",
+    "description": "Hasilkan Multi-Tone Frekuensi secara Online, Anda dapat menghasilkan berbagai nada secara gratis dengan pemutar Multi Tone Frequency kami.",
     "whatIsGenerator": {
       "title": "Apa itu Generator Frekuensi Multi-Tone?",
-      "content": "Generator Multi-Tone online adalah alat berbasis web yang memungkinkan pengguna untuk menghasilkan beberapa nada secara bersamaan melalui peramban web, menghilangkan kebutuhan untuk instalasi perangkat lunak. Biasanya digunakan untuk pengujian audio, telekomunikasi, dan penyetelan alat musik, generator ini menawarkan parameter yang dapat disesuaikan seperti frekuensi, amplitudo, dan bentuk gelombang.\n\nPengguna dapat bereksperimen dengan berbagai kombinasi nada untuk menilai kinerja peralatan audio, mengevaluasi sistem komunikasi, atau menyetel alat musik. Dengan akses yang mudah dan antarmuka yang intuitif, generator multi-tone online menjadi alat yang serbaguna baik untuk para profesional maupun penggemar yang mencari cara cepat dan nyaman untuk menghasilkan sinyal audio kompleks untuk tujuan pengujian atau kreatif."
+      "content": "Sebuah Generator Multi-Tone online adalah alat berbasis web yang memungkinkan pengguna untuk menghasilkan beberapa nada secara bersamaan melalui browser web, menghilangkan kebutuhan akan instalasi perangkat lunak. Biasanya digunakan untuk pengujian audio, telekomunikasi, dan penyetelan alat musik, generator ini menawarkan parameter yang dapat disesuaikan seperti frekuensi, amplitudo, dan bentuk gelombang.\n\nPengguna dapat bereksperimen dengan berbagai kombinasi nada untuk menilai kinerja peralatan audio, mengevaluasi sistem komunikasi, atau menyetel alat musik. Dengan aksesibilitas yang mudah dan antarmuka yang intuitif, generator multi-tone online berfungsi sebagai alat serbaguna baik bagi para profesional maupun penggemar yang mencari cara yang cepat dan nyaman untuk menghasilkan sinyal audio kompleks untuk tujuan pengujian atau kreatif."
     },
     "generatorUses": {
       "title": "Penggunaan Generator Frekuensi Multi-Tone Online:",
-      "content": "Tujuan dari Generator Multi-Tone terletak pada kemampuannya untuk secara bersamaan menghasilkan beberapa nada dengan frekuensi, amplitudo, dan durasi yang berbeda. Alat serbaguna ini melayani berbagai aplikasi di berbagai industri.\n\n- *Pengujian Audio:* Dalam dunia rekayasa audio, generator multi-tone sangat penting untuk pengujian dan evaluasi kinerja peralatan audio seperti speaker, headphone, dan mikrofon. Dengan menghasilkan beberapa nada sekaligus, mereka memungkinkan insinyur menilai faktor seperti respons frekuensi, distorsi, dan konten harmonik.\n\n- *Telekomunikasi:* Generator multi-tone memainkan peran penting dalam pengujian dan optimasi sistem komunikasi. Mereka mensimulasikan berbagai frekuensi dan nada, membantu insinyur mengevaluasi sejauh mana suatu sistem dapat menangani sinyal yang beragam. Ini penting untuk memastikan kekokohan dan efisiensi jaringan telekomunikasi.\n\n- *Penyetelan Alat Musik:* Musisi dan teknisi audio menggunakan generator multi-tone untuk menyetel alat musik. Dengan menghasilkan beberapa nada secara bersamaan, mereka dapat menyetel bagian-bagian yang berbeda dari alat musik, memastikan nada dan harmoni yang akurat.\n\n- *Analisis Respons Frekuensi:* Insinyur menggunakan generator multi-tone untuk menganalisis respons frekuensi dari rangkaian dan sistem elektronik. Ini membantu memahami bagaimana perangkat merespons berbagai frekuensi, mengidentifikasi kelemahan atau ketidaknormalan.\n\n- *Sound Masking:* Dalam beberapa aplikasi, generator multi-tone digunakan untuk tujuan penyamaran suara. Dengan menghasilkan kombinasi nada, mereka menciptakan latar belakang berupa kebisingan yang dapat membantu mengurangi gangguan dan meningkatkan konsentrasi di lingkungan seperti kantor.\n\n- *Tujuan Pendidikan:* Generator multi-tone adalah alat berharga dalam pengaturan pendidikan untuk mengajarkan dan mendemonstrasikan konsep-konsep terkait suara, frekuensi, dan gelombang.\n\n- *Produksi Audio Kustom:* Dalam bidang produksi musik dan desain suara, generator multi-tone menawarkan alat kreatif untuk menghasilkan sinyal audio kompleks, memungkinkan eksperimen dan penciptaan suara yang unik."
+      "content": "Tujuan dari Generator Multi-Tone terletak pada kemampuannya untuk secara bersamaan menghasilkan beberapa nada dengan frekuensi, amplitudo, dan durasi yang berbeda. Alat serbaguna ini melayani berbagai aplikasi di berbagai industri.",
+      "applications": {
+        "audio_testing": {
+          "title": "Pengujian Audio",
+          "description": "Di ranah rekayasa audio, generator multi-tone sangat penting untuk pengujian dan mengevaluasi kinerja peralatan audio seperti speaker, headphone, dan mikrofon. Dengan menghasilkan beberapa nada sekaligus, mereka memungkinkan insinyur untuk menilai faktor-faktor seperti respons frekuensi, distorsi, dan konten harmonik."
+        },
+        "telecommunications": {
+          "title": "Telekomunikasi",
+          "description": "Generator multi-tone memainkan peran penting dalam pengujian dan optimasi sistem komunikasi. Mereka mensimulasikan frekuensi dan nada yang berbeda, membantu insinyur mengevaluasi seberapa baik suatu sistem dapat menangani sinyal yang beragam. Ini penting untuk memastikan kekokohan dan efisiensi jaringan telekomunikasi."
+        },
+        "musical_instrument_tuning": {
+          "title": "Penyetelan Alat Musik",
+          "description": "Musisi dan teknisi audio menggunakan generator multi-tone untuk menyetel alat musik. Dengan menghasilkan beberapa nada secara bersamaan, mereka dapat menyetel bagian-bagian berbeda dari alat musik, memastikan nada dan harmoni yang akurat."
+        },
+        "frequency_response_analysis": {
+          "title": "Analisis Respons Frekuensi",
+          "description": "Insinyur menggunakan generator multi-tone untuk menganalisis respons frekuensi dari rangkaian dan sistem elektronik. Ini membantu dalam memahami bagaimana perangkat merespons berbagai frekuensi, mengidentifikasi kelemahan atau ketidaknormalan."
+        },
+        "sound_masking": {
+          "title": "Pemaskeran Suara",
+          "description": "Di beberapa aplikasi, generator multi-tone digunakan untuk tujuan pemaskeran suara. Dengan menghasilkan kombinasi nada, mereka menciptakan latar belakang suara yang dapat membantu mengurangi gangguan dan meningkatkan konsentrasi di lingkungan seperti kantor."
+        },
+        "educational_purposes": {
+          "title": "Tujuan Pendidikan",
+          "description": "Generator multi-tone adalah alat berharga di pengaturan pendidikan untuk mengajarkan dan mendemonstrasikan konsep-konsep yang terkait dengan suara, frekuensi, dan gelombang."
+        },
+        "custom_audio_production": {
+          "title": "Produksi Audio Kustom",
+          "description": "Di bidang produksi musik dan desain suara, generator multi-tone menawarkan alat kreatif untuk menghasilkan sinyal audio kompleks, memungkinkan eksperimen dan penciptaan suara yang unik."
+        }
+      }
     },
     "faqs": {
-      "title": "FAQ’s",
+      "title": "Pertanyaan Umum",
       "questions": [
         {
-          "question": "Apakah generator nada online kompatibel dengan semua peramban?",
-          "answer": "Sebagian besar generator nada online dapat digunakan di peramban web populer seperti Chrome, Firefox, Safari, dan Edge."
+          "question": "Apakah generator nada online kompatibel dengan semua browser?",
+          "answer": "Sebagian besar generator nada online dapat digunakan di browser web populer seperti Chrome, Firefox, Safari, dan Edge."
         },
         {
-          "question": "Dapatkah saya menggunakan generator multi-tone pada ponsel pintar atau tablet saya?",
-          "answer": "Ya, banyak generator nada online kompatibel dengan perangkat seluler, memungkinkan penggunaan yang nyaman pada ponsel pintar dan tablet."
+          "question": "Apakah saya bisa menggunakan generator multi-tone di smartphone atau tablet saya?",
+          "answer": "Ya, banyak generator nada online kompatibel dengan perangkat mobile, memungkinkan penggunaan yang nyaman di smartphone dan tablet."
         },
         {
           "question": "Apakah saya perlu membuat akun untuk menggunakan generator nada online?",
-          "answer": "Tidak diperlukan pembuatan akun. Pengguna biasanya dapat mengakses dan menggunakan generator nada online tanpa harus masuk."
+          "answer": "Tidak diperlukan pembuatan akun. Pengguna biasanya dapat mengakses dan menggunakan generator nada online tanpa login."
         },
         {
-          "question": "Jenis gelombang apa yang dapat saya hasilkan dengan generator multi-tone?",
-          "answer": "Generator multi-tone sering mendukung gelombang umum seperti sinus, persegi, gigi gergaji, dan segitiga, memberikan fleksibilitas untuk berbagai aplikasi."
+          "question": "Jenis gelombang apa yang bisa saya hasilkan dengan generator multi-tone?",
+          "answer": "Generator multi-tone sering mendukung gelombang umum seperti sinus, persegi, gigi gergaji, dan segitiga, menawarkan fleksibilitas untuk berbagai aplikasi."
         },
         {
           "question": "Apakah generator nada online memiliki batasan pada durasi nada?",
-          "answer": "Durasi nada biasanya dapat disesuaikan, tetapi platform individu mungkin memiliki batasan tertentu. Periksa pengaturan atau dokumentasi untuk informasi lebih lanjut."
+          "answer": "Durasi nada biasanya dapat disesuaikan, tetapi platform individu mungkin memiliki batasan tertentu. Periksa pengaturan atau dokumentasi untuk detailnya."
         },
         {
-          "question": "Dapatkah saya menggunakan generator nada online untuk menguji headphone atau speaker saya?",
+          "question": "Apakah saya bisa menggunakan generator nada online untuk menguji headphone atau speaker saya?",
           "answer": "Ya, generator ini umumnya digunakan untuk pengujian audio dan dapat membantu menilai kinerja headphone, speaker, dan peralatan audio lainnya."
         }
       ]
     }
   },
-"432hz": {
+  "432hz": {
     "title": "Generator Suara Frekuensi 432 Hz Online",
     "description": "Hasilkan Frekuensi Suara 432 Hz secara Online, Anda dapat menghasilkan musik suara 432 Hz tanpa batas.",
     "howToGenerate": {
@@ -271,7 +303,7 @@
       ]
     }
   },
-"pips": {
+  "pips": {
     "title": "Penghasil Sinyal Waktu Pips (Greenwich Time Signal) Online",
     "description": "Pips, atau Greenwich Time Signal, adalah enam nada pendek yang disiarkan secara online di awal setiap jam di BBC Radio. Pips (Greenwich Time Signal) Online Gratis.",
     "pipsInformation": {
@@ -304,7 +336,7 @@
       ]
     }
   },
-"hearing": {
+  "hearing": {
     "title": "Uji Pendengaran Online - Uji Telinga Gratis (Tanpa Login)",
     "description": "Gunakan uji pendengaran online gratis dari rumah, Ini adalah Pemeriksa Pendengaran Terbaik.",
     "hearingTest": {
@@ -365,7 +397,7 @@
       ]
     }
   },
-"subwoofer": {
+  "subwoofer": {
     "title": "Uji Subwoofer Online - Periksa Bass Frekuensi Rendah",
     "description": "Periksa Online Subwoofer basS. Uji Frekuensi Rendah 20Hz hingga 200Hz untuk subwoofer Anda.",
     "subwooferTest": {
@@ -436,9 +468,9 @@
       ]
     }
   },
-"noise": {
-  "title": "Generador Kebisingan Online - Hasilkan Kebisingan Putih, Merah Muda, dan Cokelat",
-  "description": "Alat Generasi Kebisingan Online Gratis untuk Kebisingan Putih, Merah Muda, atau Cokelat",
+  "noise": {
+    "title": "Generador Kebisingan Online - Hasilkan Kebisingan Putih, Merah Muda, dan Cokelat",
+    "description": "Alat Generasi Kebisingan Online Gratis untuk Kebisingan Putih, Merah Muda, atau Cokelat",
 
     "onlineNoiseGenerator": {
       "heading": "Generador Kebisingan Online",
@@ -504,90 +536,89 @@
         }
       ]
     }
-
-},
-"binaural": {
-  "title": "Generador Binaural Beats Online - Hasilkan Kebisingan Putih, Merah Muda, dan Cokelat",
-  "description": "Generador Binaural Beats online, Hasilkan gelombang Alpha, Beta, Delta, Gamma, Mu, dan Theta menggunakan antarmuka yang ramah pengguna dan modern.",
-  "sections": {
-    "binauralBeatsGenerator": {
-      "heading": "Generador Binaural Beats",
-      "generateBeats": {
-        "heading": "Hasilkan Binaural Beats:",
-        "content": "Generador binaural beats menggunakan variasi frekuensi khusus telinga untuk menginduksi ketukan ritmis dalam otak, dapat disesuaikan untuk relaksasi, fokus, atau tidur. Diterima luas untuk pengurangan stres dan meditasi, mereka memberikan rute cepat dan mudah menuju kesejahteraan meningkat melalui pengalaman auditori yang dipersonalisasi."
-      }
-    },
-    "understandingBinauralBeats": {
-      "heading": "Memahami Binaural Beats:",
-      "definition": {
-        "heading": "Definisi:",
-        "content": "Binaural beats adalah fenomena auditori yang tercipta saat dua frekuensi yang sedikit berbeda disajikan secara terpisah ke masing-masing telinga. Otak mempersepsikan frekuensi ketiga, selisih matematis antara keduanya, yang dikenal sebagai binaural beat."
-      },
-      "howItWorks": {
-        "heading": "Cara Kerjanya:",
-        "content": "Ketika otak memproses kedua frekuensi ini, ia menciptakan ketukan ritmis yang dirasakan yang tidak ada dalam stimulus auditori sebenarnya. Fenomena ini diyakini memengaruhi aktivitas gelombang otak, berpotensi mempengaruhi keadaan mental."
-      }
-    },
-    "benefitsOfBinauralBeats": {
-      "heading": "Manfaat Binaural Beats:",
-      "relaxation": {
-        "heading": "Relaksasi dan Pengurangan Stres:",
-        "content": "Binaural beats dengan frekuensi rendah sering dikaitkan dengan relaksasi, membantu mengurangi stres, dan mempromosikan rasa tenang."
-      },
-      "focus": {
-        "heading": "Fokus dan Konsentrasi:",
-        "content": "Binaural beats dengan frekuensi tinggi diyakini meningkatkan kewaspadaan dan konsentrasi, menjadikannya pilihan populer untuk sesi kerja atau belajar."
-      },
-      "sleepEnhancement": {
-        "heading": "Peningkatan Tidur:",
-        "content": "Binaural beats dalam frekuensi delta dan theta dapat membantu mempromosikan keadaan rileks yang mendukung tidur lebih baik, berpotensi membantu individu dengan masalah tidur."
-      }
-    },
-    "faqs": {
-      "heading": "FAQ’s",
-      "questions": [
-        {
-          "question": "Apa manfaat mendengarkan binaural beats?",
-          "answer": "Manfaatnya dapat mencakup relaksasi, pengurangan stres, peningkatan fokus, dan peningkatan tidur potensial, tergantung pada frekuensi yang digunakan."
-        },
-        {
-          "question": "Apakah saya dapat menyesuaikan binaural beats untuk tujuan tertentu?",
-          "answer": "Ya, generador binaural beats memungkinkan penyesuaian, memungkinkan pengguna menyesuaikan beats untuk mencapai relaksasi, fokus, atau keadaan mental lainnya."
-        },
-        {
-          "question": "Frekuensi apa yang dicakup oleh binaural beats?",
-          "answer": "Binaural beats dapat mencakup berbagai frekuensi, termasuk gelombang Alpha, Beta, Delta, Gamma, Mu, dan Theta, masing-masing dikaitkan dengan keadaan mental yang berbeda."
-        },
-        {
-          "question": "Berapa lama saya harus mendengarkan binaural beats untuk efek yang terasa?",
-          "answer": "Respon individu bervariasi, tetapi banyak pengguna melaporkan manfaat setelah mendengarkan secara konsisten selama durasi singkat, biasanya 15-30 menit."
-        },
-        {
-          "question": "Apakah ada efek samping potensial mendengarkan binaural beats?",
-          "answer": "Secara umum, binaural beats dianggap aman; namun, beberapa orang mungkin mengalami sakit kepala atau ketidaknyamanan. Disarankan untuk mulai dengan volume dan frekuensi rendah."
-        },
-        {
-          "question": "Dapatkah binaural beats membantu masalah tidur?",
-          "answer": "Binaural beats dalam frekuensi Delta dan Theta sering digunakan untuk menciptakan keadaan rileks, berpotensi membantu individu dengan masalah tidur."
-        },
-        {
-          "question": "Apakah binaural beats berhasil untuk semua orang?",
-          "answer": "Respon individu bervariasi, dan meskipun banyak orang menemukan binaural beats bermanfaat, beberapa orang mungkin tidak mengalami efek yang terasa."
-        },
-        {
-          "question": "Dapatkah saya menggunakan binaural beats selama meditasi?",
-          "answer": "Ya, binaural beats umum digunakan selama meditasi untuk meningkatkan relaksasi dan fokus, memberikan latar belakang auditori untuk pengalaman penuh perhatian."
-        },
-        {
-          "question": "Apakah ada binaural beats khusus untuk pengurangan stres?",
-          "answer": "Ya, binaural beats dalam frekuensi Alpha dan Theta sering digunakan untuk mempromosikan relaksasi dan mengurangi stres."
-        },
-        {
-          "question": "Dapatkah saya menggunakan binaural beats saat bekerja atau belajar?",
-          "answer": "Tentu saja. Binaural beats dalam rentang frekuensi Beta diyakini meningkatkan kewaspadaan dan konsentrasi, membuatnya cocok untuk sesi kerja atau belajar."
+  },
+  "binaural": {
+    "title": "Generador Binaural Beats Online - Hasilkan Kebisingan Putih, Merah Muda, dan Cokelat",
+    "description": "Generador Binaural Beats online, Hasilkan gelombang Alpha, Beta, Delta, Gamma, Mu, dan Theta menggunakan antarmuka yang ramah pengguna dan modern.",
+    "sections": {
+      "binauralBeatsGenerator": {
+        "heading": "Generador Binaural Beats",
+        "generateBeats": {
+          "heading": "Hasilkan Binaural Beats:",
+          "content": "Generador binaural beats menggunakan variasi frekuensi khusus telinga untuk menginduksi ketukan ritmis dalam otak, dapat disesuaikan untuk relaksasi, fokus, atau tidur. Diterima luas untuk pengurangan stres dan meditasi, mereka memberikan rute cepat dan mudah menuju kesejahteraan meningkat melalui pengalaman auditori yang dipersonalisasi."
         }
-      ]
+      },
+      "understandingBinauralBeats": {
+        "heading": "Memahami Binaural Beats:",
+        "definition": {
+          "heading": "Definisi:",
+          "content": "Binaural beats adalah fenomena auditori yang tercipta saat dua frekuensi yang sedikit berbeda disajikan secara terpisah ke masing-masing telinga. Otak mempersepsikan frekuensi ketiga, selisih matematis antara keduanya, yang dikenal sebagai binaural beat."
+        },
+        "howItWorks": {
+          "heading": "Cara Kerjanya:",
+          "content": "Ketika otak memproses kedua frekuensi ini, ia menciptakan ketukan ritmis yang dirasakan yang tidak ada dalam stimulus auditori sebenarnya. Fenomena ini diyakini memengaruhi aktivitas gelombang otak, berpotensi mempengaruhi keadaan mental."
+        }
+      },
+      "benefitsOfBinauralBeats": {
+        "heading": "Manfaat Binaural Beats:",
+        "relaxation": {
+          "heading": "Relaksasi dan Pengurangan Stres:",
+          "content": "Binaural beats dengan frekuensi rendah sering dikaitkan dengan relaksasi, membantu mengurangi stres, dan mempromosikan rasa tenang."
+        },
+        "focus": {
+          "heading": "Fokus dan Konsentrasi:",
+          "content": "Binaural beats dengan frekuensi tinggi diyakini meningkatkan kewaspadaan dan konsentrasi, menjadikannya pilihan populer untuk sesi kerja atau belajar."
+        },
+        "sleepEnhancement": {
+          "heading": "Peningkatan Tidur:",
+          "content": "Binaural beats dalam frekuensi delta dan theta dapat membantu mempromosikan keadaan rileks yang mendukung tidur lebih baik, berpotensi membantu individu dengan masalah tidur."
+        }
+      },
+      "faqs": {
+        "heading": "FAQ’s",
+        "questions": [
+          {
+            "question": "Apa manfaat mendengarkan binaural beats?",
+            "answer": "Manfaatnya dapat mencakup relaksasi, pengurangan stres, peningkatan fokus, dan peningkatan tidur potensial, tergantung pada frekuensi yang digunakan."
+          },
+          {
+            "question": "Apakah saya dapat menyesuaikan binaural beats untuk tujuan tertentu?",
+            "answer": "Ya, generador binaural beats memungkinkan penyesuaian, memungkinkan pengguna menyesuaikan beats untuk mencapai relaksasi, fokus, atau keadaan mental lainnya."
+          },
+          {
+            "question": "Frekuensi apa yang dicakup oleh binaural beats?",
+            "answer": "Binaural beats dapat mencakup berbagai frekuensi, termasuk gelombang Alpha, Beta, Delta, Gamma, Mu, dan Theta, masing-masing dikaitkan dengan keadaan mental yang berbeda."
+          },
+          {
+            "question": "Berapa lama saya harus mendengarkan binaural beats untuk efek yang terasa?",
+            "answer": "Respon individu bervariasi, tetapi banyak pengguna melaporkan manfaat setelah mendengarkan secara konsisten selama durasi singkat, biasanya 15-30 menit."
+          },
+          {
+            "question": "Apakah ada efek samping potensial mendengarkan binaural beats?",
+            "answer": "Secara umum, binaural beats dianggap aman; namun, beberapa orang mungkin mengalami sakit kepala atau ketidaknyamanan. Disarankan untuk mulai dengan volume dan frekuensi rendah."
+          },
+          {
+            "question": "Dapatkah binaural beats membantu masalah tidur?",
+            "answer": "Binaural beats dalam frekuensi Delta dan Theta sering digunakan untuk menciptakan keadaan rileks, berpotensi membantu individu dengan masalah tidur."
+          },
+          {
+            "question": "Apakah binaural beats berhasil untuk semua orang?",
+            "answer": "Respon individu bervariasi, dan meskipun banyak orang menemukan binaural beats bermanfaat, beberapa orang mungkin tidak mengalami efek yang terasa."
+          },
+          {
+            "question": "Dapatkah saya menggunakan binaural beats selama meditasi?",
+            "answer": "Ya, binaural beats umum digunakan selama meditasi untuk meningkatkan relaksasi dan fokus, memberikan latar belakang auditori untuk pengalaman penuh perhatian."
+          },
+          {
+            "question": "Apakah ada binaural beats khusus untuk pengurangan stres?",
+            "answer": "Ya, binaural beats dalam frekuensi Alpha dan Theta sering digunakan untuk mempromosikan relaksasi dan mengurangi stres."
+          },
+          {
+            "question": "Dapatkah saya menggunakan binaural beats saat bekerja atau belajar?",
+            "answer": "Tentu saja. Binaural beats dalam rentang frekuensi Beta diyakini meningkatkan kewaspadaan dan konsentrasi, membuatnya cocok untuk sesi kerja atau belajar."
+          }
+        ]
+      }
     }
   }
-}
 }
