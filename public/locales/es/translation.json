@@ -248,6 +248,7 @@
   "432hz": {
     "title": "Generador de Sonido a 432 Hz en Línea",
     "description": "Genera Frecuencia de Tono a 432Hz en Línea. Puedes generar música ilimitada a 432Hz.",
+    "heading": "Generador de Frecuencia de 432 Hz",
     "howToGenerate": {
       "title": "Cómo Generar la Frecuencia de Tono a 432Hz:",
       "content": "Para generar una frecuencia de 432 Hz en tonegen.net, visita el sitio web, encuentra la configuración de frecuencia, establece la frecuencia en 432 Hz, elige una onda sinusoidal si es aplicable, ajusta cualquier parámetro opcional como amplitud o duración, luego reproduce el tono. Escucha el tono generado y, si lo deseas, explora opciones para guardar o compartir el resultado según las funciones proporcionadas por la herramienta."
@@ -307,7 +308,7 @@
     "description": "Las señales horarias, conocidas como Pips o la Señal Horaria de Greenwich, son seis tonos cortos transmitidos en línea al comienzo de cada hora en la BBC Radio. Pips (Señal Horaria de Greenwich) en línea de forma gratuita.",
     "pipsInformation": {
       "title": "Las Señales Horarias (Pips) - Señal Horaria de Greenwich:",
-      "content": "El término 'Señales Horarias de PIPS Greenwich' probablemente se refiere a la señal horaria proporcionada por el sistema PIPS (Servicios de Información de Correos y BT) en Greenwich, que forma parte del Reino Unido. La Señal Horaria de Greenwich, comúnmente conocida como los 'pips de la BBC', es una serie de seis tonos cortos transmitidos al comienzo de cada hora en la BBC Radio. Estos tonos ayudan a las personas a sincronizar sus dispositivos de medición del tiempo con la hora oficial.\n\nLa señal horaria consta de cinco pips cortos, cada uno con una duración de una décima de segundo, con un intervalo de una décima de segundo entre cada uno. El sexto pip es más largo, con una duración de medio segundo, y coincide exactamente con el inicio de la nueva hora.\n\nEsta señal horaria ha sido una característica de las transmisiones de la BBC Radio desde 1924, proporcionando una referencia audible para que las personas ajusten con precisión sus relojes. Es especialmente útil para aquellos que necesitan una medición del tiempo precisa, como astrónomos, navegantes e individuos involucrados en diversas actividades profesionales donde la precisión del tiempo es crucial."
+      "content": "<p>El término \"Señal Horaria de Greenwich PIPS\" probablemente se refiere a la señal horaria proporcionada por el sistema PIPS (Post Office and BT Information Services) en Greenwich, que forma parte del Reino Unido. La Señal Horaria de Greenwich, conocida como los \"pips de la BBC\", es una serie de seis tonos cortos transmitidos al comienzo de cada hora en la BBC Radio. Estos tonos ayudan a las personas a sincronizar sus dispositivos de medición del tiempo con la hora oficial.</p><p>La señal horaria consta de cinco pips cortos, cada uno con una duración de una décima de segundo, con un intervalo de una décima de segundo entre cada uno. El sexto pip es más largo, con una duración de medio segundo, y marca el inicio preciso de la nueva hora.</p><p>Esta señal horaria ha sido una característica de las transmisiones de la BBC Radio desde 1924, proporcionando una referencia audible para que las personas ajusten sus relojes con precisión. Es especialmente útil para aquellos que necesitan una medición precisa del tiempo, como astrónomos, navegantes y personas involucradas en diversas actividades profesionales donde la sincronización precisa es crucial.</p>"
     },
     "faqs": {
       "title": "Preguntas frecuentes",
@@ -336,54 +337,64 @@
     }
   },
   "hearing": {
-    "title": "Prueba de Audición en Línea - Test de Oído Gratuito (Sin inicio de sesión)",
+    "title": "Prueba de Audición en Línea - Prueba de Oído Gratuita (Sin inicio de sesión)",
     "description": "Utiliza nuestra prueba de audición en línea gratuita desde casa, esta es la mejor comprobación auditiva.",
+    "heading": "Prueba de Audición en Línea",
+    "note": "Si bien las pruebas en línea ofrecen información inicial, no sustituyen las evaluaciones profesionales, por lo que es esencial realizar chequeos regulares con proveedores de atención médica o audiólogos para una evaluación integral de la salud auditiva.",
     "hearingTest": {
       "title": "Prueba de Audición en Línea",
       "content": "Una prueba de audición en línea utilizando un generador de tonos es una herramienta basada en la web diseñada para evaluar la capacidad auditiva de una persona reproduciendo una serie de tonos a diferentes frecuencias y volúmenes."
     },
     "disclaimer": {
       "title": "Aviso Legal para la Prueba de Audición en Línea:",
-      "content": "Para una prueba de audición en línea segura, elige plataformas de renombre asociadas con organizaciones reconocidas de audiología, prioriza la privacidad y utiliza dispositivos confiables con equipos de audio calibrados. Realiza la prueba en un entorno tranquilo, sigue las instrucciones cuidadosamente y considera pruebas específicas para la edad o condición si están disponibles.\n\nNota: Si bien las pruebas en línea ofrecen información inicial, no sustituyen las evaluaciones profesionales, por lo que los chequeos regulares con proveedores de atención médica o audiólogos son esenciales para una evaluación integral de la salud auditiva."
+      "content": "Para una prueba de audición en línea segura, elige plataformas de confianza asociadas con organizaciones reconocidas de audiología, prioriza la privacidad y utiliza dispositivos confiables con equipos de audio calibrados. Realiza la prueba en un entorno tranquilo, sigue las instrucciones cuidadosamente y considera pruebas específicas para la edad o la condición si están disponibles.\n\nNota: Si bien las pruebas en línea ofrecen información inicial, no sustituyen las evaluaciones profesionales, por lo que es esencial realizar chequeos regulares con proveedores de atención médica o audiólogos para una evaluación integral de la salud auditiva."
     },
     "howToTakeTest": {
       "title": "Cómo realizar una prueba de audición en línea en ToneGen.net",
-      "content": "Generalmente, puedes seguir los siguientes pasos para verificar si hay una prueba de audición en línea disponible en ToneGen.net:\n\n1. Visita ToneGen.net: Abre tu navegador web y accede al sitio web de ToneGen.net.\n2. Explora el Sitio Web: Busca secciones o características específicas relacionadas con las pruebas de audición. Esto puede estar etiquetado como 'Prueba de Audición' o algo similar.\n3. Verifica Menú u Opciones: Examina el menú u opciones del sitio web para ver si hay una sección dedicada a las pruebas de audición. Si está disponible, haz clic en esa sección.\n4. Sigue las Instrucciones: Sigue las instrucciones proporcionadas. Esto puede implicar ajustar la configuración de audio, escuchar tonos a diferentes frecuencias y responder a indicaciones.\n5. Completa la Prueba: Realiza toda la prueba, respondiendo a cada tono según las instrucciones. Algunas pruebas pueden ofrecer resultados inmediatos o recomendaciones basadas en tus respuestas.\n6. Revisa los Resultados: Si la prueba ofrece resultados, tómate el tiempo para revisarlos. Los resultados pueden incluir una evaluación de la sensibilidad auditiva a diferentes frecuencias."
+      "content": "Por lo general, puedes seguir los siguientes pasos para verificar si hay una prueba de audición en línea disponible en ToneGen.net:\n\n.",
+      "steps": {
+        "visitToneGen": "Visita ToneGen.net: Abre tu navegador web y accede al sitio web de ToneGen.net.",
+        "exploreWebsite": "Explora el sitio web: Busca secciones o características específicas relacionadas con las pruebas de audición. Esto puede estar etiquetado como 'Prueba de Audición' o algo similar.",
+        "checkMenuOptions": "Verifica el menú u opciones: Examina el menú u opciones del sitio web para ver si hay una sección dedicada a las pruebas de audición. Si está disponible, haz clic en esa sección.",
+        "followInstructions": "Sigue las instrucciones: Sigue las instrucciones proporcionadas. Esto puede implicar ajustar la configuración de audio, escuchar tonos a diferentes frecuencias y responder a indicacioness.",
+        "completeTest": "Completa la prueba: Realiza toda la prueba, respondiendo a cada tono según las instrucciones. Algunas pruebas pueden ofrecer resultados o recomendaciones inmediatas basadas en tus respuestas.",
+        "reviewResults": "Revisa los resultados: Si la prueba ofrece resultados, tómate el tiempo para revisarlos. Los resultados pueden incluir una evaluación de la sensibilidad auditiva a diferentes frecuencias."
+      }
     },
     "faqs": {
       "title": "Preguntas frecuentes",
       "questions": [
         {
           "question": "¿Qué es una prueba de audición en línea?",
-          "answer": "Una prueba de audición en línea es una herramienta digital que permite a las personas evaluar sus habilidades auditivas mediante una serie de tonos de audio presentados en un sitio web o aplicación."
+          "answer": "Una prueba de audición en línea es una herramienta digital que permite a las personas evaluar sus habilidades auditivas a través de una serie de tonos de audio presentados en un sitio web o aplicación."
         },
         {
           "question": "¿Cómo funcionan las pruebas de audición en línea?",
-          "answer": "Las pruebas de audición en línea suelen implicar la reproducción de tonos a diferentes frecuencias y volúmenes. Los usuarios responden a los tonos, y la prueba proporciona una evaluación de su sensibilidad auditiva."
+          "answer": "Las pruebas de audición en línea generalmente implican reproducir tonos a diferentes frecuencias y volúmenes. Los usuarios responden a los tonos y la prueba proporciona una evaluación de su sensibilidad auditiva."
         },
         {
           "question": "¿Son precisas las pruebas de audición en línea?",
-          "answer": "Si bien las pruebas de audición en línea pueden ofrecer una indicación general de las capacidades auditivas, es posible que no sean tan precisas como las evaluaciones profesionales realizadas por audiólogos. Sirven como una herramienta de detección preliminar."
+          "answer": "Si bien las pruebas de audición en línea pueden proporcionar una indicación general de las capacidades auditivas, es posible que no sean tan precisas como las evaluaciones profesionales realizadas por audiólogos. Sirven como una herramienta de detección preliminar."
         },
         {
           "question": "¿Puedo realizar una prueba de audición en línea en mi teléfono inteligente o tableta?",
-          "answer": "Sí, muchas pruebas de audición en línea están diseñadas para ser compatibles con teléfonos inteligentes y tabletas, lo que permite a los usuarios realizar la prueba en diversos dispositivos."
+          "answer": "Sí, muchas pruebas de audición en línea están diseñadas para ser compatibles con teléfonos inteligentes y tabletas, lo que permite a los usuarios realizar la prueba en varios dispositivos."
         },
         {
-          "question": "¿Cuánto tiempo lleva completar una prueba de audición en línea?",
-          "answer": "La duración de una prueba de audición en línea varía, pero generalmente lleva entre 5 y 15 minutos completarla, según el proveedor de la prueba."
+          "question": "¿Cuánto tiempo se tarda en completar una prueba de audición en línea?",
+          "answer": "La duración de una prueba de audición en línea varía, pero generalmente se tarda entre 5 y 15 minutos en completar, dependiendo del proveedor de la prueba."
         },
         {
-          "question": "¿Necesito algún equipo especial para una prueba de audición en línea?",
+          "question": "¿Necesito algún equipo especial para realizar una prueba de audición en línea?",
           "answer": "Por lo general, necesitas auriculares y un entorno tranquilo para realizar una prueba de audición en línea. Asegúrate de que tus auriculares estén en buenas condiciones para obtener resultados precisos."
         },
         {
           "question": "¿Qué debo hacer si una prueba de audición en línea indica problemas de audición?",
-          "answer": "Si una prueba de audición en línea sugiere posibles problemas de audición, se recomienda buscar una evaluación profesional de un audiólogo o proveedor de atención médica para una evaluación integral."
+          "answer": "Si una prueba de audición en línea sugiere posibles problemas de audición, es recomendable buscar una evaluación profesional de un audiólogo o proveedor de atención médica para una evaluación integral."
         },
         {
-          "question": "¿Pueden las pruebas de audición en línea utilizarse como herramienta de diagnóstico?",
-          "answer": "Las pruebas de audición en línea no son herramientas de diagnóstico, sino que sirven como herramientas de detección. Cualquier preocupación o hallazgo significativo debe ser seguido por una evaluación profesional."
+          "question": "¿Las pruebas de audición en línea se pueden utilizar como herramienta de diagnóstico?",
+          "answer": "Las pruebas de audición en línea no son herramientas de diagnóstico, sino que sirven como herramientas de detección. Cualquier inquietud o hallazgo significativo debe ser seguido por una evaluación profesional."
         },
         {
           "question": "¿Las pruebas de audición en línea son gratuitas?",
@@ -391,7 +402,7 @@
         },
         {
           "question": "¿Con qué frecuencia debo realizar una prueba de audición en línea?",
-          "answer": "Las pruebas de audición en línea pueden usarse para el monitoreo de rutina, pero los chequeos regulares con audiólogos o proveedores de atención médica son cruciales para una evaluación integral, especialmente si hay preocupaciones sobre la salud auditiva."
+          "answer": "Las pruebas de audición en línea se pueden utilizar para un monitoreo de rutina, pero los chequeos regulares con audiólogos o proveedores de atención médica son fundamentales para una evaluación integral, especialmente si hay preocupaciones sobre la salud auditiva."
         }
       ]
     }
@@ -400,6 +411,7 @@
     "title": "Prueba en línea de Subwoofer - Verificación de bajos de baja frecuencia",
     "description": "Verifica los bajos en línea de tu subwoofer. Prueba de frecuencia baja de 20 Hz a 200 Hz para tus subwoofers.",
     "subwooferTest": {
+      "heading": "Prueba de Bajos del Subwoofer en Línea",
       "title": "Cómo Probar los Bajos del Subwoofer",
       "content": "Para probar los bajos de tu subwoofer en línea utilizando ToneGen.net, simplemente visita el sitio web y localiza el generador de tonos de frecuencia. Comienza reproduciendo tonos de baja frecuencia y aumenta gradualmente el tono, escuchando respuestas de bajos claras y profundas. ToneGen.net te permite ajustar fácilmente las frecuencias y evaluar el rendimiento de tu subwoofer, asegurando que produzca el sonido de baja frecuencia deseado para una experiencia auditiva óptima."
     },
