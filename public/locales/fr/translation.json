@@ -248,6 +248,8 @@
   "432hz": {
     "title": "Générateur de son en fréquence 432 Hz en ligne",
     "description": "Générez une fréquence tonale de 432 Hz en ligne. Vous pouvez générer une musique illimitée en son 432 Hz.",
+    "heading": "Générateur de fréquence 432 Hz",
+
     "howToGenerate": {
       "title": "Comment générer une fréquence de 432 Hz :",
       "content": "Pour générer une fréquence de 432 Hz sur tonegen.net, visitez le site web, localisez les paramètres de fréquence, réglez la fréquence à 432 Hz, choisissez une onde sinusoïdale si applicable, ajustez les paramètres optionnels tels que l'amplitude ou la durée, puis jouez la tonalité. Écoutez la tonalité générée et, si vous le souhaitez, explorez les options pour sauvegarder ou partager le résultat en fonction des fonctionnalités fournies par l'outil."
@@ -307,7 +309,7 @@
     "description": "Les Pips, ou Signal horaire de Greenwich, sont six brefs signaux diffusés en ligne au début de chaque heure sur BBC Radio. Pips (Signal horaire de Greenwich) en ligne gratuitement.",
     "pipsInformation": {
       "title": "Les Pips (Signal horaire de Greenwich) :",
-      "content": "Le terme 'PIPS Greenwich Time Signal' fait probablement référence au signal horaire fourni par le système PIPS (Post Office and BT Information Services) à Greenwich, qui fait partie du Royaume-Uni. Le Signal horaire de Greenwich, souvent appelé 'BBC pips', est une série de six brefs signaux diffusés au début de chaque heure sur BBC Radio. Ces signaux aident les gens à synchroniser leurs dispositifs de mesure du temps avec l'heure officielle.\n\nLe signal horaire se compose de cinq brefs pips, chacun durant une dixième de seconde, avec une pause d'une dixième de seconde entre chaque. Le sixième pip est plus long, durant une demi-seconde, et il se situe précisément au début de la nouvelle heure.\n\nCe signal horaire est une caractéristique des émissions de la BBC depuis 1924, fournissant une référence sonore pour que les individus règlent précisément leurs horloges. Il est particulièrement utile pour ceux qui ont besoin d'une mesure précise du temps, tels que les astronomes, les navigateurs et les personnes impliquées dans diverses activités professionnelles où la synchronisation précise du temps est cruciale."
+      "content": "<p>Le terme \"PIPS Greenwich Time Signal\" fait probablement référence au signal horaire fourni par le systèm PIPS (Post Office and BT Information Services) à Greenwich, qui fait partie du Royaume-Uni. Le Signal horaire de Greenwich, souvent appelé \"BBC pips\", est une série de six brefs signaux diffusés au début de chaque heure sur BBC Radio. Ces signaux aident les gens à synchroniser leurs appareils de mesure du temps avec l'heure officielle.</p><p>Le signal horaire se compose de cinq brefs signaux, chacun durant un dixième de seconde, avec un intervalle d'un dixième de seconde entre chacun. Le sixième signal est plus long, durant une demi-seconde, et il marque précisément le début de la nouvelle heure.</p><p>Ce signal horaire est une caractéristique des émissions de la BBC Radio depuis 1924, fournissant une référence audible pour que les individus règlent leurs horloges avec précision. Il est particulièrement utile pour ceux qui ont besoin d'une mesure précise du temps, tels que les astronomes, les navigateurs et les personnes impliquées dans diverses activités professionnelles où la synchronisation précise est cruciale.</p>"
     },
     "faqs": {
       "title": "FAQ :",
@@ -336,62 +338,72 @@
     }
   },
   "hearing": {
-    "title": "Test auditif en ligne - Test auditif gratuit (Sans connexion)",
+    "title": "Test auditif en ligne - Test auditif gratuit (sans connexion)",
     "description": "Utilisez notre test auditif en ligne gratuit depuis chez vous. C'est le meilleur test auditif.",
+    "heading": "Test auditif en ligne",
+    "note": "Bien que les tests en ligne offrent des premières indications, ils ne remplacent pas les évaluations professionnelles. Des examens réguliers avec des professionnels de la santé ou des audiologistes sont essentiels pour une évaluation complète de la santé auditive.",
     "hearingTest": {
       "title": "Test auditif en ligne",
-      "content": "Un test auditif en ligne utilisant un générateur de tons est un outil basé sur le web conçu pour évaluer la capacité auditive d'une personne en jouant une série de tons à différentes fréquences et volumes."
+      "content": "Un test auditif en ligne utilisant un générateur de tonalités est un outil basé sur le web conçu pour évaluer la capacité auditive d'une personne en jouant une série de tonalités à différentes fréquences et volumes."
     },
     "disclaimer": {
-      "title": "Avis de non-responsabilité pour le test auditif en ligne :",
-      "content": "Pour un test auditif en ligne sûr, choisissez des plateformes réputées associées à des organisations d'audiologie reconnues, privilégiez la confidentialité et utilisez des appareils de confiance avec un équipement audio calibré. Effectuez le test dans un environnement calme, suivez les instructions attentivement, et envisagez des tests spécifiques à l'âge ou à la condition s'ils sont disponibles.\n\nNote : Bien que les tests en ligne offrent des aperçus initiaux, ils ne remplacent pas les évaluations professionnelles. Des examens réguliers avec des professionnels de la santé ou des audiologistes sont essentiels pour une évaluation complète de la santé auditive."
+      "title": "Clause de non-responsabilité pour le test auditif en ligne :",
+      "content": "Pour un test auditif en ligne sûr, choisissez des plateformes réputées associées à des organisations d'audiologie reconnues, privilégiez la confidentialité et utilisez des appareils de confiance avec un équipement audio calibré. Effectuez le test dans un environnement calme, suivez attentivement les instructions et envisagez des tests spécifiques à l'âge ou à la condition si disponibles.\n\nNote : Bien que les tests en ligne offrent des premières indications, ils ne remplacent pas les évaluations professionnelles. Des examens réguliers avec des professionnels de la santé ou des audiologistes sont essentiels pour une évaluation complète de la santé auditive."
     },
     "howToTakeTest": {
       "title": "Comment passer un test auditif en ligne sur ToneGen.net ?",
-      "content": "Vous pouvez généralement suivre les étapes suivantes pour vérifier si un test auditif en ligne est disponible sur ToneGen.net :\n\n1. Visitez ToneGen.net : Ouvrez votre navigateur web et accédez au site web de ToneGen.net.\n2. Explorez le site web : Recherchez des sections ou des fonctionnalités spécifiques liées aux tests auditifs. Cela peut être étiqueté comme 'Test auditif' ou quelque chose de similaire.\n3. Vérifiez le menu ou les options : Examinez le menu ou les options du site web pour voir s'il existe une section dédiée aux tests auditifs. Si disponible, cliquez sur cette section.\n4. Suivez les instructions : Suivez les instructions fournies. Cela peut impliquer d'ajuster vos paramètres audio, d'écouter des tons à différentes fréquences et de répondre aux invitations.\n5. Complétez le test : Parcourez l'ensemble du test en répondant à chaque ton comme indiqué. Certains tests peuvent fournir des résultats immédiats ou des recommandations basées sur vos réponses.\n6. Consultez les résultats : Si le test offre des résultats, prenez le temps de les examiner. Les résultats peuvent inclure une évaluation de votre sensibilité auditive à différentes fréquences."
+      "content": "Vous pouvez généralement suivre les étapes suivantes pour vérifier si un test auditif en ligne est disponible sur ToneGen.net :\n\n.",
+      "steps": {
+        "visitToneGen": "Visitez ToneGen.net : Ouvrez votre navigateur web et accédez au site web de ToneGen.net.",
+        "exploreWebsite": "Explorez le site web : Recherchez des sections spécifiques ou des fonctionnalités liées aux tests auditifs. Cela peut être étiqueté comme 'Test auditif' ou quelque chose de similaire.",
+        "checkMenuOptions": "Vérifiez le menu ou les options : Examinez le menu ou les options du site web pour voir s'il existe une section dédiée aux tests auditifs. Si disponible, cliquez sur cette section.",
+        "followInstructions": "Suivez les instructions : Suivez les instructions fournies. Cela peut impliquer d'ajuster vos paramètres audio, d'écouter des tonalités à différentes fréquences et de répondre aux indicationss.",
+        "completeTest": "Terminez le test : Parcourez l'ensemble du test, en répondant à chaque tonalité comme indiqué. Certains tests peuvent fournir des résultats immédiats ou des recommandations en fonction de vos réponses.",
+        "reviewResults": "Consultez les résultats : Si le test offre des résultats, prenez le temps de les examiner. Les résultats peuvent inclure une évaluation de votre sensibilité auditive à différentes fréquences."
+      }
     },
     "faqs": {
-      "title": "FAQ :",
+      "title": "FAQ",
       "questions": [
         {
           "question": "Qu'est-ce qu'un test auditif en ligne ?",
-          "answer": "Un test auditif en ligne est un outil numérique qui permet aux individus d'évaluer leurs capacités auditives à travers une série de tons audio présentés sur un site web ou une application."
+          "answer": "Un test auditif en ligne est un outil numérique qui permet aux individus d'évaluer leurs capacités auditives grâce à une série de tonalités audio présentées sur un site web ou une application."
         },
         {
           "question": "Comment fonctionnent les tests auditifs en ligne ?",
-          "answer": "Les tests auditifs en ligne impliquent généralement la diffusion de tons à différentes fréquences et volumes. Les utilisateurs répondent aux tons, et le test fournit une évaluation de leur sensibilité auditive."
+          "answer": "Les tests auditifs en ligne consistent généralement à jouer des tonalités à différentes fréquences et volumes. Les utilisateurs répondent aux tonalités, et le test fournit une évaluation de leur sensibilité auditive."
         },
         {
           "question": "Les tests auditifs en ligne sont-ils précis ?",
-          "answer": "Bien que les tests auditifs en ligne puissent donner une indication générale des capacités auditives, ils ne sont peut-être pas aussi précis que les évaluations professionnelles menées par des audiologistes. Ils servent d'outil de dépistage préliminaire."
+          "answer": "Bien que les tests auditifs en ligne puissent donner une indication générale des capacités auditives, ils peuvent ne pas être aussi précis que les évaluations professionnelles réalisées par des audiologistes. Ils servent d'outil de dépistage préliminaire."
         },
         {
           "question": "Puis-je passer un test auditif en ligne sur mon smartphone ou ma tablette ?",
-          "answer": "Oui, de nombreux tests auditifs en ligne sont conçus pour être compatibles avec les smartphones et les tablettes, permettant aux utilisateurs de passer le test sur différents appareils."
+          "answer": "Oui, de nombreux tests auditifs en ligne sont conçus pour être compatibles avec les smartphones et les tablettes, ce qui permet aux utilisateurs de passer le test sur différents appareils."
         },
         {
-          "question": "Combien de temps faut-il pour terminer un test auditif en ligne ?",
-          "answer": "La durée d'un test auditif en ligne varie, mais il faut généralement entre 5 et 15 minutes pour le compléter, en fonction du fournisseur du test."
+          "question": "Combien de temps faut-il pour passer un test auditif en ligne ?",
+          "answer": "La durée d'un test auditif en ligne varie, mais il faut généralement entre 5 et 15 minutes pour le terminer, selon le fournisseur du test."
         },
         {
-          "question": "Ai-je besoin d'un équipement spécial pour un test auditif en ligne ?",
-          "answer": "Vous avez généralement besoin de casques et d'un environnement calme pour passer un test auditif en ligne. Assurez-vous que vos écouteurs sont en bon état pour des résultats précis."
+          "question": "Ai-je besoin d'un équipement spécial pour passer un test auditif en ligne ?",
+          "answer": "Vous avez généralement besoin d'un casque audio et d'un environnement calme pour passer un test auditif en ligne. Assurez-vous que votre casque audio est en bon état pour des résultats précis."
         },
         {
-          "question": "Que faire si un test auditif en ligne indique des problèmes auditifs ?",
-          "answer": "Si un test auditif en ligne suggère des problèmes auditifs potentiels, il est conseillé de rechercher une évaluation professionnelle auprès d'un audiologiste ou d'un professionnel de la santé pour une évaluation complète."
+          "question": "Que dois-je faire si un test auditif en ligne indique des problèmes auditifs ?",
+          "answer": "Si un test auditif en ligne suggère des problèmes auditifs potentiels, il est conseillé de demander une évaluation professionnelle auprès d'un audiologiste ou d'un professionnel de la santé pour une évaluation complète."
         },
         {
           "question": "Les tests auditifs en ligne peuvent-ils être utilisés comme outil de diagnostic ?",
-          "answer": "Les tests auditifs en ligne ne sont pas des outils de diagnostic, mais ils servent d'outils de dépistage. Toutes préoccupations ou résultats significatifs devraient faire l'objet d'un suivi avec une évaluation professionnelle."
+          "answer": "Les tests auditifs en ligne ne sont pas des outils de diagnostic, mais servent d'outils de dépistage. Toute préoccupation ou découverte importante doit être suivie d'une évaluation professionnelle."
         },
         {
           "question": "Les tests auditifs en ligne sont-ils gratuits ?",
-          "answer": "De nombreux tests auditifs en ligne offrent des services de base gratuitement, mais certains peuvent fournir des fonctionnalités supplémentaires ou des résultats détaillés moyennant des versions premium ou des abonnements payants."
+          "answer": "De nombreux tests auditifs en ligne offrent des services de base gratuits, mais certains peuvent proposer des fonctionnalités supplémentaires ou des résultats détaillés via des versions premium ou des abonnements payants."
         },
         {
           "question": "À quelle fréquence devrais-je passer un test auditif en ligne ?",
-          "answer": "Les tests auditifs en ligne peuvent être utilisés pour une surveillance régulière, mais des examens réguliers avec des audiologistes ou des professionnels de la santé sont cruciaux pour une évaluation complète, surtout en cas de préoccupations concernant la santé auditive."
+          "answer": "Les tests auditifs en ligne peuvent être utilisés pour une surveillance régulière, mais des examens réguliers avec des audiologistes ou des professionnels de la santé sont essentiels pour une évaluation complète, surtout s'il y a des préoccupations concernant la santé auditive."
         }
       ]
     }
@@ -400,6 +412,7 @@
     "title": "Test de caisson de basses en ligne - Vérifiez les basses fréquences",
     "description": "Vérifiez les basses en ligne pour votre caisson de basses. Testez les fréquences basses de 20 Hz à 200 Hz pour votre caisson de basses.",
     "subwooferTest": {
+      "heading": "Test de basses en ligne pour caisson de basses",
       "title": "Comment tester les basses d'un caisson de basses",
       "content": "Pour tester les basses de votre caisson de basses en ligne avec ToneGen.net, il vous suffit de visiter le site web et de localiser le générateur de tonalités. Commencez par jouer des tonalités de basses fréquences et augmentez progressivement la hauteur, en écoutant des réponses claires et profondes. ToneGen.net vous permet d'ajuster facilement les fréquences et d'évaluer les performances de votre caisson de basses, garantissant qu'il produit le son grave désiré pour une expérience audio optimale."
     },
