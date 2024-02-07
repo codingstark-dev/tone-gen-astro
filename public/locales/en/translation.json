@@ -247,6 +247,7 @@
   },
   "432hz": {
     "title": "432 Hz Frequency Sound Generator Online",
+    "heading": "432 Hz Frequency Generator",
     "description": "Generate 432Hz Tone Frequency Online, You can generate unlimited 432Hz sound music.",
     "howToGenerate": {
       "title": "How to Generate 432Hz Frequency:",
@@ -307,7 +308,7 @@
     "description": "The Pips, or Greenwich Time Signal, are six short tones broadcast online at the top of each hour on BBC Radio. Pips (Greenwich Time Signal) Online Free.",
     "pipsInformation": {
       "title": "The Pips (Greenwich Time Signal):",
-      "content": "The term \"PIPS Greenwich Time Signal\" likely refers to the time signal provided by the PIPS (Post Office and BT Information Services) system at Greenwich, which is part of the United Kingdom. The Greenwich Time Signal, often known as the \"BBC pips,\" is a series of six short tones broadcast at the top of each hour on BBC Radio. These tones help people synchronize their timekeeping devices with the official time.\n\nThe time signal consists of five short pips, each lasting one-tenth of a second, with a gap of one-tenth of a second between each. The sixth pip is longer, lasting half a second, and it is on the precise start of the new hour.\n\nThis time signal has been a feature of BBC Radio broadcasts since 1924, providing an audible reference for individuals to set their clocks accurately. It is particularly useful for those who need precise timekeeping, such as astronomers, navigators, and individuals involved in various professional activities where accurate timing is crucial."
+      "content": "<p> The term \"PIPS Greenwich Time Signal\" likely refers to the time signal provided by the PIPS (Post Office and BT Information Services) system at Greenwich, which is part of the United Kingdom. The Greenwich Time Signal, often known as the \"BBC pips,\" is a series of six short tones broadcast at the top of each hour on BBC Radio. These tones help people synchronize their timekeeping devices with the official time.</p><p>The time signal consists of five short pips, each lasting one-tenth of a second, with a gap of one-tenth of a second between each. The sixth pip is longer, lasting half a second, and it is on the precise start of the new hour.</p><p>This time signal has been a feature of BBC Radio broadcasts since 1924, providing an audible reference for individuals to set their clocks accurately. It is particularly useful for those who need precise timekeeping, such as astronomers, navigators, and individuals involved in various professional activities where accurate timing is crucial.</p>"
     },
     "faqs": {
       "title": "FAQ’s",
@@ -338,6 +339,8 @@
   "hearing": {
     "title": "Online Hearing Test - Free Ear test (No login)",
     "description": "Use our free online hearing test from home, This is the Best hearing checker.",
+    "heading": "Online Hearing Test",
+    "note": "While online tests offer initial insights, they are not a substitute for professional evaluations, so regular check-ups with healthcare providers or audiologists are essential for a comprehensive assessment of hearing health",
     "hearingTest": {
       "title": "Hearing Test Online",
       "content": "An online hearing test using a tone generator is a web-based tool designed to assess a person's hearing ability by playing a series of tones at different frequencies and volumes."
@@ -348,7 +351,15 @@
     },
     "howToTakeTest": {
       "title": "How to take an online hearing test on ToneGen.net?",
-      "content": "You can generally use the following steps to check if an online hearing test is available on ToneGen.net:\n\n1. **Visit ToneGen.net:** Open your web browser and navigate to the ToneGen.net website.\n2. **Explore the Website:** Look for any specific sections or features related to hearing tests. This may be labeled as 'Hearing Test' or something similar.\n3. **Check Menu or Options:** Examine the website's menu or options to see if there is a dedicated section for hearing tests. If available, click on that section.\n4. **Follow Instructions:** Follow the provided instructions. This may involve adjusting your audio settings, listening to tones at different frequencies, and responding to prompts.\n5. **Complete the Test:** Go through the entire test, responding to each tone as instructed. Some tests may provide immediate results or recommendations based on your responses.\n6. **Review Results:** If the test offers results, take the time to review them. Results may include an assessment of your hearing sensitivity at different frequencies."
+      "content": "You can generally use the following steps to check if an online hearing test is available on ToneGen.net:\n\n.",
+      "steps": {
+        "visitToneGen": "Visit ToneGen.net: Open your web browser and navigate to the ToneGen.net website.",
+        "exploreWebsite": "Explore the Website: Look for any specific sections or features related to hearing tests. This may be labeled as 'Hearing Test' or something similar.",
+        "checkMenuOptions": "Check Menu or Options: Examine the website's menu or options to see if there is a dedicated section for hearing tests. If available, click on that section.",
+        "followInstructions": "Follow Instructions: Follow the provided instructions. This may involve adjusting your audio settings, listening to tones at different frequencies, and responding to prompts.",
+        "completeTest": "Complete the Test: Go through the entire test, responding to each tone as instructed. Some tests may provide immediate results or recommendations based on your responses.",
+        "reviewResults": "Review Results: If the test offers results, take the time to review them. Results may include an assessment of your hearing sensitivity at different frequencies."
+      }
     },
     "faqs": {
       "title": "FAQ’s",
@@ -400,6 +411,7 @@
     "title": "Online Subwoofer Test -  Check Low Frequency Bass",
     "description": "Check Online Subwoofer basS. Test 20hz to 200hz Low Frequency for your subwoofers.",
     "subwooferTest": {
+      "heading": "Online Subwoofer Bass Test",
       "title": "How to Test Subwoofer Bass",
       "content": "To test your subwoofer's bass online using ToneGen.net, simply visit the website and locate the frequency tone generator. Start by playing low-frequency tones and gradually increase the pitch, listening for clear and deep bass responses. ToneGen.net allows you to easily adjust frequencies and assess your subwoofer's performance, ensuring it produces the desired low-end sound for an optimal audio experience."
     },
