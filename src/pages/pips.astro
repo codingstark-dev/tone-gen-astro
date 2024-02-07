@@ -13,13 +13,13 @@ changeLanguage("en");
     <br />
     <h4 class="text-center">The Pips (Greenwich Time Signal)</h4>
     <GTS client:load />
-    <MoreTools/>
+    <MoreTools />
 
     <article class="p-4">
       <h2>
         {t("pips.pipsInformation.title")}
       </h2>
-      <p>{t("pips.pipsInformation.content")}</p>
+      <div set:html={t("pips.pipsInformation.content")} />
       <h3>FAQ's</h3>
       {
         (

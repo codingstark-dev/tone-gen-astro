@@ -1,0 +1,85 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Subwoofers from "../../components/Subwoofer";
+import { t, changeLanguage } from "i18next";
+import Noise from "../../components/Noise";
+import MoreTools from "../../components/MoreTools.astro";
+
+changeLanguage("ru");
+---
+
+<Layout
+  title={t("noise.title")}
+  description={t("noise.description")}
+>
+  <main class="prose mx-auto pb-10">
+    <br />
+
+    <h1 class="text-center pt-4">{t("noise.onlineNoiseGenerator.heading")}</h1>
+
+    <Noise client:load />
+    <MoreTools/>
+
+    <article class="p-4">
+      <p>{t("noise.onlineNoiseGenerator.content")}</p>
+      <h2>
+        {t("noise.typesOfNoise.heading")}
+      </h2>
+      <h3>
+        {t("noise.typesOfNoise.whiteNoise.heading")}
+      </h3>
+      <p>{t("noise.typesOfNoise.whiteNoise.content")}</p>
+      <h3>
+        {t("noise.typesOfNoise.pinkNoise.heading")}
+      </h3>
+      <p>{t("noise.typesOfNoise.pinkNoise.content")}</p>
+      <h3>
+        {t("noise.typesOfNoise.brownNoise.heading")}
+      </h3>
+      <p>{t("noise.typesOfNoise.brownNoise.content")}</p>
+      <h2>
+        {t("noise.exploringNoiseGenerators.heading")}
+      </h2>
+      <p>{t("noise.exploringNoiseGenerators.content")}</p>
+      <h2>
+        {t("noise.benefitsOfUsingGenerators.heading")}
+      </h2>
+      <h3>
+        {t("noise.benefitsOfUsingGenerators.focus.heading")}
+      </h3>
+      <p>{t("noise.benefitsOfUsingGenerators.focus.content")}</p>
+      <h3>
+        {t("noise.benefitsOfUsingGenerators.relaxation.heading")}
+      </h3>
+      <p>{t("noise.benefitsOfUsingGenerators.relaxation.content")}</p>
+      <h3>
+        {t("noise.benefitsOfUsingGenerators.sleepQuality.heading")}
+      </h3>
+      <p>{t("noise.benefitsOfUsingGenerators.sleepQuality.content")}</p>
+      <h3>
+        {t("noise.faqs.heading")}
+      </h3>
+      {
+        (
+          t("noise.faqs.questions", {
+            returnObjects: true,
+          }) as []
+        ).map((answer: any, question) => (
+          <div class="p-2">
+            <div class="collapse bg-base-200 collapse-arrow">
+              <input type="checkbox" />
+              <div class="collapse-title text-base font-medium">
+                {answer.question}
+              </div>
+              <div class="collapse-content">{answer.answer}</div>
+            </div>
+          </div>
+        ))
+      }
+    
+
+      
+    </article>
+  </main>
+</Layout>
+ 

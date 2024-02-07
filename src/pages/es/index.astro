@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import ToneGenSection from "../../components/ToneGen";
 import { t, changeLanguage } from "i18next";
+import MoreTools from "../../components/MoreTools.astro";
 
 changeLanguage("es");
 ---
@@ -11,7 +12,7 @@ changeLanguage("es");
     <h1 class="text-center pt-4">{t("tone.title")}</h1>
 
     <ToneGenSection client:idle />
-
+    <MoreTools/>
     <article class="p-4">
       <div role="alert" class="alert alert-error my-10">
         <span>{t("tone.caution")}</span>
@@ -99,24 +100,23 @@ changeLanguage("es");
   </main>
 </Layout>
 <style is:global>
-.range1.range::-moz-range-thumb {
-  box-shadow: none !important;
-  background-color: darkgray !important;
-}  
-.range1.range::-webkit-slider-thumb {
+  .range1.range::-moz-range-thumb {
     box-shadow: none !important;
-  background-color: darkgray !important;
+    background-color: darkgray !important;
+  }
+  .range1.range::-webkit-slider-thumb {
+    box-shadow: none !important;
+    background-color: darkgray !important;
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 
-}
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
 </style>

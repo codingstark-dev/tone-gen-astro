@@ -7,13 +7,11 @@ import MoreTools from "../components/MoreTools.astro";
 changeLanguage("en");
 ---
 
-<Layout
-  title={t("hearing.title")}
-  description={t("hearing.description")}
->
+<Layout title={t("hearing.title")} description={t("hearing.description")}>
   <main class="prose mx-auto">
+    <h1 class="text-center pt-4">{t("hearing.heading")}</h1>
     <HearingTest client:idle />
-        <MoreTools/>
+    <MoreTools />
 
     <article class="p-4">
       <h2>
@@ -24,10 +22,23 @@ changeLanguage("en");
         {t("hearing.disclaimer.title")}
       </h2>
       <p>{t("hearing.disclaimer.content")}</p>
+      <div role="alert" class="alert alert-error my-10">
+        <span>{t("hearing.note")}</span>
+      </div>
+
       <h2>
         {t("hearing.howToTakeTest.title")}
       </h2>
       <p>{t("hearing.howToTakeTest.content")}</p>
+      <ol>
+        <li>{t("hearing.howToTakeTest.steps.visitToneGen")}</li>
+        <li>{t("hearing.howToTakeTest.steps.exploreWebsite")}</li>
+        <li>{t("hearing.howToTakeTest.steps.checkMenuOptions")}</li>
+        <li>{t("hearing.howToTakeTest.steps.followInstructions")}</li>
+        <li>{t("hearing.howToTakeTest.steps.completeTest")}</li>
+        <li>{t("hearing.howToTakeTest.steps.reviewResults")}</li>
+      </ol>
+
       <h3>FAQ's</h3>
       {
         (

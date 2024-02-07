@@ -1,15 +1,15 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Subwoofers from "../components/Subwoofer";
+import Layout from "../../layouts/Layout.astro";
+import Subwoofers from "../../components/Subwoofer";
 import { t, changeLanguage } from "i18next";
-import MoreTools from "../components/MoreTools.astro";
+import MoreTools from "../../components/MoreTools.astro";
 
-changeLanguage("en");
+changeLanguage("ru");
 ---
 
 <Layout title={t("subwoffer.title")} description={t("subwoffer.description")}>
   <main class="prose mx-auto">
-    <h1 class="text-center pt-4">{t("subwoffer.subwooferTest.heading")}</h1>
+    <h1 class="text-center pt-4">{t("subwoffer.title")}</h1>
     <Subwoofers client:idle />
     <MoreTools />
 

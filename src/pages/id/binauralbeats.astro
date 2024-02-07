@@ -1,0 +1,96 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { t, changeLanguage } from "i18next";
+import BinauralBeats from "../../components/BinerualBeats";
+import MoreTools from "../../components/MoreTools.astro";
+
+changeLanguage("id");
+---
+
+<Layout title={t("binaural.title")} description={t("binaural.description")}>
+  <main class="prose mx-auto">
+    <h1>{t("binaural.sections.binauralBeatsGenerator.heading")}</h1>
+
+    <BinauralBeats client:idle />
+    <MoreTools/>
+
+    <article class="p-4">
+      <h2>{t("binaural.sections.understandingBinauralBeats.heading")}</h2>
+      <p>
+        {t("binaural.sections.binauralBeatsGenerator.generateBeats.content")}
+      </p>
+      <h3>
+        {t("binaural.sections.understandingBinauralBeats.definition.heading")}
+      </h3>
+      <p>
+        {t("binaural.sections.understandingBinauralBeats.definition.content")}
+      </p>
+      <h3>
+        {t("binaural.sections.understandingBinauralBeats.howItWorks.heading")}
+      </h3>
+      <p>
+        {t("binaural.sections.understandingBinauralBeats.howItWorks.content")}
+      </p>
+      <h2>{t("binaural.sections.benefitsOfBinauralBeats.heading")}</h2>
+      <h3>
+        {t("binaural.sections.benefitsOfBinauralBeats.relaxation.heading")}
+      </h3>
+      <p>{t("binaural.sections.benefitsOfBinauralBeats.relaxation.content")}</p>
+      <h3>{t("binaural.sections.benefitsOfBinauralBeats.focus.heading")}</h3>
+      <p>{t("binaural.sections.benefitsOfBinauralBeats.focus.content")}</p>
+      <h3>
+        {
+          t(
+            "binaural.sections.benefitsOfBinauralBeats.sleepEnhancement.heading"
+          )
+        }
+      </h3>
+      <p>
+        {
+          t(
+            "binaural.sections.benefitsOfBinauralBeats.sleepEnhancement.content"
+          )
+        }
+      </p>
+      <h3>{t("binaural.sections.faqs.heading")}</h3>
+      {
+        (
+          t("binaural.sections.faqs.questions", {
+            returnObjects: true,
+          }) as []
+        ).map((answer: any, question) => (
+          <div class="p-2">
+            <div class="collapse bg-base-200 collapse-arrow">
+              <input type="checkbox" />
+              <div class="collapse-title text-base font-medium">
+                {answer.question}
+              </div>
+              <div class="collapse-content">{answer.answer}</div>
+            </div>
+          </div>
+        ))
+      }
+    </article>
+  </main>
+</Layout>
+<style is:global>
+  .range1.range::-moz-range-thumb {
+    box-shadow: none !important;
+    background-color: darkgray !important;
+  }
+  .range1.range::-webkit-slider-thumb {
+    box-shadow: none !important;
+    background-color: darkgray !important;
+  }
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+</style>

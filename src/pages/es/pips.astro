@@ -1,37 +1,29 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import HearingTest from "../../components/HeartingTest";
+import Subwoofers from "../../components/Subwoofer";
 import { t, changeLanguage } from "i18next";
+import GTS from "../../components/GTS";
 import MoreTools from "../../components/MoreTools.astro";
 
-changeLanguage("fr");
+changeLanguage("es");
 ---
 
-<Layout
-  title={t("hearing.title")}
-  description={t("hearing.description")}
->
-  <main class="prose mx-auto">
-    <HearingTest client:idle />
-        <MoreTools/>
+<Layout title={t("pips.title")} description={t("pips.description")}>
+  <main class="prose mx-auto pb-10">
+    <br />
+    <h4 class="text-center">The Pips (Greenwich Time Signal)</h4>
+    <GTS client:load />
+    <MoreTools/>
 
     <article class="p-4">
       <h2>
-        {t("hearing.hearingTest.title")}
+        {t("pips.pipsInformation.title")}
       </h2>
-      <p>{t("hearing.hearingTest.content")}</p>
-      <h2>
-        {t("hearing.disclaimer.title")}
-      </h2>
-      <p>{t("hearing.disclaimer.content")}</p>
-      <h2>
-        {t("hearing.howToTakeTest.title")}
-      </h2>
-      <p>{t("hearing.howToTakeTest.content")}</p>
+      <p>{t("pips.pipsInformation.content")}</p>
       <h3>FAQ's</h3>
       {
         (
-          t("hearing.faqs.questions", {
+          t("pips.faqs.questions", {
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (

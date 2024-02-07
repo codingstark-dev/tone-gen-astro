@@ -248,6 +248,8 @@
   },
   "432hz": {
     "title": "Generator Suara Frekuensi 432 Hz Online",
+    "heading": "Generator Frekuensi 432 Hz",
+
     "description": "Hasilkan Frekuensi Suara 432 Hz secara Online, Anda dapat menghasilkan musik suara 432 Hz tanpa batas.",
     "howToGenerate": {
       "title": "Cara Menghasilkan Frekuensi 432 Hz:",
@@ -308,7 +310,7 @@
     "description": "Pips, atau Greenwich Time Signal, adalah enam nada pendek yang disiarkan secara online di awal setiap jam di BBC Radio. Pips (Greenwich Time Signal) Online Gratis.",
     "pipsInformation": {
       "title": "Pips (Greenwich Time Signal):",
-      "content": " Istilah \"PIPS Greenwich Time Signal\" kemungkinan merujuk pada sinyal waktu yang diberikan oleh sistem PIPS (Post Office and BT Information Services) di Greenwich, yang merupakan bagian dari Britania Raya. Greenwich Time Signal, yang sering dikenal sebagai \"BBC pips,\" adalah serangkaian enam nada pendek yang disiarkan di awal setiap jam di BBC Radio. Nada-nada ini membantu orang menyelaraskan perangkat pemeliharaan waktu mereka dengan waktu resmi.\n\nSinyal waktu terdiri dari lima pip pendek, masing-masing berlangsung satu per sepuluh detik, dengan jeda satu per sepuluh detik di antara masing-masing. Pip keenam lebih panjang, berlangsung setengah detik, dan berada pada awal tepat jam baru.\n\nSinyal waktu ini telah menjadi fitur siaran radio BBC sejak tahun 1924, memberikan referensi terdengar bagi individu untuk menyetel jam mereka dengan tepat. Ini sangat berguna bagi mereka yang membutuhkan pemeliharaan waktu yang tepat, seperti astronom, navigator, dan individu yang terlibat dalam berbagai kegiatan profesional di mana waktu yang akurat sangat penting."
+      "content": "<p> Istilah \"PIPS Greenwich Time Signal\" kemungkinan merujuk pada sinyal waktu yang disediakan oleh sistem PIPS (Post Office and BT Information Services) di Greenwich, yang merupakan bagian dari Britania Raya. Sinyal Waktu Greenwich, yang sering dikenal sebagai \"BBC pips,\" adalah serangkaian enam nada pendek yang disiarkan di awal setiap jam di BBC Radio. Nada-nada ini membantu orang menyelaraskan perangkat pemeliharaan waktu mereka dengan waktu resmi.</p><p>Sinyal waktu terdiri dari lima pips pendek, masing-masing berlangsung selama sepersepuluh detik, dengan jeda sepersepuluh detik antara masing-masingnya. Pip keenam lebih panjang, berlangsung setengah detik, dan berada pada awal yang tepat dari jam baru.</p><p>Sinyal waktu ini telah menjadi fitur siaran BBC Radio sejak tahun 1924, memberikan referensi yang terdengar bagi individu untuk mengatur jam mereka dengan akurat. Ini sangat berguna bagi mereka yang membutuhkan pemeliharaan waktu yang tepat, seperti astronom, navigator, dan individu yang terlibat dalam berbagai kegiatan profesional di mana waktu yang akurat sangat penting.</p>"
     },
     "faqs": {
       "title": "FAQ’s",
@@ -337,62 +339,72 @@
     }
   },
   "hearing": {
-    "title": "Uji Pendengaran Online - Uji Telinga Gratis (Tanpa Login)",
-    "description": "Gunakan uji pendengaran online gratis dari rumah, Ini adalah Pemeriksa Pendengaran Terbaik.",
+    "title": "Tes Pendengaran Online - Tes Telinga Gratis (Tanpa Login)",
+    "description": "Gunakan tes pendengaran online gratis kami dari rumah, Ini adalah pemeriksa pendengaran terbaik.",
+    "heading": "Tes Pendengaran Online",
+    "note": "Meskipun tes online memberikan wawasan awal, mereka bukan pengganti evaluasi profesional, jadi pemeriksaan rutin dengan penyedia layanan kesehatan atau ahli audiologi sangat penting untuk penilaian menyeluruh tentang kesehatan pendengaran",
     "hearingTest": {
-      "title": "Uji Pendengaran Online",
-      "content": "Uji pendengaran online menggunakan generator nada adalah alat berbasis web yang dirancang untuk menilai kemampuan pendengaran seseorang dengan memutar serangkaian nada pada frekuensi dan volume yang berbeda."
+      "title": "Tes Pendengaran Online",
+      "content": "Tes pendengaran online menggunakan generator nada adalah alat berbasis web yang dirancang untuk menilai kemampuan pendengaran seseorang dengan memutar serangkaian nada pada frekuensi dan volume yang berbeda."
     },
     "disclaimer": {
-      "title": "Penyangkalan untuk Uji Pendengaran Online:",
-      "content": "Untuk uji pendengaran online yang aman, pilih platform terkemuka yang terkait dengan organisasi audiologi terkemuka, prioritaskan privasi, dan gunakan perangkat terpercaya dengan peralatan audio yang dikalibrasi. Lakukan uji di lingkungan yang tenang, ikuti petunjuk dengan cermat, dan pertimbangkan uji khusus usia atau kondisi jika tersedia.\n\nCatatan: Meskipun uji online menawarkan wawasan awal, mereka bukan pengganti evaluasi profesional, sehingga pemeriksaan rutin dengan penyedia layanan kesehatan atau audiologis sangat penting untuk penilaian menyeluruh terhadap kesehatan pendengaran."
+      "title": "Penyangkalan untuk Tes Pendengaran Online:",
+      "content": "Untuk tes pendengaran online yang aman, pilih platform terpercaya yang terkait dengan organisasi audiologi yang diakui, prioritaskan privasi, dan gunakan perangkat yang terpercaya dengan peralatan audio yang dikalibrasi. Lakukan tes di lingkungan yang tenang, ikuti instruksi dengan cermat, dan pertimbangkan tes yang sesuai dengan usia atau kondisi jika tersedia.\n\nCatatan: Meskipun tes online memberikan wawasan awal, mereka bukan pengganti evaluasi profesional, jadi pemeriksaan rutin dengan penyedia layanan kesehatan atau ahli audiologi sangat penting untuk penilaian menyeluruh tentang kesehatan pendengaran."
     },
     "howToTakeTest": {
-      "title": "Cara melakukan uji pendengaran online di ToneGen.net?",
-      "content": "Anda biasanya dapat menggunakan langkah-langkah berikut untuk mengecek apakah uji pendengaran online tersedia di ToneGen.net:\n\n1. *Kunjungi ToneGen.net:* Buka peramban web Anda dan arahkan ke situs web ToneGen.net.\n2. *Jelajahi Situs Web:* Cari bagian atau fitur khusus terkait uji pendengaran. Ini mungkin diberi label 'Uji Pendengaran' atau sesuatu yang serupa.\n3. *Periksa Menu atau Opsi:* Periksa menu atau opsi situs web untuk melihat apakah ada bagian yang didedikasikan untuk uji pendengaran. Jika tersedia, klik bagian tersebut.\n4. *Ikuti Petunjuk:* Ikuti petunjuk yang diberikan. Ini mungkin melibatkan penyesuaian pengaturan audio, mendengarkan nada pada frekuensi yang berbeda, dan merespons perintah.\n5. *Selesaikan Uji:* Lakukan seluruh uji, merespons setiap nada sesuai instruksi. Beberapa uji mungkin memberikan hasil atau rekomendasi langsung berdasarkan respons Anda.\n6. *Tinjau Hasil:* Jika uji menawarkan hasil, luangkan waktu untuk meninjau. Hasilnya mungkin mencakup penilaian sensitivitas pendengaran Anda pada frekuensi yang berbeda."
+      "title": "Bagaimana cara melakukan tes pendengaran online di ToneGen.net?",
+      "content": "Anda biasanya dapat menggunakan langkah-langkah berikut untuk memeriksa apakah tes pendengaran online tersedia di ToneGen.net:\n\n.",
+      "steps": {
+        "visitToneGen": "Kunjungi ToneGen.net: Buka peramban web Anda dan arahkan ke situs web ToneGen.net.",
+        "exploreWebsite": "Jelajahi Situs Web: Cari bagian atau fitur khusus terkait tes pendengaran. Ini mungkin diberi label 'Tes Pendengaran' atau sesuatu yang serupa.",
+        "checkMenuOptions": "Periksa Menu atau Opsi: Periksa menu atau opsi situs web untuk melihat apakah ada bagian khusus untuk tes pendengaran. Jika tersedia, klik bagian tersebut.",
+        "followInstructions": "Ikuti Instruksi: Ikuti instruksi yang disediakan. Ini mungkin melibatkan penyesuaian pengaturan audio, mendengarkan nada pada frekuensi yang berbeda, dan merespons instruksi.",
+        "completeTest": "Selesaikan Tes: Lakukan tes secara keseluruhan, merespons setiap nada sesuai petunjuk. Beberapa tes mungkin memberikan hasil atau rekomendasi langsung berdasarkan respons Anda.",
+        "reviewResults": "Ulas Hasil: Jika tes menawarkan hasil, luangkan waktu untuk mengulasnya. Hasil dapat mencakup penilaian sensitivitas pendengaran Anda pada frekuensi yang berbeda."
+      }
     },
     "faqs": {
       "title": "FAQ’s",
       "questions": [
         {
-          "question": "Apa itu uji pendengaran online?",
-          "answer": "Uji pendengaran online adalah alat digital yang memungkinkan individu menilai kemampuan pendengaran mereka melalui serangkaian nada audio yang disajikan di situs web atau aplikasi."
+          "question": "Apa itu tes pendengaran online?",
+          "answer": "Tes pendengaran online adalah alat digital yang memungkinkan individu menilai kemampuan pendengaran mereka melalui serangkaian nada audio yang disajikan di situs web atau aplikasi."
         },
         {
-          "question": "Bagaimana cara uji pendengaran online bekerja?",
-          "answer": "Uji pendengaran online biasanya melibatkan pemutaran nada pada frekuensi dan volume yang berbeda. Pengguna merespons nada, dan uji memberikan penilaian terhadap sensitivitas pendengaran mereka."
+          "question": "Bagaimana cara kerja tes pendengaran online?",
+          "answer": "Tes pendengaran online umumnya melibatkan pemutaran nada pada frekuensi dan volume yang berbeda. Pengguna merespons nada tersebut, dan tes memberikan penilaian tentang sensitivitas pendengaran mereka."
         },
         {
-          "question": "Apakah uji pendengaran online akurat?",
-          "answer": "Meskipun uji pendengaran online dapat memberikan indikasi umum tentang kemampuan pendengaran, mereka mungkin tidak seakurat evaluasi profesional yang dilakukan oleh ahli audiologi. Mereka berfungsi sebagai alat penyaringan awal."
+          "question": "Apakah tes pendengaran online akurat?",
+          "answer": "Meskipun tes pendengaran online dapat memberikan indikasi umum tentang kemampuan pendengaran, mereka mungkin tidak seakurat evaluasi profesional yang dilakukan oleh ahli audiologi. Mereka berfungsi sebagai alat skrining awal."
         },
         {
-          "question": "Bisakah saya melakukan uji pendengaran online di ponsel pintar atau tablet saya?",
-          "answer": "Ya, banyak uji pendengaran online dirancang untuk kompatibel dengan ponsel pintar dan tablet, memungkinkan pengguna melakukan uji pada berbagai perangkat."
+          "question": "Apakah saya bisa melakukan tes pendengaran online di smartphone atau tablet saya?",
+          "answer": "Ya, banyak tes pendengaran online dirancang agar kompatibel dengan smartphone dan tablet, memungkinkan pengguna untuk melakukan tes pada berbagai perangkat."
         },
         {
-          "question": "Berapa lama waktu yang dibutuhkan untuk menyelesaikan uji pendengaran online?",
-          "answer": "Durasi uji pendengaran online bervariasi, tetapi umumnya memakan waktu sekitar 5 hingga 15 menit untuk diselesaikan, tergantung pada penyedia uji."
+          "question": "Berapa lama waktu yang diperlukan untuk menyelesaikan tes pendengaran online?",
+          "answer": "Durasi tes pendengaran online bervariasi, tetapi umumnya membutuhkan waktu sekitar 5 hingga 15 menit untuk menyelesaikannya, tergantung pada penyedia tes."
         },
         {
-          "question": "Apakah saya memerlukan peralatan khusus untuk uji pendengaran online?",
-          "answer": "Anda biasanya memerlukan headphone dan lingkungan yang tenang untuk melakukan uji pendengaran online. Pastikan headphone Anda dalam kondisi baik untuk hasil yang akurat."
+          "question": "Apakah saya memerlukan peralatan khusus untuk tes pendengaran online?",
+          "answer": "Anda biasanya memerlukan headphone dan lingkungan yang tenang untuk melakukan tes pendengaran online. Pastikan headphone Anda dalam kondisi baik untuk hasil yang akurat."
         },
         {
-          "question": "Apa yang harus dilakukan jika uji pendengaran online menunjukkan masalah pendengaran?",
-          "answer": "Jika uji pendengaran online menunjukkan potensi masalah pendengaran, disarankan untuk mencari evaluasi profesional dari ahli audiologi atau penyedia layanan kesehatan untuk penilaian menyeluruh."
+          "question": "Apa yang harus saya lakukan jika tes pendengaran online menunjukkan masalah pendengaran?",
+          "answer": "Jika tes pendengaran online menunjukkan potensi masalah pendengaran, disarankan untuk mencari evaluasi profesional dari ahli audiologi atau penyedia layanan kesehatan untuk penilaian menyeluruh."
         },
         {
-          "question": "Bisakah uji pendengaran online digunakan sebagai alat diagnostik?",
-          "answer": "Uji pendengaran online bukan alat diagnostik tetapi berfungsi sebagai alat penyaringan. Setiap kekhawatiran atau temuan signifikan sebaiknya diikuti dengan evaluasi profesional."
+          "question": "Apakah tes pendengaran online dapat digunakan sebagai alat diagnostik?",
+          "answer": "Tes pendengaran online bukanlah ala diagnostik tetapi berfungsi sebagai alat skrining. Setiap kekhawatiran atau temuan signifikan harus diikuti dengan evaluasi profesional."
         },
         {
-          "question": "Apakah uji pendengaran online gratis digunakan?",
-          "answer": "Banyak uji pendengaran online menawarkan layanan dasar secara gratis, tetapi beberapa mungkin menyediakan fitur tambahan atau hasil yang lebih rinci melalui versi premium atau langganan berbayar."
+          "question": "Apakah tes pendengaran online gratis digunakan?",
+          "answer": "Banyak tes pendengaran online menawarkan layanan dasar secara gratis, tetapi beberapa mungkin menyediakan fitur tambahan atau hasil terperinci melalui versi premium atau langganan berbayar."
         },
         {
-          "question": "Berapa sering saya sebaiknya melakukan uji pendengaran online?",
-          "answer": "Uji pendengaran online dapat digunakan untuk pemantauan rutin, tetapi pemeriksaan berkala dengan ahli audiologi atau penyedia layanan kesehatan sangat penting untuk evaluasi menyeluruh, terutama jika ada kekhawatiran tentang kesehatan pendengaran."
+          "question": "Seberapa sering sebaiknya saya melakukan tes pendengaran online?",
+          "answer": "Tes pendengaran online dapat digunakan untuk pemantauan rutin, tetapi pemeriksaan rutin dengan ahli audiologi atau penyedia layanan kesehatan sangat penting untuk evaluasi menyeluruh, terutama jika ada kekhawatiran tentang kesehatan pendengaran."
         }
       ]
     }
@@ -401,6 +413,7 @@
     "title": "Uji Subwoofer Online - Periksa Bass Frekuensi Rendah",
     "description": "Periksa Online Subwoofer basS. Uji Frekuensi Rendah 20Hz hingga 200Hz untuk subwoofer Anda.",
     "subwooferTest": {
+      "heading": "Uji Bass Subwoofer Online",
       "title": "Cara Menguji Bass Subwoofer",
       "content": "Untuk menguji bass subwoofer Anda secara online menggunakan ToneGen.net, cukup kunjungi situs web dan temukan generator nada frekuensi. Mulailah dengan memutar nada frekuensi rendah dan secara bertahap tingkatkan pitch, mendengarkan tanggapan bass yang jelas dan dalam. ToneGen.net memungkinkan Anda dengan mudah menyesuaikan frekuensi dan menilai kinerja subwoofer Anda, memastikan menghasilkan suara rendah yang diinginkan untuk pengalaman audio optimal."
     },

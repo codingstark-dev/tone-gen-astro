@@ -2,85 +2,28 @@
 import Layout from "../../layouts/Layout.astro";
 import ToneGenSection from "../../components/ToneGen";
 import { t, changeLanguage } from "i18next";
+import MoreTools from "../../components/MoreTools.astro";
 
 changeLanguage("id");
 ---
 
-<Layout title={t("tone.meta_title")} description={t("tone.meta_description")}>
+<Layout title={t("432hz.title")} description={t("432hz.description")}>
   <main class="prose mx-auto">
-    <h1 class="text-center pt-4">{t("tone.title")}</h1>
+    <h1 class="text-center pt-4">{t("432hz.title")}</h1>
 
     <ToneGenSection client:idle />
+    <MoreTools/>
 
     <article class="p-4">
-      <div role="alert" class="alert alert-error my-10">
-        <span>{t("tone.caution")}</span>
-      </div>
-      <h2>{t("tone.how_to_generate_tone.title")}</h2>
+      <h2>{t("432hz.howToGenerate.title")}</h2>
+      <p>{t("432hz.howToGenerate.content")}</p>
+      <h3>{t("432hz.useOfPlayer.title")}</h3>
+      <p>{t("432hz.useOfPlayer.content")}</p>
 
-      <ol>
-        {
-          (
-            t("tone.how_to_generate_tone.steps", {
-              returnObjects: true,
-            }) as string[]
-          ).map((step, i) => <li>{step}</li>)
-        }
-      </ol>
-      <h3>{t("tone.what_is_tone.title")}</h3>
-
-      <p>
-        {t("tone.what_is_tone.description")}
-      </p>
-      <h3>{t("tone.production_of_sound_frequency.title")}</h3>
-
-      <p>
-        {t("tone.production_of_sound_frequency.description")}
-      </p>
-      <h3>{t("tone.pitch_variation_through_vibrations.title")}</h3>
-
-      <p>
-        {t("tone.pitch_variation_through_vibrations.description")}
-      </p>
-
-      <h3>{t("tone.measurement_in_hertz.title")}</h3>
-
-      <p>
-        {t("tone.measurement_in_hertz.description")}
-      </p>
-      <h3>{t("tone.pure_tones_and_real_life_complexity.title")}</h3>
-
-      <p>
-        {t("tone.pure_tones_and_real_life_complexity.description")}
-      </p>
-      <h2>{t("tone.utilization_purposes.title")}</h2>
+      <h3>{t("432hz.faqs.title")}</h3>
       {
         (
-          t("tone.utilization_purposes.purposes", {
-            returnObjects: true,
-          }) as string[]
-        ).map((step, i) => (
-          <p>
-            <b>{step.split(":")[0]}:</b> {step.split(":")[1]}{" "}
-          </p>
-        ))
-      }<h2>{t("tone.waveforms.title")}</h2>
-      <p>{t("tone.waveforms.description")}</p>
-      {
-        (
-          t("tone.waveforms.types", {
-            returnObjects: true,
-          }) as string[]
-        ).map((step, i) => (
-          <p>
-            <b>{step.split(":")[0]}:</b> {step.split(":")[1]}{" "}
-          </p>
-        ))
-      }
-      <h3>FAQ's</h3>
-      {
-        (
-          t("tone.faqs.questions", {
+          t("432hz.faqs.questions", {
             returnObjects: true,
           }) as []
         ).map((answer: any, question) => (
