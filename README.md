@@ -1,54 +1,69 @@
-# Astro Starter Kit: Basics
+# Tone Generator — [tonegen.net](https://tonegen.net)
 
-```sh
-npm create astro@latest -- --template basics
-```
+A free, browser-based audio toolkit built with [Astro](https://astro.build), React, and [Tone.js](https://tonejs.github.io). Generate pure tones, binaural beats, white/pink/brown noise, and more — no installation required.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## ✨ Features
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Tone Generator** — produce sine, square, triangle, and sawtooth waves at any frequency (Hz)
+- **Multiple Tone Generator** — play several tones simultaneously
+- **Binaural Beats** — create left/right channel frequency differences for focus or relaxation
+- **Noise Generator** — white, pink, and brown noise
+- **Fix My Speakers** — sweep tones to clear dust and debris from speaker grilles
+- **Hearing Test** — sweep through frequencies to check auditory range
+- **Subwoofer Test** — low-frequency tones to test bass response
+- **432 Hz Tuning** — listen to concert pitch tuned to 432 Hz
+- **Pips / Time Signals** — generate standard broadcast pip sequences
+- 🌍 **Multilingual** — available in English, French, Spanish, Russian, and Indonesian
 
 ## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   ├── favicon.png
+│   ├── locales/          # i18n translation files (en, fr, es, ru, id)
+│   ├── robots.txt
+│   └── tone.mp3
 ├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│   ├── components/       # React & Astro UI components
+│   ├── data/             # Shared data (e.g. musical notes)
+│   ├── layouts/          # Astro layout wrappers
+│   └── pages/            # One .astro file per route/tool
+├── astro.config.mjs
+├── astro-i18next.config.ts
+├── tailwind.config.mjs
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+All commands are run from the root of the project. The project uses [pnpm](https://pnpm.io) by default.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command               | Action                                                   |
+| :-------------------- | :------------------------------------------------------- |
+| `pnpm install`        | Install dependencies                                     |
+| `pnpm dev`            | Start local dev server at `http://localhost:4321`        |
+| `pnpm build`          | Generate i18n pages, type-check, and build to `./dist/`  |
+| `pnpm preview`        | Preview the production build locally                     |
+| `pnpm i18n:generate`  | Regenerate localised page routes from translation files  |
 
-## 👀 Want to learn more?
+> npm and yarn work equally well — just replace `pnpm` with your preferred package manager.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🛠 Tech Stack
+
+| Layer       | Technology |
+| :---------- | :--------- |
+| Framework   | [Astro 4](https://astro.build) |
+| UI          | [React 18](https://react.dev) |
+| Styling     | [Tailwind CSS](https://tailwindcss.com) + [daisyUI](https://daisyui.com) |
+| Audio       | [Tone.js](https://tonejs.github.io) |
+| i18n        | [astro-i18next](https://github.com/yassinedoghri/astro-i18next) |
+| SEO         | [astro-seo](https://github.com/jonasmerlin/astro-seo) + [astro sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) |
+
+## 🌐 Live Site
+
+**<https://tonegen.net>**
+
+## 📄 License
+
+This project is open source. See [LICENSE](LICENSE) for details.
